@@ -1,0 +1,4 @@
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+}
