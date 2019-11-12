@@ -1,4 +1,42 @@
 .navWrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #D6EFFF;
+    box-shadow: 2px 2px grey;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.navLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navLogo h2 {
+    font-size: 36px;
+    font-family: "American Typewriter Regular";
+    font-weight: 100;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navLinks a {
+    padding: 0 15px;
+    font-size: 24px;
+    font-family: "American Typewriter Regular";
+    font-weight: 100;
 }
