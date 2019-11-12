@@ -1,7 +1,7 @@
 .ctaWrapper {
     margin: 0 auto;
-    width: 72%;
-    margin-top: 20px;
+    width: 70%;
+    margin-top: 30px;
     
 }
 
@@ -16,8 +16,9 @@
     padding-top: 110px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 50%;
+    align-items: flex-start;
+    justify-self: flex-start;
+    width: 55%;
 }
 
 .ctaLeftBox h1 {
@@ -35,6 +36,7 @@
     cursor: pointer;
     padding-top: 15px;
     font-size: 22px;
+    margin-top: 10px;
     width: 40%;
     height: 40px;
     border: 1px solid #A7DCFF;
@@ -43,6 +45,6 @@
 }
 
 .ctaRightBox {
-  
-    width: 50%;
+    
+    width: 45%;
 }
