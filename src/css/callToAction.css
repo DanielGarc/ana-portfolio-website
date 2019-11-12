@@ -1,0 +1,24 @@
+.ctaWrapper {
+    margin: 0 auto;
+    width: 72%;
+    
+    
+}
+
+.ctaContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.ctaLeftBox {
+    border: 1px solid red;
+    width: 50%;
+}
+
+.ctaRightBox {
+    border: 1px solid blue;
+    width: 50%;
+}
