@@ -1,6 +1,7 @@
 import React from 'react';
 
 import fitness from '../assets/fitnessApp.png';
+import airbnb from '../assets/airbnb.png';
 import '../css/selectedWork.css';
 
 const SelectedWork = () => {
@@ -9,7 +10,7 @@ const SelectedWork = () => {
             <div className="selContent">
                 <div className="topSection">
                     <h2> Selected Work</h2>
-                    <p> Take A Look </p>
+                    <p style={{marginBottom: '50px'}}> Take A Look </p>
                 </div>
                 <div className="selProjectOne">
                     <img src={fitness} />
@@ -31,8 +32,21 @@ const SelectedWork = () => {
                 </div>
 
                 <div className="selProjectTwo">
+                    <img src={airbnb} />
 
-                </div>
+                    <div className="airBox">
+                            <p style={{fontSize: '36px'}}> Price My Airbnb </p>
+                            <p> 
+                            AirBnB host don’t know how much should they list their unit to remain 
+                            competitive while maximizing their profits, this platform allows to evaluate 
+                            their the price of their properties, find ways to increase the value of 
+                            their properties
+                            and know when/how to adjust price to events/seasons/holidays
+
+                            </p>
+                            <a> Read Case Study -> </a>
+                        </div>
+                    </div>
             </div>
         </div>
     )

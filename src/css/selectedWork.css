@@ -2,14 +2,15 @@
     margin: 0 auto;
     margin-top: 150px;
     width: 70%;
-
-    border: 1px solid black;
+    
+   
 }
 
 .selContent {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1px solid blue;
 }
 
 .selProjectOne {
@@ -17,6 +18,15 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.selProjectTwo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
 
 .fitnessBox {
     display: flex;
@@ -36,6 +46,26 @@
     font-weight: 100;
 }
 
+
+
+.airBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #00A699;
+    border-radius: 5px;
+    height: 350px;
+    width: 500px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #00A699;
+    margin-right: -200px;
+    margin-top: 50px;
+    text-align: left;
+    font-weight: 100;
+}
+
 .fitnessBox a {
     width: 33%;
     height: 30px;
@@ -44,7 +74,10 @@
     text-decoration: underline;
 }
 
-.selProjectTwo {
-    border: 1px solid black;
-    margin-top: 100px;
+.airBox a {
+    width: 33%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: underline;
 }
