@@ -25,6 +25,12 @@
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
+    text-decoration: none;
+}
+
+.navLogo a{
+    text-decoration: none;
+    color: black;
 }
 
 .navLogo h2 {
@@ -44,4 +50,15 @@
     font-size: 24px;
     font-family: "American Typewriter Regular";
     font-weight: 100;
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks a:hover {
+    color: darkred;
+}
+
+
+.navLogo a:hover {
+    color: darkred;
 }
