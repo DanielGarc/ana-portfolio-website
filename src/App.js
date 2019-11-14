@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <CallToAction />
       <SelectedWork />
-      <p> Test </p>
+      
     </div>
   );
 }

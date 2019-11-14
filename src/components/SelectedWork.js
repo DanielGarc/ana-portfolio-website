@@ -35,18 +35,33 @@ const SelectedWork = () => {
                     <img src={airbnb} />
 
                     <div className="airBox">
-                            <p style={{fontSize: '36px'}}> Price My Airbnb </p>
-                            <p> 
-                            AirBnB host don’t know how much should they list their unit to remain 
-                            competitive while maximizing their profits, this platform allows to evaluate 
-                            their the price of their properties, find ways to increase the value of 
-                            their properties
-                            and know when/how to adjust price to events/seasons/holidays
+                        <p style={{fontSize: '36px'}}> Price My Airbnb </p>
+                        <p> 
+                        AirBnB host don’t know how much should they list their unit to remain 
+                        competitive while maximizing their profits, this platform allows to evaluate 
+                        their the price of their properties, find ways to increase the value of 
+                        their properties
+                        and know when/how to adjust price to events/seasons/holidays
 
-                            </p>
-                            <a> Read Case Study -> </a>
-                        </div>
+                        </p>
+                        <a> Read Case Study -> </a>
                     </div>
+                </div>
+
+                <div className="expandLook">
+                    <p style={{fontSize: '24px'}}> Expanded Collection</p>
+                    <h3 style={{fontSize: '36px'}}> Want To See More? </h3>
+                </div>
+
+                <div className="otherBoxes">
+                    <div className="otBox">
+                        <p> Daily UI </p>
+                    </div>
+
+                    <div className="otBox">
+                        <p> Miscellaneous </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

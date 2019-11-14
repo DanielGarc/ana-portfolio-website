@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid blue;
+    
 }
 
 .selProjectOne {
@@ -24,7 +24,9 @@
     flex-direction: row-reverse;
     justify-content: space-evenly;
     margin-top: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid blue;
 }
 
 
@@ -81,3 +83,25 @@
     margin-top: 20px;
     text-decoration: underline;
 }
+
+.otherBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 2%;
+    
+}
+
+.otBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 191px;
+    width: 267px;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 15px grey;
+    font-size: 24px;
+}
+
