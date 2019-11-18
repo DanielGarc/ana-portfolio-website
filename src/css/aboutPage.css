@@ -1,0 +1,140 @@
+.aboutName {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 36px;
+    text-align: left;
+    
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 70%;
+    
+    height: 700px;
+    margin-bottom: 240px;
+}
+
+.aboutGraphics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 50%;
+}
+
+/* .aboutPic {
+    margin-top: 2%;
+    height: 400px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 200px;
+    box-shadow: 1px 1px 5px grey;
+} */
+
+.aboutText {
+    width: 50%;
+}
+
+.paragraph {
+    padding: 0 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+li {
+    list-style: circle;
+    text-align: left;
+    font-weight: 400;
+}
+
+.goalSection {
+    margin-top: 80px;
+}
+
+.skills {
+    margin-top: 40px;
+}
+.skillRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.skillRow p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background-color: #2d3e50;
+    border: 1px solid #2d3e50;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.otherSection {
+    margin: 0 auto;
+    
+    width: 70%;
+    height: 350px;
+    background-color: #2d3e50;
+    color: white;
+    margin-bottom: 30px;
+}
+.otherWrapper {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 96%;
+    height: 90%;
+}
+.otherSection h2 {
+    margin-left: 5%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.hobbies {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.myHobby img {
+    height: 150px;
+    width: 200px;
+    
+}
+
+.myHobby p {
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.aboutContact {
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 1px;
+    width: 70%;
+    height: 100px;
+    background-color: #ccebff;
+    text-align: left;
+}
+
+.aboutContact h2 {
+    padding-top: 15px;
+    margin-left: 6%;
+}
+
+.aboutContact p {
+    margin-left: 6%;
+    font-weight: 300;
+}
