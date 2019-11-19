@@ -3,12 +3,14 @@ import React from 'react';
 import '../../css/fitStudy.css';
 
 import FitStudy from '../../assets/fitStudy.png';
+import DesignCycle from '../../assets/designCycle.png';
+import RealCycle from '../../assets/realCycle.png';
 
 const FitnessStudy = () => {
     return (
         <div className="fitStudyWrapper">
             <div className="fitCTA">
-                <img src={FitStudy} />
+                <img src={FitStudy} style={{width: "100%"}} />
             </div>
 
             <div className="sectionOne">
@@ -53,9 +55,37 @@ const FitnessStudy = () => {
 
                 </div>
             </div>
+
+            <div className="whiteBoxWrapper">
+                <div className="whiteBox">
+                    <p>
+                        Challenge
+                        <br />
+                        How can we build an engaging app that lets trainers and trainees
+                        manage their workouts and payments.
+                    </p>
+
+                    <p>
+                        Solution
+                        <br />
+                        An app that will be up to date with what’s 
+                        going on with their clients and send reminders to trainees about payments.
+
+                    </p>
+                </div>
+            </div>
+
+            <div className="designCycle">
+                <img src={DesignCycle} />
+                <img style={{marginTop: "100px", width: "50%"}} src={RealCycle} />
+            </div>
+
+            <div className="firstData">
+
+            </div>
             
         </div>
     )
 }
 
-export default FitnessStudy
+export default FitnessStudy;
