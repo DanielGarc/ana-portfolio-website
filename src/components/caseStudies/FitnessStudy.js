@@ -5,6 +5,7 @@ import '../../css/fitStudy.css';
 import FitStudy from '../../assets/fitStudy.png';
 import DesignCycle from '../../assets/designCycle.png';
 import RealCycle from '../../assets/realCycle.png';
+import Target from '../../assets/target.png';
 
 const FitnessStudy = () => {
     return (
@@ -108,6 +109,64 @@ const FitnessStudy = () => {
 
 
                 </ul>
+            </div>
+
+            <div className="trainers">
+                <div className="trainerBox">
+                    <h2> Trainers </h2>
+                    <p>
+                    “It’s hard to keep up with all the trainees progress”
+                    </p>
+                    <p>
+                    “If someone hasn’t pay I don’t like to remind them personally.”
+                    </p>
+                    <p>
+                    “I have more than one certification and people don’t know them”
+
+                    </p>
+                </div>
+                
+                <div className="trainerBox">
+                <h2> Trainees </h2>
+                    <p>
+                    “The apps that they have used are not engaging.”
+                    </p>
+                    <p>
+                    “It’s hard for me to finished the programs I start.”
+                    </p>
+                    <p>
+                    “I don’t want to pay for something that I don’t know if it’s going to work.”
+                    </p>
+                </div>
+            </div>
+
+            <div className="targetSection">
+                <img src={Target} />
+
+                <div className="targetReady">
+                    <h2> We're Ready To Target!</h2>
+                    <h3> <i> From a huge amount of data to target ideas. </i> </h3>
+                    
+                    <p>
+                        After analyzing the data gathered from surveys, interviews, 
+                        shadowings, I started building the personas and creating the
+                        user journey map.
+                    </p>
+                    <p>
+                        By doing the previous I got a more define idea of the 
+                        main targets, it also helped me to always keep in mind the 
+                        user’s needs and goals. Whenever I got stuck in the user 
+                        flow I always went back and re-read it. 
+                    </p>
+                    <p>
+                        In the creationf of the user flow the main differences 
+                        between trainer and trainees was their authority.
+                    </p>
+                </div>
+            </div>
+
+            <div className="workshop">
+                
             </div>
             
         </div>
