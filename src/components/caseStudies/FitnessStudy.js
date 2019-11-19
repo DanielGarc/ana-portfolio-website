@@ -81,7 +81,33 @@ const FitnessStudy = () => {
             </div>
 
             <div className="firstData">
+                <h2> First, Data </h2>
+                <h4> <i> Don't assume you know the answer </i> </h4>
 
+                <p style={{width: "80%"}}>
+                When I accepted this project <b>I thought I knew </b> what the 
+                application would look like at the end, or what the product 
+                was and its needs because I’m a fitness instructor, <b> I was wrong </b>.
+                How did I gather information? Great question! I did the following
+
+                </p>
+
+                <ul>
+                    <li>
+                    I analize what types of question and what
+                    audience I’ll be interviewing.
+                    </li>
+                    <li>
+                    Interview with coaches, fitness instructor and
+                    people who exercise regularly and not regularly.
+                    </li>
+                    <li>
+                    Shadow a couple of colleagues
+
+                    </li>
+
+
+                </ul>
             </div>
             
         </div>

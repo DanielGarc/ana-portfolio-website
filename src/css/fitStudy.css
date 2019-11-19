@@ -8,11 +8,12 @@
     flex-direction: row;
     background-color: #f0f9ff;
     margin-top: -10px;
+    padding-top: 20px;
     
 }
 
 .overview {
-    
+    border-right: 1px solid black;
     width: 50%;
     margin-left: 5%;
     text-align: left;
@@ -52,4 +53,14 @@
 .designCycle {
     background-color: white;
     margin-top: 80px;
+}
+
+.firstData {
+    background-color: #f0f9ff;
+    height: 300px;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-top: 60px;
+    font-weight: 300;
 }
