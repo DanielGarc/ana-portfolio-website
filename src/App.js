@@ -18,7 +18,7 @@ function App() {
       <Route exact path="/about" component={About} />
       <Route exact path="/" component={CallToAction} />
       <Route exact path="/" component={SelectedWork} />
-      <Route exact path="/fitnessstudy" component={FitnessStudy} />
+      <Route exact path="/fitstudy" component={FitnessStudy} />
       
       
       

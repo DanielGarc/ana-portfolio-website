@@ -1,0 +1,29 @@
+.fitStudyWrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.overview {
+    border-right: 1px solid black;
+    width: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 5%;
+}
+
+.roles {
+    
+    padding-left: 5%;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
