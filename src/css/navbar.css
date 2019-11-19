@@ -4,8 +4,8 @@
     justify-content: center;
     height: 100px;
     padding: 0 20px;
-    background-color: #D6EFFF;
-    box-shadow: 2px 2px grey;
+     
+   
     
 }
 
@@ -14,7 +14,8 @@
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
-    
+    position: fixed;
+    background-color: #FEFDFB;
     
     
     

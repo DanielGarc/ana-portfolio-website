@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
+
 
 import fitness from '../assets/fitnessApp.png';
 import airbnb from '../assets/airbnb.png';
@@ -27,7 +29,7 @@ const SelectedWork = () => {
                         layer of awkwardness to go and ask for the payments.
 
                         </p>
-                        <a> Read Case Study -> </a>
+                        <NavLink className="studyLinks" to="/fitstudy"> Read Case Study -> </NavLink>
                     </div>
                 </div>
 

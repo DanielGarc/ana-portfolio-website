@@ -3,7 +3,10 @@ import React from 'react';
 import '../../css/aboutPage.css';
 
 import AboutImage from '../../assets/aboutImage.png';
-
+import Hiker from '../../assets/hiker.png';
+import Instructor from '../../assets/instructor.png';
+import Dog from '../../assets/dog.png';
+import Runner from '../../assets/runner.png';
 
 const AboutCTA = () => {
     return (
@@ -100,22 +103,22 @@ const AboutCTA = () => {
 
                     <div className="hobbies">
                         <div className="myHobby">
-                            <img src="#" />
+                            <img src={Hiker} />
                             <p> Hiker </p>
                         </div>
 
                         <div className="myHobby">
-                            <img src="#" />
+                            <img src={Instructor} />
                             <p> Fitness Instructor </p>
                         </div>
 
                         <div className="myHobby">
-                            <img src="#" />
+                            <img src={Dog} />
                             <p> Ghost's Mom </p>
                         </div>
 
                         <div className="myHobby">
-                            <img src="#" />
+                            <img src={Runner} />
                             <p> Runner </p>
                         </div>
                     </div>

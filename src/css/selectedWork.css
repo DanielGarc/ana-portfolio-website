@@ -68,20 +68,22 @@
     font-weight: 100;
 }
 
-.fitnessBox a {
+.studyLinks {
     width: 33%;
     height: 30px;
     cursor: pointer;
     margin-top: 20px;
     text-decoration: underline;
+    color: white;
 }
 
-.airBox a {
+.airBox NavLink {
     width: 33%;
     height: 30px;
     cursor: pointer;
     margin-top: 20px;
     text-decoration: underline;
+    color: white;
 }
 
 .otherBoxes {

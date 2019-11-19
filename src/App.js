@@ -9,6 +9,7 @@ import './App.css';
 import NavBar from './components/NavBar.js';
 import CallToAction from './components/CallToAction.js';
 import SelectedWork from './components/SelectedWork.js';
+import FitnessStudy from './components/caseStudies/FitnessStudy.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/about" component={About} />
       <Route exact path="/" component={CallToAction} />
       <Route exact path="/" component={SelectedWork} />
+      <Route exact path="/fitnessstudy" component={FitnessStudy} />
       
       
       
