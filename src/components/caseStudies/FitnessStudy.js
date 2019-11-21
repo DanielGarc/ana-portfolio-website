@@ -6,6 +6,10 @@ import FitStudy from '../../assets/fitStudy.png';
 import DesignCycle from '../../assets/designCycle.png';
 import RealCycle from '../../assets/realCycle.png';
 import Target from '../../assets/target.png';
+import Avatar from '../../assets/Avatar.svg';
+import FitHighFi from '../../assets/FitHighFi.png';
+import workshop from '../../assets/workshop.png';
+import Sketching from '../../assets/Sketching.png';
 
 const FitnessStudy = () => {
     return (
@@ -166,7 +170,40 @@ const FitnessStudy = () => {
             </div>
 
             <div className="workshop">
+            <img src={workshop} />
+            <h2> Workshop</h2>
+                    <h3> <i> Who doesn’t love good ideas? </i> </h3>
+                    
+                    <p>
+                    One of the things I like to do the most is generating ideas with a team, 
+                    for this workshop, I asked a couple of colleagues to help me with some exercises 
+                    because I wanted to know how they would tackle the problems in their own way. 
+                    I explained the purpose of this app, the challenge and lay down the problems 
+                    found in our target audience. I wrote down the problems on top of the board so 
+                    everyone could have a vision of the problems and started generating ideas, 
+                    after a couple of minutes we stop and did dot voting.
+
+  
+ 
+                    </p>
+                    <p>
+                    While creating all these ideas my colleagues kept asking questions that I didn’t 
+                    think of or didn’t question the “why” of some of the problems. <b>We went back to Discovery and Define </b> to review them again, 
+                        we compare them with the workshop ideas and modified the user flow.
+
+
+                    </p>
+                    <p><i><b>1. 	“Does that make sense?“ </b></i></p>
+	                <p><i><b>2. 	“Let me check on the data from the interviews”</b></i></p>
+	                <p><i><b>3. 	“Ok, one interviewer mentioned that but the other four don’t, that’s not a pattern let’s dig on the 
+                        market and do a quick analysis in which companies have features like that and check the reviews”</b></i></p>
+	                <p><i><b>4. 	“Okay, based on that market analysis, I’m adding that feature” (rewarding the trainees)</b></i></p>
                 
+            </div>
+            <div>
+            <img src={Sketching} />
+            <img src={FitHighFi} />
+            
             </div>
             
         </div>
