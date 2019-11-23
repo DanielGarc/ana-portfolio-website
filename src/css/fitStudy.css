@@ -65,20 +65,53 @@
     font-weight: 300;
 }
 
-.trainers {
+.userSection {
+    min-height: 328px;
+    max-height: 328px;
     background-color: #132b43;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.trainers {
+    max-height: 328px;
     color: white;
     text-align: left;
-    padding-left: 30%;
-    padding-top: 20px;
+    padding-left: 109px;
     line-height: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+
+}
+
+.avatarStyle  {
+	height: 105px;
+	width: 106px;
 }
 
 .trainerBox {
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    margin-left: 14px;
     
 }
+
+
+.trainerBox p{
+	color: #F0F9FF;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+    line-height: 19px;
+    width: 687px;
+    white-space: pre-wrap;
+}
+
 
 .targetSection {
     margin: 0 auto;

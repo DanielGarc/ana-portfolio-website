@@ -13,7 +13,7 @@
 }
 
 .ctaLeftBox {
-    padding-top: 110px;
+    padding-top: 82px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -22,8 +22,16 @@
 }
 
 .ctaLeftBox h1 {
-    font-style: 56px;
+    height: 60px;
+	width: 424px;
+	color: #2C3E50;
+	font-family: Lato;
+	font-size: 50px;
+    line-height: 60px;
+    white-space: nowrap;
 }
+
+
 
 .ctaText {
     width: 50%;
@@ -37,14 +45,24 @@
     padding-top: 15px;
     font-size: 22px;
     margin-top: 10px;
-    width: 40%;
-    height: 40px;
+    min-width: 265px;
+    min-height: 40px;
     border: 1px solid #A7DCFF;
     border-radius: 5px;
     background-color: #A7DCFF;
+
+    font-family: Lato;
+    font-weight: 600;
+    color: #2C3E50;
+    white-space: nowrap;
+    margin: auto;
+
+    
+    
 }
+
 
 .ctaRightBox {
     
-    width: 45%;
+    width: auto;
 }

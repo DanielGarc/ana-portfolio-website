@@ -36,7 +36,7 @@
 
 .navLogo h2 {
     font-size: 36px;
-    font-family: "American Typewriter Regular";
+    font-family: "Lato";
     font-weight: 100;
 }
 
@@ -49,10 +49,12 @@
 .navLinks a {
     padding: 0 15px;
     font-size: 24px;
-    font-family: "American Typewriter Regular";
-    font-weight: 100;
+    font-family: "Lato";
+    font-weight: 400;
     text-decoration: none;
-    color: black;
+    color: #2C3E50;
+    text-decoration: none;
+   
 }
 
 .navLinks a:hover {
