@@ -1,23 +1,22 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 
-import fitness from '../assets/fitnessApp.png';
-import airbnb from '../assets/airbnb.png';
-import '../css/selectedWork.css';
-import CaseStudyLink from './CaseStudyLink';
+import CaseStudyLink from '../CaseStudyLink.js';
+import fitness from '../../assets/fitnessApp.png';
+import airbnb from '../../assets/airbnb.png';
 
-const SelectedWork = () => {
+import '../../css/projects.css';
+
+const Projects = () => {
   return (
-    <div className='selWork'>
-      <div className='selContent'>
-        <div className='selWorkTextTop'>SELECTED WORK</div>
-        <div className='selWorkText'>Take a Look</div>
+    <div className='projWrapper'>
+      <div className='projContent'>
+        <div className='projWorkTextTop'>SELECTED WORK</div>
+        <div className='projWorkText'>Take a Look</div>
         <CaseStudyLink
           alignLeft
           cslImg={fitness}
           header='Anywhere Fitness'
           color='#6C44DE'
-          url='https://invis.io/X4UZC6UCH6K#/394898585_Hatching'
           body={
             <div>
               Fitness instructors have a lot to work on, not just classes but,
@@ -41,10 +40,10 @@ const SelectedWork = () => {
           color='#00A699'
           body='AirBnB host don’t know how much should they list their unit to remain competitive while maximizing their profits, this platform allows to evaluate their the price of their properties, find ways to increase the value of their properties and know when/how to adjust price to events/seasons/holidays'
         />
-        <div className='selWorkSeparator'></div>
+        <div style={{ marginBottom: '67' }}></div>
       </div>
     </div>
   );
 };
 
-export default SelectedWork;
+export default Projects;

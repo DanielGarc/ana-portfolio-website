@@ -1,0 +1,25 @@
+.footerWrapper {
+  background-color: #fefdfb;
+  width: 100%;
+  text-align: center;
+  z-index: 1001;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1025px;
+  margin: auto;
+  height: 100px;
+  background-color: #fefdfb;
+}
+
+.contentWrapper img {
+  padding: 8px;
+}
+
+.contentWrapper img:hover {
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}

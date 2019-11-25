@@ -1,20 +1,21 @@
-.selWork {
+.projWrapper {
   background-color: #ffffff;
   width: 100%;
   text-align: center;
+  margin-top: 100px;
 }
 
-.selContent {
+.projContent {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 1025px;
   margin: auto;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 
-.selWorkTextTop {
+.projWorkTextTop {
   height: 19px;
   width: 130px;
   color: #2c3e50;
@@ -22,11 +23,11 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
-  margin-top: 9px;
+  margin-top: 57px;
   margin-bottom: 8px;
 }
 
-.selWorkText {
+.projWorkText {
   height: 42px;
   width: 184px;
   color: #2c3e50;
@@ -34,11 +35,4 @@
   font-size: 35px;
   line-height: 42px;
   margin: 0px 0px 45px 0px;
-}
-
-.selWorkSeparator {
-  height: 2px;
-  width: 897px;
-  background-color: #ccebff;
-  margin: 67px auto 67px auto;
 }

@@ -1,68 +1,101 @@
 .ctaWrapper {
-    margin: 0 auto;
-    width: 70%;
-    margin-top: 30px;
-    
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .ctaContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 1025px;
+  height: 596px;
+  margin: auto;
+  background: #ffffff;
 }
 
 .ctaLeftBox {
-    padding-top: 82px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-self: flex-start;
-    width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: flex-start;
+  width: 513px;
 }
 
 .ctaLeftBox h1 {
-    height: 60px;
-	width: 424px;
-	color: #2C3E50;
-	font-family: Lato;
-	font-size: 50px;
-    line-height: 60px;
-    white-space: nowrap;
+  display: block;
+  height: 60px;
+  width: 424px;
+  color: #2c3e50;
+  font-family: Lato;
+  font-size: 50px;
+  line-height: 60px;
+  white-space: nowrap;
+  font-weight: normal;
+  margin: 110px 0px 40px 64px;
 }
-
-
 
 .ctaText {
-    width: 50%;
-    font-size: 18px;
-    font-style: italic;
-    text-align: left;
+  text-align: left;
+  height: 216px;
+  width: 381px;
+  color: #2c3e50;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  margin: 0px 0px 40px 64px;
 }
 
-.ctaButton {
-    cursor: pointer;
-    padding-top: 15px;
-    font-size: 22px;
-    margin-top: 10px;
-    min-width: 265px;
-    min-height: 40px;
-    border: 1px solid #A7DCFF;
-    border-radius: 5px;
-    background-color: #A7DCFF;
+.ctaButtonBox {
+  display: block;
+  cursor: pointer;
+  height: 50px;
+  width: 266px;
+  border-radius: 4px;
+  background-color: #a7dcff;
+  margin: 0px 0px 40px 64px;
+  border-style: solid;
+  border-width: 0px 2px 2px 0px;
+  border-color: #a7dcff;
+  box-shadow: 0 3px 8px 0 rgba(46, 50, 60, 0.18);
 
-    font-family: Lato;
-    font-weight: 600;
-    color: #2C3E50;
-    white-space: nowrap;
-    margin: auto;
-
-    
-    
+  transition: ease-in-out 0.5s;
 }
 
+.ctaButtonBox:hover {
+  border-style: solid;
+  border-color: #ffaf32;
+}
+
+.ctaButtonBox a {
+  display: block;
+  height: 24px;
+  width: 182px;
+  color: #2c3e50;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  line-height: 24px;
+
+  padding: 13px 42px;
+
+  text-decoration: none;
+}
 
 .ctaRightBox {
-    
-    width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: flex-start;
+  width: 512px;
+  height: 596px;
+}
+
+.ctaRightBox img {
+  display: block;
+  margin: 23px 2px 0px 0px;
 }

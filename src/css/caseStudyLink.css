@@ -1,0 +1,91 @@
+.cslWrapper {
+  height: 451px;
+  width: 884px;
+  position: relative;
+
+  /* properties below */
+}
+
+.cslWrapperLeft {
+  text-align: left;
+}
+
+.cslWrapperRight {
+  text-align: right;
+}
+
+.cslTextWrapper {
+  height: 358px;
+  width: 511px;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px 0 rgba(46, 50, 60, 0.27);
+  position: absolute;
+  z-index: 1000;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cslTextWrapperLeft {
+  left: 373px;
+  top: 47px;
+}
+
+.cslTextWrapperRight {
+  left: 0px;
+  top: 47px;
+}
+
+.cslTextHeader {
+  height: 29px;
+  width: 216px;
+  color: #f0f9ff;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin: 50px 0px 12px 40px;
+}
+
+.cslTextBody {
+  height: 171px;
+  width: 431px;
+  color: #f0f9ff;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin: 0px 0px 28px 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cslTextLink {
+  color: #f0f9ff;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  display: inline;
+  margin: 0px 0px 0px 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.cslTextLink:after {
+  /* background-image: url('../assets/arrow-right.png'); */
+  content: url('../assets/arrow-right.png');
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  transition: 0.5s;
+  padding-left: 15px;
+}
+
+.cslTextLink:hover {
+  padding-left: 20px;
+}

@@ -1,14 +1,17 @@
 body {
-  margin: 0;
-  font-family: "Lato", "Helvetica", "Ubuntu", sans-serif;
-  font-weight: 100;
+  font-family: 'Lato', 'Helvetica', 'Ubuntu', sans-serif;
+  /* font-weight: 100; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FEFDFB;
-  min-width: 1000px;
+  background-color: #fefdfb;
+  margin: auto;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

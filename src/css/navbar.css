@@ -1,67 +1,92 @@
 .navWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100px;
-    padding: 0 20px;
-     
-   
-    
+  background-color: #fefdfb;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 1001;
 }
 
 .contentWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 70%;
-    position: fixed;
-    background-color: #FEFDFB;
-    
-    
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  width: 1025px;
+  margin: auto;
+  height: 100px;
+  background-color: #fefdfb;
+}
+
+.navLogo a {
+  text-decoration: none;
 }
 
 .navLogo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 20px;
-    text-decoration: none;
+  flex: 1;
+  align-self: center;
 }
 
-.navLogo a{
-    text-decoration: none;
-    color: black;
-}
-
-.navLogo h2 {
-    font-size: 36px;
-    font-family: "Lato";
-    font-weight: 100;
+.arl {
+  text-decoration: none;
+  height: 41px;
+  width: 91.2px;
+  color: #2c3e50;
+  font-family: 'American Typewriter';
+  font-size: 35px;
+  line-height: 41px;
+  padding-left: 45px;
 }
 
 .navLinks {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-right: 45px;
+  align-self: center;
 }
 
-.navLinks a {
-    padding: 0 15px;
-    font-size: 24px;
-    font-family: "Lato";
-    font-weight: 400;
-    text-decoration: none;
-    color: #2C3E50;
-    text-decoration: none;
-   
+.navLinkText {
+  height: 24px;
+  width: 73px;
+  display: block;
+  color: #2c3e50;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 42px;
 }
 
-.navLinks a:hover {
-    color: #a0c7e0;
+.navLinkText {
+  display: inline-block;
+  color: #2c3e50;
 }
 
+.navLink {
+  text-decoration: none;
+  display: inline-block;
+}
 
-.navLogo a:hover {
-    color: #a0c7e0;
+.navLink:visited {
+  color: #2c3e50;
+}
+
+.navLink::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffaf32;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+  background: #ffaf32;
+}
+
+.navLinkActive::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ffaf32;
 }

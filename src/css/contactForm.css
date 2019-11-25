@@ -1,0 +1,170 @@
+.cFormWrapper {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+.cFormContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  height: 364px;
+  width: 884px;
+
+  margin: 0px auto 67px auto;
+
+  background-color: #f5faff;
+  border-radius: 4px;
+}
+
+.cFormLeftContent {
+  display: flex;
+  flex-direction: column;
+  width: 465px;
+  text-align: left;
+}
+
+.cFormLeftContent h2 {
+  height: 19px;
+  width: 182px;
+  color: #142b44;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+  margin: 117px 0px 0px 90px;
+}
+
+.cFormLeftContent h1 {
+  height: 84px;
+  width: 230px;
+  color: #142b44;
+  font-family: 'Lato';
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 43px;
+
+  margin: 27px 0px 0px 90px;
+}
+
+.cFormRightContent form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex: 1;
+}
+
+.cFormRightContent label {
+  height: 19px;
+  width: 46px;
+  color: #142b44;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-left: 1px;
+  margin-top: 15px;
+}
+
+.cFormRightContent input[type='text'] {
+  padding: 8px 0px 8px 9px;
+  border: 0px;
+  width: 319px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #6e7579;
+  background-color: #f5faff;
+
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #2d2d2d;
+  transition: ease-in 1s;
+}
+
+.cFormRightContent input[type='email'] {
+  padding: 8px 0px 8px 9px;
+  border: 0px;
+  width: 319px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #6e7579;
+  background-color: #f5faff;
+
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #2d2d2d;
+  transition: ease-in 1s;
+}
+
+.cFormRightContent input:focus {
+  border-color: #ffaf32;
+}
+
+.cFormRightContent textarea {
+  width: 319px;
+  padding: 8px 0px 8px 9px;
+  border: 0px;
+
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #6e7579;
+  background-color: #f5faff;
+
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #2d2d2d;
+
+  transition: ease-in 1s;
+
+  resize: none;
+}
+
+.cFormRightContent textarea:focus {
+  border-color: #ffaf32;
+}
+
+.cFormRightContent::placeholder {
+  height: 19px;
+  width: 116px;
+  color: #666666;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.cFormRightContent input[type='submit'] {
+  margin-top: 24px;
+  height: 50px;
+  width: 328px;
+  border-radius: 4px;
+  background-color: #ffaf32;
+  color: #142b44;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  border-width: 0px 2px 2px 0px;
+  border-color: #ffaf32;
+  transition: ease-in-out 1s;
+  box-shadow: 0 3px 8px 0 rgba(46, 50, 60, 0.18);
+  cursor: pointer;
+}
+
+.cFormRightContent input[type='submit']:hover {
+  border-color: #142b44;
+  border-style: solid;
+}
+
+.submit-message {
+  height: 24px;
+  width: 149px;
+}
