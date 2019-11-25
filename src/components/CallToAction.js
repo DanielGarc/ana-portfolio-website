@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import '../css/callToAction.css';
 
@@ -7,6 +7,13 @@ import headshot from '../assets/me.png';
 import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
   return (
     <div className='ctaWrapper'>
       <div className='ctaContent'>

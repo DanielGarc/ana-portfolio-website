@@ -54,10 +54,13 @@
   line-height: 24px;
   text-align: center;
   padding-left: 42px;
+  display: inline-block;
 }
 
-.navLinkText {
-  display: inline-block;
+a {
+  text-decoration: none;
+}
+a:visited {
   color: #2c3e50;
 }
 

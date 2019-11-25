@@ -18,10 +18,10 @@ function App() {
       <Route path='/' component={NavBar} />
       <Route exact path='/' component={CallToAction} />
       <Route exact path='/' component={SelectedWork} />
-      <Route exact path='/' component={ContactForm} />
       <Route exact path='/about' component={AboutCTA} />
       <Route exact path='/fitstudy' component={FitnessStudy} />
       <Route exact path='/projects' component={Projects} />
+      <Route exact path={['/', '/projects']} component={ContactForm} />
       <Route path='/' component={Footer} />
     </div>
   );

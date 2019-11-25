@@ -14,13 +14,19 @@ const NavBar = () => {
         </div>
         <div className='navLinks'>
           <div className='navLinkText'>
-            <NavLink
+            {/* <NavLink
               to='/about'
               className='navLink'
               activeClassName='navLinkActive'
+            > */}
+            <a
+              className='navLink'
+              alt='Temporary about page'
+              href='https://projects.invisionapp.com/share/W5UZDLFBCRK#/screens/380572084_About'
             >
               About
-            </NavLink>
+            </a>
+            {/* </NavLink> */}
           </div>
           <div className='navLinkText'>
             <NavLink
@@ -32,7 +38,18 @@ const NavBar = () => {
             </NavLink>
           </div>
           {/* <div className='navLinkText'>Projects</div> */}
-          <div className='navLinkText'>Contact</div>
+          <div
+            className='navLinkText'
+            style={{ cursor: 'pointer' }}
+            onClick={() =>
+              window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+              })
+            }
+          >
+            <a className='navLink'>Contact</a>
+          </div>
         </div>
       </div>
     </div>
