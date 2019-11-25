@@ -42,6 +42,7 @@
   flex-direction: row;
   padding-right: 45px;
   align-self: center;
+  color: #2c3e50;
 }
 
 .navLinkText {
@@ -59,6 +60,7 @@
 
 a {
   text-decoration: none;
+  color: #2c3e50;
 }
 a:visited {
   color: #2c3e50;
@@ -67,6 +69,7 @@ a:visited {
 .navLink {
   text-decoration: none;
   display: inline-block;
+  color: #2c3e50;
 }
 
 .navLink:visited {
