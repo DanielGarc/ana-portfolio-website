@@ -22,7 +22,7 @@ const NavBar = () => {
             <a
               className='navLink'
               alt='Temporary about page'
-              href='https://projects.invisionapp.com/share/W5UZDLFBCRK#/screens/380572084_About'
+              href='https://invis.io/Y4UZDTT86GV#/380572084_About'
             >
               About
             </a>
