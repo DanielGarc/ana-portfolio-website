@@ -18,13 +18,13 @@ const Projects = () => {
           cslImg={airbnb}
           header='Price my Airbnb'
           color='#00A699'
-          url='https://invis.io/5JUZD6UEKSA#/394900149_price_My_Airbnb_CS_Hatching'
+          url='https://invis.io/EAV3Y2IJ48K#/392903255_price_My_Airbnb_Case_Studies'
           body='AirBnB host don’t know how much should they list their unit to remain competitive while maximizing their profits, this platform allows to evaluate their the price of their properties, find ways to increase the value of their properties and know when/how to adjust price to events/seasons/holidays'
         />
         <div style={{ marginTop: '137px' }}></div>
         <CaseStudyLink
           alignLeft
-          url='https://invis.io/X4UZC6UCH6K#/394898585_Hatching'
+          url='https://invis.io/CJUZC0ZUVEX#/380572085_Case_Studies'
           cslImg={fitness}
           header='Anywhere Fitness'
           color='#6C44DE'

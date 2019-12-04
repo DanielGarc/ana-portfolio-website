@@ -60,8 +60,6 @@
   border-style: solid;
   border-width: 0px 2px 2px 0px;
   border-color: #a7dcff;
-  box-shadow: 0 3px 8px 0 rgba(46, 50, 60, 0.18);
-
   transition: ease-in-out 0.5s;
 }
 
