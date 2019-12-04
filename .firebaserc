@@ -1,10 +1,5 @@
 {
   "projects": {
     "default": "portfolio-252603"
-  },
-  "hosting":[{
-    "target":"prod",
-    "public":"build"
-  }]
-
+  }
 }
