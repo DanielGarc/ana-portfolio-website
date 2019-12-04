@@ -28,4 +28,4 @@ jobs:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       run: |
         echo $(ls)
-        sudo firebase deploy -token $FIREBASE_TOKEN
+        sudo firebase deploy --token $FIREBASE_TOKEN
