@@ -10,6 +10,7 @@ import NavBar from './components/NavBar.js';
 import CallToAction from './components/CallToAction.js';
 import SelectedWork from './components/SelectedWork.js';
 import FitnessStudy from './components/caseStudies/FitnessStudy.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Route exact path="/" component={CallToAction} />
       <Route exact path="/" component={SelectedWork} />
       <Route exact path="/fitstudy" component={FitnessStudy} />
-      
+      <Route exact path="/" component={Contact} />
       
       
     </div>
