@@ -28,7 +28,7 @@ const NavBar = () => {
             </a>
             {/* </NavLink> */}
           </div>
-          <div className='navLinkText'>
+          {/* <div className='navLinkText'>
             <NavLink
               to='/projects'
               className='navLink'
@@ -36,7 +36,7 @@ const NavBar = () => {
             >
               Projects
             </NavLink>
-          </div>
+          </div> */}
           {/* <div className='navLinkText'>Projects</div> */}
           <div
             className='navLinkText'
