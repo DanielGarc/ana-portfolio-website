@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import '../../css/navbar.css';
 
@@ -14,19 +14,19 @@ const NavBar = () => {
         </div>
         <div className='navLinks'>
           <div className='navLinkText'>
-            {/* <NavLink
+            <NavLink
               to='/about'
               className='navLink'
               activeClassName='navLinkActive'
-            > */}
-            <a
+            >
+              {/* <a
               className='navLink'
               alt='Temporary about page'
               href='https://invis.io/Y4UZDTT86GV#/380572084_About'
-            >
+            > */}
               About
-            </a>
-            {/* </NavLink> */}
+              {/* </a> */}
+            </NavLink>
           </div>
           {/* <div className='navLinkText'>
             <NavLink
