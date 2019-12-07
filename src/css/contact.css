@@ -1,0 +1,48 @@
+.contactWrapper {
+    background-color: #f5fafe;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 60px;
+}
+
+.submitButton {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #ffaf32;
+    width: 100%;
+    font-size: 24px;
+}
+
+.contactText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 50%;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form p {
+    text-align: left;
+    font-weight: 400;
+}
+
+
+form input {
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    margin: 10px 0;
+    margin-top: 20px;
+}
