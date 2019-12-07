@@ -23,17 +23,19 @@ const AboutCTA = () => {
               "Caring deeply to create better experiences"
             </div>
 
-            <div className='experience' style={{ fontSize: '24px' }}>
-              <p>
-                {' '}
-                <b>Occupation : </b> Ux Designer
-              </p>
-              <p>
-                <b>Education : </b> Bachelor In IT
-              </p>
-              <p>
-                <b>Location : </b> Wilmer, MN
-              </p>
+            <div className='experience'>
+              <div className='experienceLine'>
+                <div className='experienceTitle'>Occupation</div>
+                <div className='experienceText'>UX designer</div>
+              </div>
+              <div className='experienceLine'>
+                <div className='experienceTitle'>Education</div>
+                <div className='experienceText'>Bachelor in IT</div>
+              </div>
+              <div className='experienceLine'>
+                <div className='experienceTitle'>Location</div>
+                <div className='experienceText'>Willmar, MN</div>
+              </div>
             </div>
 
             <div className='skills'>
