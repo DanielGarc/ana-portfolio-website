@@ -19,13 +19,9 @@ const AboutCTA = () => {
               <img alt='' src={AboutImage} />
             </div>
 
-            <p style={{ fontSize: '24px', fontWeight: '500', color: '#003' }}>
-              {' '}
-              <i>
-                {' '}
-                "Caring Deeply To Create <br /> Better Experiences"{' '}
-              </i>{' '}
-            </p>
+            <div className='picSubtitle'>
+              "Caring deeply to create better experiences"
+            </div>
 
             <div className='experience' style={{ fontSize: '24px' }}>
               <p>
