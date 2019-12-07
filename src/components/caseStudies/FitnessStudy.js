@@ -1,26 +1,26 @@
-import React from "react";
+import React from 'react';
 
-import "../../css/fitStudy.css";
+import '../../css/fitStudy.css';
 
-import FitStudy from "../../assets/fitStudy.png";
-import DesignCycle from "../../assets/designCycle.png";
-import RealCycle from "../../assets/realCycle.png";
-import Target from "../../assets/target.png";
-import FitHighFi from "../../assets/FitHighFi.png";
-import workshop from "../../assets/workshop.png";
-import Sketching from "../../assets/Sketching.png";
-import avatarBottom from "../../assets/bottom_avatar.png";
-import avatarTop from "../../assets/top_avatar.png";
+import FitStudy from '../../assets/fitStudy.png';
+import DesignCycle from '../../assets/designCycle.png';
+import RealCycle from '../../assets/realCycle.png';
+import Target from '../../assets/target.png';
+import FitHighFi from '../../assets/FitHighFi.png';
+import workshop from '../../assets/workshop.png';
+import Sketching from '../../assets/Sketching.png';
+import avatarBottom from '../../assets/bottom_avatar.png';
+import avatarTop from '../../assets/top_avatar.png';
 
 const FitnessStudy = () => {
   return (
-    <div className="fitStudyWrapper">
-      <div className="fitCTA">
-        <img src={FitStudy} style={{ width: "100%" }} />
+    <div className='fitStudyWrapper'>
+      <div className='fitCTA'>
+        <img alt='' src={FitStudy} style={{ width: '100%' }} />
       </div>
 
-      <div className="sectionOne">
-        <div className="overview">
+      <div className='sectionOne'>
+        <div className='overview'>
           <h3> Overview </h3>
           <p>
             Fitness instructors have a lot to work on, not just classes but,
@@ -41,7 +41,7 @@ const FitnessStudy = () => {
           </p>
         </div>
 
-        <div className="roles">
+        <div className='roles'>
           <h3> My Role </h3>
           <p> UX Designer </p>
 
@@ -56,8 +56,8 @@ const FitnessStudy = () => {
         </div>
       </div>
 
-      <div className="whiteBoxWrapper">
-        <div className="whiteBox">
+      <div className='whiteBoxWrapper'>
+        <div className='whiteBox'>
           <p>
             Challenge
             <br />
@@ -74,19 +74,23 @@ const FitnessStudy = () => {
         </div>
       </div>
 
-      <div className="designCycle">
-        <img src={DesignCycle} />
-        <img style={{ marginTop: "100px", width: "50%" }} src={RealCycle} />
+      <div className='designCycle'>
+        <img alt='' src={DesignCycle} />
+        <img
+          alt=''
+          style={{ marginTop: '100px', width: '50%' }}
+          src={RealCycle}
+        />
       </div>
 
-      <div className="firstData">
+      <div className='firstData'>
         <h2> First, Data </h2>
         <h4>
-          {" "}
-          <i> Don't assume you know the answer </i>{" "}
+          {' '}
+          <i> Don't assume you know the answer </i>{' '}
         </h4>
 
-        <p style={{ width: "80%" }}>
+        <p style={{ width: '80%' }}>
           When I accepted this project <b>I thought I knew </b> what the
           application would look like at the end, or what the product was and
           its needs because I’m a fitness instructor, <b> I was wrong </b>. How
@@ -106,39 +110,48 @@ const FitnessStudy = () => {
         </ul>
       </div>
 
-      <div className="userSection">
-        <div className="trainers">
-          <img className="avatarStyle" src={avatarTop} />
-          <div className="trainerBox">
+      <div className='userSection'>
+        <div className='trainers'>
+          <img alt='' className='avatarStyle' src={avatarTop} />
+          <div className='trainerBox'>
             <h2> Trainers </h2>
-            <p>“It’s hard to keep up with all the trainees progress.”<br/>
-              “If someone hasn’t pay I don’t like to remind them personally.”<br/>
-              “I have more than one certification and people don’t know them.”<br/>
+            <p>
+              “It’s hard to keep up with all the trainees progress.”
+              <br />
+              “If someone hasn’t pay I don’t like to remind them personally.”
+              <br />
+              “I have more than one certification and people don’t know them.”
+              <br />
             </p>
           </div>
         </div>
 
-        <div className="trainers">
-          <img className="avatarStyle" src={avatarBottom} />
+        <div className='trainers'>
+          <img alt='' className='avatarStyle' src={avatarBottom} />
 
-          <div className="trainerBox">
+          <div className='trainerBox'>
             <h2> Trainees </h2>
-            <p>“The apps that they have used are not engaging.”<br/>
-                “It’s hard for me to finished the programs I start.”<br/>
-              “I don’t want to pay for something that I don’t know if it’s going to work.”<br/>
+            <p>
+              “The apps that they have used are not engaging.”
+              <br />
+              “It’s hard for me to finished the programs I start.”
+              <br />
+              “I don’t want to pay for something that I don’t know if it’s going
+              to work.”
+              <br />
             </p>
           </div>
         </div>
       </div>
 
-      <div className="targetSection">
-        <img src={Target} />
+      <div className='targetSection'>
+        <img alt='' src={Target} />
 
-        <div className="targetReady">
+        <div className='targetReady'>
           <h2> We're Ready To Target!</h2>
           <h3>
-            {" "}
-            <i> From a huge amount of data to target ideas. </i>{" "}
+            {' '}
+            <i> From a huge amount of data to target ideas. </i>{' '}
           </h3>
 
           <p>
@@ -159,12 +172,12 @@ const FitnessStudy = () => {
         </div>
       </div>
 
-      <div className="workshop">
-        <img src={workshop} />
+      <div className='workshop'>
+        <img alt='' src={workshop} />
         <h2> Workshop</h2>
         <h3>
-          {" "}
-          <i> Who doesn’t love good ideas? </i>{" "}
+          {' '}
+          <i> Who doesn’t love good ideas? </i>{' '}
         </h3>
 
         <p>
@@ -214,8 +227,8 @@ const FitnessStudy = () => {
         </p>
       </div>
       <div>
-        <img src={Sketching} />
-        <img src={FitHighFi} />
+        <img alt='' src={Sketching} />
+        <img alt='' src={FitHighFi} />
       </div>
     </div>
   );

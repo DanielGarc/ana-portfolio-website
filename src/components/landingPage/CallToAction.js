@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
-import '../css/callToAction.css';
+import '../../css/callToAction.css';
 
-import headshot from '../assets/me.png';
+import headshot from '../../assets/me.png';
 
 import { Link } from 'react-router-dom';
 
@@ -41,7 +41,7 @@ const CallToAction = () => {
           </div>
         </div>
         <div className='ctaRightBox'>
-          <img src={headshot} />
+          <img alt='' src={headshot} />
         </div>
       </div>
     </div>

@@ -1,11 +1,10 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
-import LinkedInIcon from '../assets/linkedin-icon.svg';
-import EmailIcon from '../assets/email-icon.svg';
-import TwitterIcon from '../assets/twitter-icon.svg';
-import DribbbleIcon from '../assets/dribbble-icon.svg';
+import LinkedInIcon from '../../assets/linkedin-icon.svg';
+import EmailIcon from '../../assets/email-icon.svg';
+import TwitterIcon from '../../assets/twitter-icon.svg';
+import DribbbleIcon from '../../assets/dribbble-icon.svg';
 
-import '../css/footer.css';
+import '../../css/footer.css';
 
 const Footer = () => {
   return (
@@ -39,11 +38,5 @@ const Footer = () => {
     </div>
   );
 };
-
-const Icon = ({ name, color, size }) => (
-  <svg className={`icon icon-${name}`} fill={color} width={size} height={size}>
-    <use xlinkHref={`${LinkedInIcon}#icon-${name}`} />
-  </svg>
-);
 
 export default Footer;

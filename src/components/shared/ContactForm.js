@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/contactForm.css';
+import '../../css/contactForm.css';
 
 export default class ContactForm extends React.Component {
   constructor(props) {

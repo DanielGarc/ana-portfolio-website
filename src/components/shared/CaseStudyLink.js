@@ -1,13 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-import '../css/caseStudyLink.css';
-// cslImg,
-//   alignLeft = false,
-//   color,
-//   body,
-//   header,
-//   url
+import '../../css/caseStudyLink.css';
+
 class CaseStudyLink extends React.Component {
   constructor(props) {
     super(props);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CaseStudyLink from '../CaseStudyLink.js';
+import CaseStudyLink from '../shared/CaseStudyLink';
 import fitness from '../../assets/fitnessApp.png';
 import airbnb from '../../assets/airbnb.png';
 import SE from '../../assets/Solve-E.png';

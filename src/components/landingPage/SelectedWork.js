@@ -1,10 +1,9 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 
-import fitness from '../assets/fitnessApp.png';
-import airbnb from '../assets/airbnb.png';
-import '../css/selectedWork.css';
-import CaseStudyLink from './CaseStudyLink';
+import fitness from '../../assets/fitnessApp.png';
+import airbnb from '../../assets/airbnb.png';
+import '../../css/selectedWork.css';
+import CaseStudyLink from '../shared/CaseStudyLink';
 
 const SelectedWork = () => {
   return (
