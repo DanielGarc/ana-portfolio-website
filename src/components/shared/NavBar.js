@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 import '../../css/navbar.css';
 
-const NavBar = () => {
+const NavBar = props => {
   return (
     <div className='navWrapper'>
       <div className='contentWrapper'>
@@ -19,13 +19,7 @@ const NavBar = () => {
               className='navLink'
               activeClassName='navLinkActive'
             >
-              {/* <a
-              className='navLink'
-              alt='Temporary about page'
-              href='https://invis.io/Y4UZDTT86GV#/380572084_About'
-            > */}
               About
-              {/* </a> */}
             </NavLink>
           </div>
           {/* <div className='navLinkText'>
@@ -41,14 +35,14 @@ const NavBar = () => {
           <div
             className='navLinkText'
             style={{ cursor: 'pointer' }}
-            onClick={() =>
+            onClick={() => {
               window.scrollTo({
                 top: document.body.scrollHeight,
                 behavior: 'smooth'
-              })
-            }
+              });
+            }}
           >
-            <a className='navLink'>Contact</a>
+            <div className='navLink'>Contact</div>
           </div>
         </div>
       </div>
