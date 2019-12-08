@@ -1,5 +1,5 @@
 .aboutWrapper {
-  background-color: blue;
+  background-color: #ffffff;
   width: 100%;
   text-align: center;
   margin-top: 100px;
@@ -33,11 +33,11 @@
 .aboutSection {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  margin: 0;
 
-  height: 794px;
+  height: 920px;
 
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .aboutGraphics {
@@ -48,13 +48,13 @@
 
   /* width: 50%; */
   margin-left: 70px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .aboutPic {
   margin: 0;
   /* margin-left: 70px; */
-  margin-bottom: 38px;
+  margin-bottom: 39px;
 }
 
 .picSubtitle {
@@ -118,11 +118,19 @@
   height: 155px;
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   /* margin-left: 70px; */
+}
+
+.aboutPillRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 16px;
 }
 
 .aboutPillContainer {
@@ -131,6 +139,7 @@
   background-color: #2c3e50;
 
   cursor: pointer;
+  margin-right: 9px;
 }
 
 .aboutPillContainer p {
@@ -143,42 +152,12 @@
   line-height: 22px;
 }
 
-li {
-  list-style: circle;
-  text-align: left;
-  font-weight: 400;
-}
-
-.otherSection {
-  margin: 0 auto;
-
-  width: 70%;
-  height: 350px;
-  background-color: #2d3e50;
-  color: white;
-  margin-bottom: 30px;
-}
-.otherWrapper {
-  margin: 0 auto;
-  margin-top: 2%;
-  width: 96%;
-  height: 90%;
-}
-.otherSection h2 {
-  margin-left: 5%;
-  font-size: 30px;
-  text-align: left;
-}
-
-.goalSection {
-  margin-top: 80px;
-}
 .aboutText {
   margin-left: 69px;
   text-align: left;
 }
 
-.aboutMe {
+.aboutHeader {
   height: 30px;
   width: 108px;
   color: #2c3e50;
@@ -198,25 +177,94 @@ li {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
+
   text-align: justify;
 }
-.hobbies {
-  margin: 0 auto;
-  margin-top: 5%;
+
+.goalSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 18px;
+}
+
+.goals {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.goalCircleBullet {
+  background: #ffaf32;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+
+  margin-right: 12px;
+}
+
+.goalText {
+  height: 19px;
+  width: 435.27px;
+  color: #181818;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.otherSection {
+  width: 100%;
+  height: 402px;
+  background-color: #2d3e50;
+}
+
+.otherWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 1025px;
+  margin: auto;
+  /* background-color: darkgreen; */
+}
+.otherSectionHeader {
+  height: 44px;
+  width: 530px;
+  color: #fafdff;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+
+  margin: 33px 0 0 70px;
+  text-align: left;
+}
+
+.hobbies {
+  margin: 0 auto;
+  margin: 53px 70px 0 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .myHobby img {
-  height: 150px;
-  width: 200px;
+  height: 140px;
+  width: 205px;
 }
 
 .myHobby p {
-  margin-top: 1px;
-  font-size: 20px;
-  font-weight: 300;
+  margin-top: 5px;
+
+  color: #fafdff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .aboutContact {
@@ -227,14 +275,4 @@ li {
   height: 100px;
   background-color: #ccebff;
   text-align: left;
-}
-
-.aboutContact h2 {
-  padding-top: 15px;
-  margin-left: 6%;
-}
-
-.aboutContact p {
-  margin-left: 6%;
-  font-weight: 300;
 }
