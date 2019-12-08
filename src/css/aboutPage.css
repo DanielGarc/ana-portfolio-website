@@ -18,7 +18,7 @@
 .aboutName {
   margin-left: 89px;
   margin-top: 55px;
-  margin-bottom: 42px;
+  margin-bottom: 41px;
   text-align: left;
 
   height: 52px;
@@ -35,30 +35,26 @@
   flex-direction: row;
   margin: 0 auto;
 
-  height: 792px;
+  height: 794px;
+
   background-color: bisque;
 }
 
 .aboutGraphics {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
 
-  width: 50%;
+  /* width: 50%; */
+  margin-left: 70px;
   background-color: aqua;
 }
 
 .aboutPic {
-  margin-left: 96px;
-}
-
-.aboutPic img {
-  height: 350px;
-  width: 350px;
-}
-
-.aboutText {
-  width: 50%;
+  margin: 0;
+  /* margin-left: 70px; */
+  margin-bottom: 38px;
 }
 
 .picSubtitle {
@@ -72,7 +68,8 @@
   line-height: 34px;
   text-align: center;
 
-  margin-left: 121px;
+  /* margin-left: 121px; */
+  margin-bottom: 49px;
 }
 
 .experience {
@@ -80,11 +77,11 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 358px;
-  height: 98px;
+  width: 359px;
+  height: 95px;
 
-  margin-left: 91px;
-  margin-top: 41px;
+  /* margin-left: 70px; */
+  margin-bottom: 35px;
 }
 
 .experienceLine {
@@ -95,13 +92,13 @@
 }
 
 .experienceTitle {
-  height: 22px;
+  height: 19px;
   width: 121.79px;
   color: #2c3e50;
-  font-family: 'Lato';
+  font-family: Lato;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
+  font-weight: bold;
+  line-height: 19px;
 }
 
 .experienceText {
@@ -110,52 +107,46 @@
   color: #181818;
   font-family: Lato;
   font-size: 16px;
-  font-weight: 500;
   line-height: 19px;
 
   white-space: nowrap;
   text-align: right;
 }
 
-.paragraph {
-  padding: 0 30px;
-  font-weight: 400;
-  text-align: left;
-  margin-top: 10px;
-  font-size: 18px;
+.characteristics {
+  width: 360px;
+  height: 155px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  /* margin-left: 70px; */
+}
+
+.aboutPillContainer {
+  display: flex;
+  border-radius: 4px;
+  background-color: #2c3e50;
+
+  cursor: pointer;
+}
+
+.aboutPillContainer p {
+  margin: auto;
+
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
 }
 
 li {
   list-style: circle;
   text-align: left;
   font-weight: 400;
-}
-
-.goalSection {
-  margin-top: 80px;
-}
-
-.skills {
-  margin-top: 40px;
-}
-.skillRow {
-  display: flex;
-  flex-direction: row;
-}
-
-.skillRow p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 140px;
-  height: 40px;
-  background-color: #2d3e50;
-  border: 1px solid #2d3e50;
-  color: white;
-  font-weight: 300;
-  border-radius: 5px;
-  margin: 10px;
-  font-size: 20px;
 }
 
 .otherSection {
@@ -179,6 +170,36 @@ li {
   text-align: left;
 }
 
+.goalSection {
+  margin-top: 80px;
+}
+.aboutText {
+  margin-left: 69px;
+  text-align: left;
+}
+
+.aboutMe {
+  height: 30px;
+  width: 108px;
+  color: #2c3e50;
+  font-family: 'Lato';
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+
+  margin-bottom: 12px;
+}
+
+.paragraphText {
+  height: 456px;
+  width: 456px;
+  color: #181818;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: justify;
+}
 .hobbies {
   margin: 0 auto;
   margin-top: 5%;
