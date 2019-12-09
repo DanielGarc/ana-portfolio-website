@@ -5,12 +5,20 @@
   text-align: center;
   z-index: 1001;
 }
+
+.navWrapper {
+  background-color: #fefdfb;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 1001;
+}
+
 .contentWrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 
-  width: 1025px;
   margin: auto;
   height: 100px;
   background-color: #fefdfb;

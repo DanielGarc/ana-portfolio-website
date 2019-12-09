@@ -7,12 +7,12 @@ import headshot from '../../assets/me.png';
 import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   });
+  // });
 
   return (
     <div className='ctaWrapper'>
@@ -37,7 +37,20 @@ const CallToAction = () => {
             is kind of my thing.
           </p>
           <div className='ctaButtonBox'>
-            <Link to='/projects'>Check out my work!</Link>
+            {/* <Link to='/projects'>Check out my work!</Link> */}
+            <div
+              onClick={() => {
+                var element = document.getElementById('SelectedWork');
+                var rect = element.getBoundingClientRect();
+
+                window.scrollTo({
+                  top: rect.top - 103,
+                  behavior: 'smooth'
+                });
+              }}
+            >
+              Check out my work!
+            </div>
           </div>
         </div>
         <div className='ctaRightBox'>

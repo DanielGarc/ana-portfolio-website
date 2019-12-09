@@ -9,7 +9,9 @@ const SelectedWork = () => {
   return (
     <div className='selWork'>
       <div className='selContent'>
-        <div className='selWorkTextTop'>SELECTED WORK</div>
+        <div className='selWorkTextTop' id='SelectedWork'>
+          SELECTED WORK
+        </div>
         <div className='selWorkText'>Take a Look</div>
         <CaseStudyLink
           alignLeft

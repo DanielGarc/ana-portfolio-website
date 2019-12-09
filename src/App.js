@@ -9,6 +9,7 @@ import SelectedWork from './components/landingPage/SelectedWork';
 import AboutCTA from './components/aboutPage/AboutCTA';
 import ContactForm from './components/shared/ContactForm';
 import Footer from './components/shared/Footer';
+import Projects from './components/projectsPage/Projects';
 
 function App() {
   return (
