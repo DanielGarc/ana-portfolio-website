@@ -55,7 +55,7 @@ export default class NavBar extends Component {
         {/* {this.state.location === '/' ? this.ScrollToTop() : ''} */}
         {this.state.scrollTo === 'down' ? this.ScrollToBottom() : ''}
         {this.state.scrollTo === 'up' ? this.ScrollToTop() : ''}
-        <div className='contentWrapper'>
+        <div className='navContent'>
           <div className='navLogo'>
             <Link to={{ pathname: '/', state: ['up'] }}>
               <div
