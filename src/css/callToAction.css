@@ -21,9 +21,9 @@
 .ctaLeftBox {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-self: flex-start;
-  width: 513px;
+  /* width: 513px; */
 }
 
 .ctaLeftBox h1 {
@@ -92,10 +92,21 @@
   align-items: flex-start;
   justify-self: flex-start;
   width: 512px;
-  height: 596px;
+  /* height: 596px; */
+
+  transition: ease-in 0.5s;
 }
 
 .ctaRightBox img {
   display: block;
   margin: 23px 2px 0px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .ctaRightBox {
+    display: none;
+  }
+  .ctaLeftBox {
+    width: 100%;
+  }
 }
