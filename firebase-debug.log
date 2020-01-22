@@ -1,0 +1,26 @@
+[debug] [2020-01-22T03:00:53.000Z] ----------------------------------------------------------------------
+[debug] [2020-01-22T03:00:53.005Z] Command:       /opt/node-v12.13.1-linux-x64/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2020-01-22T03:00:53.005Z] CLI Version:   7.12.1
+[debug] [2020-01-22T03:00:53.005Z] Platform:      linux
+[debug] [2020-01-22T03:00:53.005Z] Node Version:  v12.13.1
+[debug] [2020-01-22T03:00:53.005Z] Time:          Tue Jan 21 2020 21:00:53 GMT-0600 (Central Standard Time)
+[debug] [2020-01-22T03:00:53.005Z] ----------------------------------------------------------------------
+[debug] [2020-01-22T03:00:53.005Z] 
+[debug] [2020-01-22T03:00:53.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-22T03:00:53.010Z] > authorizing via signed-in user
+[debug] [2020-01-22T03:00:53.010Z] [iam] checking project portfolio-252603 for permissions ["firebase.projects.get"]
+[debug] [2020-01-22T03:00:53.011Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-22T03:00:53.012Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-22T03:00:53.399Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-22T03:00:53.413Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-252603:testIamPermissions  
+
+[debug] [2020-01-22T03:00:53.944Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-22T03:00:53.947Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-252603  
+ 
+[debug] [2020-01-22T03:00:54.395Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-22T03:00:54.407Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-252603/webApps/-/config  
+ 
+[debug] [2020-01-22T03:00:54.957Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000

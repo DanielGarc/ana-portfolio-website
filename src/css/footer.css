@@ -10,7 +10,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 1025px;
+  max-width: 1025px;
   margin: auto;
   height: 100px;
   background-color: #fefdfb;

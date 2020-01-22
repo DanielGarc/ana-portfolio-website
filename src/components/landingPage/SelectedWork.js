@@ -43,7 +43,7 @@ const SelectedWork = () => {
           color='#00A699'
           body='AirBnB host don’t know how much should they list their unit to remain competitive while maximizing their profits, this platform allows to evaluate their the price of their properties, find ways to increase the value of their properties and know when/how to adjust price to events/seasons/holidays'
         />
-        {/* <div className='selWorkSeparator'></div> */}
+        <div className='selWorkSeparator'></div>
       </div>
     </div>
   );

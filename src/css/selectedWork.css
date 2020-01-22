@@ -47,7 +47,7 @@
 
 .selWorkSeparator {
   height: 2px;
-  width: 897px;
+  width: 100%;
   background-color: #ccebff;
-  margin: 67px auto 67px auto;
+  margin: 67px auto;
 }

@@ -28,11 +28,11 @@
 
 .ctaLeftBox h1 {
   display: block;
-  height: 60px;
-  width: 424px;
+  /* height: 60px; */
+  /* width: 424px; */
   color: #2c3e50;
   font-family: Lato;
-  font-size: 50px;
+  font-size: 4vw;
   line-height: 60px;
   white-space: nowrap;
   font-weight: normal;
@@ -41,8 +41,8 @@
 
 .ctaText {
   text-align: left;
-  height: 216px;
-  width: 381px;
+  /* height: 216px;
+  width: 381px; */
   color: #2c3e50;
   font-family: Lato;
   font-size: 20px;
@@ -108,5 +108,9 @@
   }
   .ctaLeftBox {
     width: 100%;
+  }
+
+  .ctaLeftBox h1 {
+    font-size: 30px;
   }
 }

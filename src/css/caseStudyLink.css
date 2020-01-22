@@ -53,6 +53,10 @@
   .cslTextHeader {
     display: inline-block;
   }
+
+  .selWorkSeparator {
+    display: none;
+  }
 }
 
 .cslTextHeader {

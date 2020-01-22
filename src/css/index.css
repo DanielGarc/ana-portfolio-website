@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fefdfb;
   margin: auto;
+  text-align: center;
 }
 
 a:visited {

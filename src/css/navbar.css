@@ -6,6 +6,12 @@
   z-index: 1001;
 }
 
+@media only screen and(max-width:800px) {
+  /* .navWrapper {
+    position: static;
+  } */
+}
+
 .navContent {
   display: flex;
   flex-direction: row;

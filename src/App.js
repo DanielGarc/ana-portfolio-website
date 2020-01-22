@@ -31,8 +31,8 @@ function LandingPage(props) {
       <NavBar {...props} />
       <CallToAction />
       <SelectedWork />
-      {/* <ContactForm /> */}
-      {/* <Footer /> */}
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
