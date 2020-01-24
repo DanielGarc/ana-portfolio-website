@@ -35,33 +35,9 @@
   top: 47px;
 }
 
-@media only screen and (max-width: 800px) {
-  .cslWrapper img {
-    display: none;
-  }
-
-  .cslWrapper {
-    position: static;
-    width: 100%;
-  }
-
-  .cslTextWrapper {
-    position: static;
-    margin: 0 auto;
-  }
-
-  .cslTextHeader {
-    display: inline-block;
-  }
-
-  .selWorkSeparator {
-    display: none;
-  }
-}
-
 .cslTextHeader {
   height: 29px;
-  width: 216px;
+  /* width: 216px; */
   color: #f0f9ff;
   font-family: Lato;
   font-weight: 400;
@@ -72,7 +48,7 @@
 }
 
 .cslTextBody {
-  height: 171px;
+  /* height: 171px; */
   width: 431px;
   color: #f0f9ff;
   font-family: Lato;
@@ -112,4 +88,54 @@ a {
 
 .cslTextLink:hover {
   padding-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .cslWrapper img {
+    display: none;
+  }
+
+  .cslWrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+  }
+
+  .cslTextHeader {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 0 0;
+  }
+
+  .cslTextWrapper {
+    position: static;
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+  }
+
+  .selWorkSeparator {
+    display: none;
+  }
+
+  .cslTextBody {
+    width: auto;
+    margin: auto;
+    white-space: pre-wrap;
+
+    padding: 10px 20px 0px;
+  }
+
+  .cslTextLink {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  /* remove arrow */
+  .cslTextLink:after {
+    display: none;
+  }
 }

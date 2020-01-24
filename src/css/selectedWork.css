@@ -7,11 +7,6 @@
 .selWorkCaseStudyLinkSeparator {
   margin-top: 137px;
 }
-@media only screen and (max-width: 800px) {
-  .selWorkCaseStudyLinkSeparator {
-    display: none;
-  }
-}
 
 .selContent {
   display: flex;
@@ -50,4 +45,18 @@
   width: 100%;
   background-color: #ccebff;
   margin: 67px auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .selWorkCaseStudyLinkSeparator {
+    display: none;
+  }
+
+  .selWorkText {
+    margin: auto auto 20px auto;
+  }
+
+  .selContent {
+    margin: auto auto 10px auto;
+  }
 }

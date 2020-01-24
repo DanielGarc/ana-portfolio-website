@@ -7,20 +7,13 @@ import headshot from '../../assets/me.png';
 import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
-  // useEffect(() => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth'
-  //   });
-  // });
-
   return (
     <div className='ctaWrapper'>
       <div className='ctaContent'>
         <div className='ctaLeftBox'>
           <h1> Hola, I'm Ana Rosa. </h1>
           <p className='ctaText'>
-            I am a UX Designer, Technologist, and
+            I am a UX Designer, Technologist, and&nbsp;
             <br />
             outdoors lover. Trying to create a user-friendly
             <br />

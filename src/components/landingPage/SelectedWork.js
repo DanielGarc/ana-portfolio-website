@@ -41,7 +41,17 @@ const SelectedWork = () => {
           url='https://invis.io/EAV3Y2IJ48K#/392903255_price_My_Airbnb_Case_Studies'
           header='Price my Airbnb'
           color='#00A699'
-          body='AirBnB host don’t know how much should they list their unit to remain competitive while maximizing their profits, this platform allows to evaluate their the price of their properties, find ways to increase the value of their properties and know when/how to adjust price to events/seasons/holidays'
+          body={
+            <div>
+              AirBnB host don’t know how much should they list their unit to
+              remain competitive while maximizing their profits, this platform
+              allows to evaluate their the price of their properties, find ways
+              to increase the value of their properties and know when/how to
+              adjust price to events/seasons/holidays
+              <br />
+              <br />
+            </div>
+          }
         />
         <div className='selWorkSeparator'></div>
       </div>

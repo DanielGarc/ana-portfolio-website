@@ -24,13 +24,14 @@ export default class ContactForm extends React.Component {
             </h1>
           </div>
           <div className='cFormRightContent'>
+            <h2>DON'T BE A STRANGER</h2>
             <form action='https://formspree.io/mzbzpgjk' method='POST'>
               <input
                 type='hidden'
                 name='_next'
                 value='http://localhost:3000/'
               />
-              <label style={{ marginTop: '35px' }}>Name:</label>
+              <label className='cFormRightContentNameLabel'>Name:</label>
               <input
                 required
                 type='text'
@@ -38,14 +39,14 @@ export default class ContactForm extends React.Component {
                 name='firstname'
                 placeholder='Enter your name'
               ></input>
-              <label>Email:</label>
+              <label style={{ marginTop: 15 }}>Email:</label>
               <input
                 required
                 type='email'
                 name='email'
                 placeholder='Enter your email address'
               />
-              <label>Message:</label>
+              <label style={{ marginTop: 15 }}>Message:</label>
               <textarea
                 minLength='1'
                 rows='2'
