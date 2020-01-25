@@ -20,14 +20,14 @@
   margin-top: 55px;
   margin-bottom: 41px;
   text-align: left;
-
   height: 52px;
-  width: 317px;
   color: #2c3e50;
   font-family: Lato;
   font-size: 44px;
   font-weight: bold;
   line-height: 52px;
+
+  white-space: nowrap;
 }
 
 .aboutSection {
@@ -36,10 +36,6 @@
   margin: 0;
   flex-wrap: wrap;
   justify-content: center;
-
-  /* height: 920px; */
-
-  /* background-color: bisque; */
 }
 
 .aboutGraphics {
@@ -47,15 +43,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
-  /* width: 50%; */
-  /* margin-left: 70px; */
-  /* background-color: aqua; */
 }
 
 .aboutPic {
   margin: 0;
-  /* margin-left: 70px; */
   margin-bottom: 39px;
 }
 
@@ -70,7 +61,6 @@
   line-height: 34px;
   text-align: center;
 
-  /* margin-left: 121px; */
   margin-bottom: 49px;
 }
 
@@ -82,7 +72,6 @@
   width: 359px;
   height: 95px;
 
-  /* margin-left: 70px; */
   margin-bottom: 35px;
 }
 
@@ -117,13 +106,11 @@
 
 .characteristics {
   width: 360px;
-  /* height: 155px; */
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  /* margin-left: 70px; */
 }
 
 .aboutPillRow {
@@ -157,12 +144,6 @@
 .aboutText {
   margin-left: 69px;
   text-align: left;
-}
-
-@media only screen and(max-width:800px) {
-  .aboutText {
-    margin-top: 12px;
-  }
 }
 
 .aboutHeader {
@@ -285,4 +266,28 @@
   height: 100px;
   background-color: #ccebff;
   text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutText {
+    margin-top: 12px;
+  }
+
+  .aboutName {
+    margin: auto auto 20px auto;
+    text-align: center;
+  }
+
+  .otherSectionHeader {
+    margin: 20px auto 10px auto;
+    text-align: center;
+  }
+
+  .hobbies {
+    justify-content: center;
+  }
+
+  .aboutText {
+    margin: 20px auto auto auto;
+  }
 }

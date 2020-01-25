@@ -1,7 +1,6 @@
 .cFormWrapper {
   background-color: #ffffff;
   width: 100%;
-  /* text-align: center; */
 }
 
 .cFormContent {
@@ -70,7 +69,6 @@
   font-weight: 500;
   line-height: 19px;
   margin-left: 1px;
-  /* margin-top: 15px; */
 }
 
 .cFormRightContent input[type='text'] {
@@ -166,11 +164,6 @@
 .cFormRightContent input[type='submit']:hover {
   border-color: #142b44;
   border-style: solid;
-}
-
-.submit-message {
-  height: 24px;
-  width: 149px;
 }
 
 .cFormRightContentNameLabel {
