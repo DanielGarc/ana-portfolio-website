@@ -23,7 +23,7 @@ const AboutCTA = () => {
               "Caring deeply to create better experiences"
             </div>
 
-            <div className='experience'>
+            {/* <div className='experience'>
               <div className='experienceLine'>
                 <div className='experienceTitle'>OCCUPATION</div>
                 <div className='experienceText'>UX designer</div>
@@ -36,7 +36,7 @@ const AboutCTA = () => {
                 <div className='experienceTitle'>LOCATION</div>
                 <div className='experienceText'>Willmar, MN</div>
               </div>
-            </div>
+            </div> */}
 
             <div className='characteristics'>
               <div className='aboutPillRow'>

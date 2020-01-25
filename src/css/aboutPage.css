@@ -196,7 +196,6 @@
 }
 
 .goalText {
-  height: 19px;
   width: 435.27px;
   color: #181818;
   font-family: Lato;
@@ -222,8 +221,8 @@
   /* background-color: darkgreen; */
 }
 .otherSectionHeader {
-  height: 44px;
-  width: 530px;
+  /* height: 44px; */
+  /* width: 530px; */
   color: #fafdff;
   font-family: Lato;
   font-size: 36px;
@@ -274,20 +273,36 @@
   }
 
   .aboutName {
-    margin: auto auto 20px auto;
+    margin: auto auto 10px auto;
     text-align: center;
   }
 
   .otherSectionHeader {
-    margin: 20px auto 10px auto;
+    margin: 10px auto auto auto;
+    /* height: auto; */
     text-align: center;
+    width: 60%;
+    clear: both;
   }
 
   .hobbies {
+    margin-top: 10px;
     justify-content: center;
   }
 
   .aboutText {
-    margin: 20px auto auto auto;
+    /* margin: auto; */
+    margin: 20px 10px auto 10px;
+  }
+
+  .paragraphText {
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .goalText {
+    width: 100%;
+    margin: auto;
   }
 }
