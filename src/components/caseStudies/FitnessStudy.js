@@ -2,7 +2,10 @@ import React from 'react';
 
 import '../../css/fitStudy.css';
 
-import FitStudy from '../../assets/fitStudy.png';
+import FitStudy from '../../assets/banner.png';
+import Team from '../../assets/team.svg';
+import Time from '../../assets/time.svg';
+import Tools from '../../assets/tools.svg';
 
 const FitnessStudy = () => {
   return (
@@ -14,41 +17,35 @@ const FitnessStudy = () => {
       </div>
       <div className='fitStudyOverviewSectionContent'>
         <div className='fitStudyOverviewSection'>
-          <div className='fitStudyOverviewLeftContent'>
-            <h3>OVERVIEW</h3>
-            <p>
-              Fitness instructors have a lot to work on, not just classes but,
-              working with people, with their goals, not only changing their
-              body but their minds.
-              <br />
-              <br />
-              This is hard to do when you have to write everything on paper or
-              don’t have enough time to work with them personally, or remind
-              them all about their classes or their goals.
-              <br />
-              <br />
-              Trainers are looking for something that it can be with them all
-              the time, always up to date with what’s going on with their
-              clients, and removing that layer of awkwardness to go and ask for
-              the payments.
-              <br />
-            </p>
-            <br />
+          <div className='fitStudyOverviewSectionCaption'>
+            Project Background
           </div>
-          <div className='fitStudyOverviewSeparator'></div>
-          <div className='fitStudyOverviewRightContent'>
-            <h3>MY ROLE</h3>
-            <p>UX Designer</p>
-            <h3>DURATION</h3>
-            <p>5 Weeks</p>
-            <h3>TOOLS</h3>
-            <p>Sketch</p>
-            <p>Whimsical</p>
-            <p>InVision</p>
-            <p>Paper and pencil</p>
+        </div>
+        <div className='fitStudyOverviewIconsSection'>
+          <div className='fitStudyOverviewIconsContainer'>
+            <div className='fitStudyOverviewIcon'>
+              <img alt='' src={Team} />
+              <p>
+                1 UX designer &
+                <br />5 Software developers
+              </p>
+            </div>
+            <div className='fitStudyOverviewIcon'>
+              <img alt='' src={Time} />
+              <p>5 Weeks</p>
+            </div>
+            <div className='fitStudyOverviewIcon'>
+              <img alt='' src={Tools} />
+              <p>
+                Sketch, Whimsical,
+                <br />
+                InVision, Paper and pencil
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
       <div className='fitStudyCSCardSectionContent'>
         <div className='fitStudyCSCardSection'>
           <div className='fitStudyCSCardSectionCard'>

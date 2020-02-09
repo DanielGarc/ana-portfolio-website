@@ -18,77 +18,75 @@
 }
 
 .fitStudyOverviewSectionContent {
-  display: block;
+  /* display: block; */
   background-color: #eef7fd;
 }
 
 .fitStudyOverviewSection {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+
   margin: auto;
   max-width: 1025px;
   background-color: #eef7fd;
 }
 
-.fitStudyOverviewLeftContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 452px;
-
-  margin-left: 111px;
-  text-align: left;
-}
-
-.fitStudyOverviewSeparator {
-  display: flex;
-  flex-direction: column;
-  margin: 58px 0 27px 22px;
-  border: 1px solid #979797;
-}
-
-.fitStudyOverviewLeftContent h3 {
-  font-family: 'Lato';
-  font-weight: normal;
-  margin: 63px 0px 4px 0px;
-  color: #142b44;
-}
-
-.fitStudyOverviewLeftContent p {
-  font-family: 'Lato';
-  line-height: 19px;
-  font-size: 16px;
-  font-weight: 500;
-  margin: auto;
+.fitStudyOverviewSectionCaption {
   color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+
+  margin: 50px auto auto 109px;
 }
 
-.fitStudyOverviewRightContent {
+.fitStudyOverviewIconsSection {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  max-width: 1025px;
+  background-color: red;
+}
+
+.fitStudyOverviewIconsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #132b43;
+}
+
+.fitStudyOverviewIcons {
+  display: flex;
+  flex-direction: row;
+  /* margin: 52px auto auto auto; */
+}
+
+.fitStudyOverviewIcon {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 63px 0px 0px 20px;
-  text-align: left;
+  /* margin: auto; */
+  /* padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center; */
 }
 
-.fitStudyOverviewRightContent h3 {
-  font-family: 'Lato';
-  font-size: 16px;
-  font-weight: normal;
-  color: #142b44;
-  margin: 0 0 4px 0;
-}
-
-.fitStudyOverviewRightContent h3:nth-child(n + 2) {
-  margin-top: 14px;
-}
-
-.fitStudyOverviewRightContent p {
-  font-family: 'Lato';
-  font-size: 16px;
+.fitStudyOverviewIcon p {
+  color: #6d7278;
+  font-family: Lato;
+  font-size: 18px;
   font-weight: 500;
-  margin: 0;
+  line-height: 22px;
+  text-align: center;
+
+  margin: 11px auto auto auto;
 }
 
 .fitStudyCSCardSectionContent {
