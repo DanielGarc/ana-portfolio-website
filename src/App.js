@@ -10,6 +10,7 @@ import AboutCTA from './components/aboutPage/AboutCTA';
 import ContactForm from './components/shared/ContactForm';
 import Footer from './components/shared/Footer';
 import Projects from './components/projectsPage/Projects';
+import FitnessStudy from './components/caseStudies/FitnessStudy';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={LandingPage} />
         <Route exact path='/about' component={AboutPage} />
-        {/* <Route exact path='/fitstudy' component={FitnessStudy} /> */}
+        <Route exact path='/fitstudy' component={FitnessStudyPage} />
         {/* <Route exact path='/projects' component={Projects} /> */}
         <Route component={LandingPage} />
       </Switch>
@@ -42,8 +43,16 @@ function AboutPage(props) {
     <div>
       <NavBar {...props} />
       <AboutCTA />
-
       <Footer />
+    </div>
+  );
+}
+
+function FitnessStudyPage(props) {
+  return (
+    <div>
+      <NavBar {...props} />
+      <FitnessStudy />
     </div>
   );
 }

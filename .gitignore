@@ -25,3 +25,6 @@ package-lock.json
 
 # vscode
 vsws.code-workspace
+
+# swap files
+*.swp

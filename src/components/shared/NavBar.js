@@ -92,7 +92,7 @@ export default class NavBar extends Component {
               className='navLinkText'
               style={{ cursor: 'pointer' }}
               onClick={() => {
-                if (this.state.location === '/about') {
+                if (this.state.location !== '/') {
                   return this.props.history.push('/', ['down']);
                 }
 
