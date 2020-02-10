@@ -1,0 +1,48 @@
+.po-wrapper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f9ff;
+}
+
+.po-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  background-color: #f0f9ff;
+  max-width: 1025px;
+  margin: auto;
+}
+
+.po-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.po-item p {
+  margin: 11px auto auto auto;
+}
+
+.po-overview-text {
+  text-align: left;
+  margin: 51px auto auto 109px;
+}
+
+.po-overview-text-header {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+}
+
+.po-overview-text-block {
+  margin: 12px auto auto auto;
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 19px;
+}

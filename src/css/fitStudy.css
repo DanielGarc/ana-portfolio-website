@@ -2,6 +2,7 @@
   width: 100%;
   text-align: center;
   margin-top: 100px;
+  background-color: #000000;
 }
 
 .fitStudyContent {
@@ -14,23 +15,32 @@
 
 .fitStudyContent img {
   display: block;
+  height: auto;
+  max-width: 1025px;
+  margin: auto;
+}
+
+.fitStudyOverviewSectionContentWrapper {
   width: 100%;
+  text-align: center;
+  background-color: #f0f9ff;
 }
 
 .fitStudyOverviewSectionContent {
-  /* display: block; */
-  background-color: #eef7fd;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f0f9ff;
+  max-width: 1025px;
 
+  margin: auto;
+}
+/*
 .fitStudyOverviewSection {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-  margin: auto;
-  max-width: 1025px;
-  background-color: #eef7fd;
-}
+} */
 
 .fitStudyOverviewSectionCaption {
   color: #3d3d3d;
@@ -38,8 +48,13 @@
   font-size: 24px;
   font-weight: 900;
   line-height: 29px;
+  background-color: #eef7fd;
 
-  margin: 50px auto auto 109px;
+  margin: 50px auto 52px 109px;
+
+  /* text-align: left; */
+
+  /* padding-left: 95px; */
 }
 
 .fitStudyOverviewIconsSection {
