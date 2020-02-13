@@ -24,10 +24,7 @@ const CallToAction = () => {
             <br />
             analyzing human behaviour.
             <br />
-            <br />
-            Helping solve problems in a simple way
-            <br />
-            is kind of my thing.
+       
           </p>
           <div className='ctaButtonBox'>
             {/* <Link to='/projects'>Check out my work!</Link> */}
