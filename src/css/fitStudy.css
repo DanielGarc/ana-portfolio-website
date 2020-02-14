@@ -65,104 +65,7 @@
   background-color: red;
 }
 
-.fitStudyOverviewIconsContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background-color: #132b43;
-}
-
-.fitStudyOverviewIcons {
-  display: flex;
-  flex-direction: row;
-  /* margin: 52px auto auto auto; */
-}
-
-.fitStudyOverviewIcon {
-  display: flex;
-  flex-direction: column;
-  /* margin: auto; */
-  /* padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center; */
-}
-
-.fitStudyOverviewIcon p {
-  color: #6d7278;
-  font-family: Lato;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  text-align: center;
-
-  margin: 11px auto auto auto;
-}
-
-.fitStudyCSCardSectionContent {
-  display: block;
-  background-color: #eef7fd;
-}
-
-.fitStudyCSCardSection {
-  display: flex;
-
-  margin: auto;
-  max-width: 1025px;
-  background-color: #eef7fd;
-}
-
-.fitStudyCSCardSectionCard {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 58px auto 58px auto;
-  border-radius: 9px;
-  box-shadow: 0 4px 41px -33px rgba(48, 52, 54, 0.9);
-  background-color: #fff;
-  width: 430px;
-
-  padding: 19px 35px 42px 35px;
-}
-
-.fitStudyCSCardLeft {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.fitStudyCSCardRight {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.fitStudyCSCardTitle {
-  color: #3d3d3d;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-}
-
-.fitStudyCSCardText {
-  color: #3d3d3d;
-  font-family: Lato;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-
-  margin-top: 15px;
-
-  width: 187px;
-}
+/* revise from here down */
 
 .fs-dc-content {
   display: block;
@@ -225,13 +128,24 @@
   font-weight: 300;
 }
 
+.user-section-wrapper {
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+}
+
 .userSection {
-  min-height: 328px;
-  max-height: 328px;
+  /* min-height: 328px; */
+  /* max-height: 328px; */
   background-color: #132b43;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  max-width: 1025px;
+  margin: auto;
+
+  /* margin-top: 157px; */
 }
 
 .trainers {
@@ -264,21 +178,4 @@
   line-height: 19px;
   width: 687px;
   white-space: pre-wrap;
-}
-
-.targetSection {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  line-height: 1;
-  padding: 0 20px;
-  padding-top: 50px;
-  text-align: left;
-  background-color: #f0f9ff;
-}
-
-.targetReady {
-  width: 50%;
-  font-weight: 300;
 }

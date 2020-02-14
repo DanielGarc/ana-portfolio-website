@@ -3,6 +3,8 @@
   width: 100%;
   text-align: center;
   background-color: #f0f9ff;
+
+  height: auto;
 }
 
 .po-container {
@@ -19,7 +21,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
 }
 
 .po-item p {
@@ -28,7 +29,7 @@
 
 .po-overview-text {
   text-align: left;
-  margin: 51px auto auto 109px;
+  margin: 51px 109px auto 109px;
 }
 
 .po-overview-text-header {
@@ -45,4 +46,129 @@
   font-family: Lato;
   font-size: 16px;
   line-height: 19px;
+}
+
+.po-overview-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-color: white;
+  margin: 51px auto auto auto;
+  padding: 17px 0px 34px 0px;
+
+  border-radius: 9px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 41px -33px rgba(48, 52, 54, 0.9);
+
+  width: 505px;
+
+  z-index: 1000;
+}
+
+.po-overview-card-left-content {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+}
+
+.po-overview-card-right-content {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+}
+
+.po-overview-card-content-header {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.po-overview-card-content-text {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  margin-top: 12px;
+}
+
+.po-dp-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  transform: translateY(-97px);
+}
+
+.po-dp-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  max-width: 1025px;
+  width: 100%;
+  margin: auto;
+}
+
+.po-dp-caption {
+  display: flex;
+
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39px;
+
+  margin: 116px auto auto auto;
+}
+
+.po-dp-diagram-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.po-dp-diagram-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.po-dp-diagram-header {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+}
+.po-dp-diagram-text {
+  color: #323337;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+
+  margin-top: 14px;
+}
+
+.arrow {
+  width: 35px;
+  margin-top: 8px;
+  /* margin-right: 20px; */
+  /* margin-left: 20px; */
+}
+
+.po-dp-arrow-top {
+  margin: 58px auto 10px auto;
+}
+
+.po-dp-arrow-bot {
+  margin: auto auto 52px auto;
+
+  transform: rotate(180deg);
 }
