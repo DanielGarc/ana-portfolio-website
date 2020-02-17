@@ -1,3 +1,13 @@
+:root {
+  --margin-lg: 109px;
+}
+
+@media only screen and (max-width: 800px) {
+  :root {
+    --margin-lg: 20px;
+  }
+}
+
 body {
   font-family: 'Lato', 'Helvetica', 'Ubuntu', sans-serif;
   /* font-weight: 100; */
@@ -15,4 +25,34 @@ a:visited {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2 {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+
+  margin: 0;
+}
+
+h3 {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 22px;
+
+  margin: 0;
+}
+
+p {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+
+  margin: 0;
 }

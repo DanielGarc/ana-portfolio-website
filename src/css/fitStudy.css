@@ -10,13 +10,14 @@
   flex-direction: column;
   align-items: center;
   max-width: 1025x;
-  background-color: #a7dcff;
+  background-color: #6f777c;
 }
 
 .fitStudyContent img {
   display: block;
-  height: auto;
+  width: 1025px;
   max-width: 1025px;
+  height: auto;
   margin: auto;
 }
 
@@ -44,7 +45,7 @@
 
 .fitStudyOverviewSectionCaption {
   color: #3d3d3d;
-  font-family: Lato;
+  /* font-family: Lato; */
   font-size: 24px;
   font-weight: 900;
   line-height: 29px;
@@ -65,109 +66,114 @@
   background-color: red;
 }
 
-/* revise from here down */
-
-.fs-dc-content {
-  display: block;
-  background-color: red;
-}
-
-.fs-dc-section {
+.data-section-header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  max-width: 1025px;
-  background-color: green;
-}
-
-.fs-dc-section-title {
-  margin: 56px auto auto auto;
+  align-self: flex-start;
 
   color: #3d3d3d;
   font-family: Lato;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 29px;
+
+  margin: 51px var(--margin-lg) auto var(--margin-lg);
 }
 
-/*   */
-
-.whiteBoxWrapper {
-  background-color: #f0f9ff;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.whiteBox {
+.data-section-sub-header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  font-weight: 400;
-  padding: 10px;
-  margin: 0 auto;
-  height: 150px;
-  width: 60%;
-  background-color: white;
-  box-shadow: 1px 1px 2px lightslategray;
-}
-
-.designCycle {
-  background-color: white;
-  margin-top: 80px;
-}
-
-.firstData {
-  background-color: #f0f9ff;
-  height: 300px;
+  align-self: flex-start;
   text-align: left;
-  padding-left: 10%;
-  padding-top: 5%;
-  margin-top: 60px;
-  font-weight: 300;
+
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 22px;
+
+  margin: 2px var(--margin-lg) auto var(--margin-lg);
 }
 
-.user-section-wrapper {
-  width: 100%;
-  text-align: center;
-  background-color: #000000;
-}
-
-.userSection {
-  /* min-height: 328px; */
-  /* max-height: 328px; */
-  background-color: #132b43;
+.data-section-paragraph {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  align-self: flex-start;
 
-  max-width: 1025px;
-  margin: auto;
+  text-align: left;
 
-  /* margin-top: 157px; */
+  margin: 2px var(--margin-lg) auto var(--margin-lg);
 }
+
+.data-section-paragraph p {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+
+  margin: 0;
+}
+
+.data-section-paragraph ul {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+
+  margin: 12px 0 0 0;
+  padding-left: 24px;
+}
+
+.data-section-paragraph li {
+  margin: 2px 0;
+}
+
+b {
+  display: inline;
+}
+
+.i-analize-what-types {
+  height: 100px;
+  width: 333px;
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+/* revise from here down */
 
 .trainers {
-  max-height: 328px;
-  color: white;
-  text-align: left;
-  padding-left: 109px;
-  line-height: 0.5;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
+  text-align: left;
   align-items: center;
+  color: white;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
 }
 
 .avatarStyle {
-  height: 105px;
-  width: 106px;
+  width: 105px;
+  height: auto;
 }
 
 .trainerBox {
+  align-self: flex-start;
   /* margin-top: 5%; */
   margin-left: 14px;
+}
+
+.trainerBox h2 {
+  color: #fafdff;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+
+  margin: 0;
 }
 
 .trainerBox p {
@@ -176,6 +182,56 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
-  width: 687px;
-  white-space: pre-wrap;
+
+  margin: 0;
+}
+
+.workshop-p1 {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: no-wrap; */
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-end;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.workshop-p1-textbox {
+  margin-left: 56px;
+}
+
+.workshop-p2 {
+  text-align: left;
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.workshop-p2-split {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.workshop-p2-split-left {
+  text-align: left;
+}
+
+.workshop-p2-split-right {
+  margin-left: 18px;
+  margin-right: 16px;
+}
+
+ol {
+  margin: 0;
+}
+
+.workshop-p2-list-item {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
 }

@@ -73,6 +73,7 @@ const ProjectOverview = () => {
       </div>
       <div className='po-dp-wrapper'>
         <div className='po-dp-container'>
+          <div style={{ display: 'block', margin: '19px 0' }} />
           <div className='po-dp-caption'>Design Process</div>
           <div className='po-dp-arrow-top'>
             <img alt='' src={Arrow} />
