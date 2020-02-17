@@ -43,11 +43,14 @@ const SelectedWork = () => {
           color='#00A699'
           body={
             <div>
-              AirBnB host don’t know how much should they list their unit to
-              remain competitive while maximizing their profits, this platform
-              allows to evaluate their the price of their properties, find ways
-              to increase the value of their properties and know when/how to
-              adjust price to events/seasons/holidays
+              Airbnb hosts don’t know how much should they list their unit to
+              remain competitive while maximizing their profits.
+              <br />
+              <br />
+              This platform allows them to evaluate the price of their properties, find ways
+              to increase the value of their properties and know when and how much should they 
+              adjust their prices based on events, seasons, holidays, and/or location.
+              <br />
               <br />
               <br />
             </div>
