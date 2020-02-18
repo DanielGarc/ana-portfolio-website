@@ -7,7 +7,10 @@ import FitStudy from '../../assets/banner.png';
 import avatarTop from '../../assets/top_avatar.svg';
 import avatarBottom from '../../assets/bottom_avatar.svg';
 import whiteBoard from '../../assets/whiteboard.png';
+
 import dotVoting from '../../assets/dot_voting.png';
+import dotVotinghdpi from '../../assets/dot_voting_hdpi.png';
+import ImagePopup from '../shared/ImagePopup';
 
 const FitnessStudy = () => {
   return (
@@ -150,40 +153,47 @@ const FitnessStudy = () => {
             could have a vision of the problems and started generating ideas,
             after a couple of minutes we stop and did dot voting.
           </p>
-        </div>
-        <div style={{ display: 'block', margin: '9px 0' }} />
-
-        <div className='workshop-p2-split'>
-          <div className='workshop-p2-split-left'>
-            <p>
-              While creating all these ideas my colleagues kept asking questions
-              that I didn’t think of or didn’t question the “why” of some of the
-              problems. <b>We went back to Discovery and Define</b> to review
-              them again, we compare them with the workshop ideas and modified
-              the user flow.
-            </p>
-            <div style={{ display: 'block', margin: '26px 0' }} />
-
-            <ol className='workshop-p2-list'>
-              <li className='workshop-p2-list-item'>“Does that make sense?“</li>
-              <li className='workshop-p2-list-item'>
-                “Let me check on the data from the interviews”
-              </li>
-              <li className='workshop-p2-list-item'>
-                “Ok, one interviewer mentioned that but the other four don’t,
-                that’s not a pattern let’s dig on the market and do a quick
-                analysis in which companies have features like that and check
-                the reviews”
-              </li>
-              <li className='workshop-p2-list-item'>
-                “Okay, based on that market analysis, I’m adding that feature”
-                (rewarding the trainees)
-              </li>
-            </ol>
+          <div style={{ display: 'block', margin: '9px 0' }} />
+          {/* <img alt='' src={dotVoting} /> */}
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'center'
+            }}
+          >
+            <ImagePopup
+              modalImg={dotVotinghdpi}
+              img={dotVoting}
+              altImg='dot voting'
+              altModalImg='dot voting large super large'
+            />
           </div>
-          <div className='workshop-p2-split-right'>
-            <img alt='' src={dotVoting} />
-          </div>
+          <p>
+            While creating all these ideas my colleagues kept asking questions
+            that I didn’t think of or didn’t question the “why” of some of the
+            problems. <b>We went back to Discovery and Define</b> to review them
+            again, we compare them with the workshop ideas and modified the user
+            flow.
+          </p>
+          <div style={{ display: 'block', margin: '26px 0' }} />
+
+          <ol className='workshop-p2-list'>
+            <li className='workshop-p2-list-item'>“Does that make sense?“</li>
+            <li className='workshop-p2-list-item'>
+              “Let me check on the data from the interviews”
+            </li>
+            <li className='workshop-p2-list-item'>
+              “Ok, one interviewer mentioned that but the other four don’t,
+              that’s not a pattern let’s dig on the market and do a quick
+              analysis in which companies have features like that and check the
+              reviews”
+            </li>
+            <li className='workshop-p2-list-item'>
+              “Okay, based on that market analysis, I’m adding that feature”
+              (rewarding the trainees)
+            </li>
+          </ol>
         </div>
       </Section>
     </div>
