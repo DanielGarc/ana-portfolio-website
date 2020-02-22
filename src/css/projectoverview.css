@@ -23,6 +23,8 @@
 
 .po-item p {
   margin: 11px auto auto auto;
+  color: #6d7278;
+  font-weight: 500;
 }
 
 .po-overview-text {

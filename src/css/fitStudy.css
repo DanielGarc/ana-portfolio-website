@@ -36,26 +36,9 @@
 
   margin: auto;
 }
-/*
-.fitStudyOverviewSection {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-} */
 
 .fitStudyOverviewSectionCaption {
-  color: #3d3d3d;
-  /* font-family: Lato; */
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 29px;
-  background-color: #eef7fd;
-
-  margin: 50px auto 52px 109px;
-
-  /* text-align: left; */
-
-  /* padding-left: 95px; */
+  margin: auto var(--margin-lg) auto var(--margin-lg);
 }
 
 .fitStudyOverviewIconsSection {
@@ -99,46 +82,16 @@
 
   text-align: left;
 
-  margin: 2px var(--margin-lg) auto var(--margin-lg);
-}
-
-.data-section-paragraph p {
-  color: #3d3d3d;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19px;
-
-  margin: 0;
+  margin: auto var(--margin-lg) auto var(--margin-lg);
 }
 
 .data-section-paragraph ul {
-  color: #3d3d3d;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19px;
-
-  margin: 12px 0 0 0;
+  margin: 0;
   padding-left: 24px;
 }
 
 .data-section-paragraph li {
-  margin: 2px 0;
-}
-
-b {
-  display: inline;
-}
-
-.i-analize-what-types {
-  height: 100px;
-  width: 333px;
-  color: #3d3d3d;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19px;
+  margin: 10px 0;
 }
 
 /* revise from here down */
@@ -210,8 +163,13 @@ workshop-p2 > ol {
   margin: 0;
 }
 
+.workshop-p2-dotimg-container {
+  display: block;
+  text-align: center;
+}
+
 .workshop-p2 > img {
-  display: flex;
+  /* display: flex; */
   /* align-self: center; */
   margin: auto;
 }

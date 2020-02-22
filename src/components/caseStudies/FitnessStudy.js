@@ -24,9 +24,11 @@ const FitnessStudy = () => {
       </div>
       <div className='fitStudyOverviewSectionContentWrapper'>
         <div className='fitStudyOverviewSectionContent'>
+          <div style={{ display: 'block', margin: '25px 0' }} />
           <div className='fitStudyOverviewSectionCaption'>
-            Project Background
+            <h2>Project Background</h2>
           </div>
+          <div style={{ display: 'block', margin: '25px 0' }} />
         </div>
       </div>
       <ProjectOverview />
@@ -35,6 +37,8 @@ const FitnessStudy = () => {
         <div className='data-section-sub-header'>
           Don’t assume you know the answer.
         </div>
+        <div style={{ display: 'block', margin: '5px 0' }} />
+
         <div className='data-section-paragraph'>
           <p>
             When I accepted this project <b>I thought I knew</b> what the
@@ -42,7 +46,7 @@ const FitnessStudy = () => {
             its needs because I’m a fitness instructor, <b>I was wrong.</b>
           </p>
         </div>
-        <div style={{ display: 'block', margin: '2px 0' }} />
+        <div style={{ display: 'block', margin: '8px 0' }} />
         <div className='data-section-paragraph'>
           <p>
             How did I gather information? Great question! I did the following
@@ -52,14 +56,20 @@ const FitnessStudy = () => {
         <div className='data-section-paragraph'>
           <ul>
             <li>
-              I analyze what types of question and what audience I’ll be
-              interviewing.
+              <p>
+                I analyze what types of question and what audience I’ll be
+                interviewing.
+              </p>
             </li>
             <li>
-              Interview with coaches, fitness instructor and people who exercise
-              regularly and not regularly.
+              <p>
+                Interview with coaches, fitness instructor and people who
+                exercise regularly and not regularly.
+              </p>
             </li>
-            <li>Shadow a couple of colleagues</li>
+            <p>
+              <li>Shadow a couple of colleagues</li>
+            </p>
           </ul>
         </div>
         <div style={{ display: 'block', margin: '22px 0' }} />
@@ -153,15 +163,9 @@ const FitnessStudy = () => {
             could have a vision of the problems and started generating ideas,
             after a couple of minutes we stop and did dot voting.
           </p>
-          <div style={{ display: 'block', margin: '9px 0' }} />
-          {/* <img alt='' src={dotVoting} /> */}
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center'
-            }}
-          >
+          <div style={{ display: 'block', margin: '40px 0' }} />
+
+          <div className='workshop-p2-dotimg-container'>
             <ImagePopup
               modalImg={dotVotinghdpi}
               img={dotVoting}
@@ -169,6 +173,7 @@ const FitnessStudy = () => {
               altModalImg='dot voting large super large'
             />
           </div>
+
           <p>
             While creating all these ideas my colleagues kept asking questions
             that I didn’t think of or didn’t question the “why” of some of the
