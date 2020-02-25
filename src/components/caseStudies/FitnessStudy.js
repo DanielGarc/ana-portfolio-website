@@ -1,16 +1,17 @@
 import React from 'react';
 import ProjectOverview from './shared/ProjectOveriew';
 import Section from '../shared/Section';
+import ImagePopup from '../shared/ImagePopup';
+
 import '../../css/fitStudy.css';
 
 import FitStudy from '../../assets/banner.png';
 import avatarTop from '../../assets/top_avatar.svg';
 import avatarBottom from '../../assets/bottom_avatar.svg';
 import whiteBoard from '../../assets/whiteboard.png';
-
 import dotVoting from '../../assets/dot_voting.png';
 import dotVotinghdpi from '../../assets/dot_voting_hdpi.png';
-import ImagePopup from '../shared/ImagePopup';
+import Wireframe from '../../assets/wireframe_fitstudy.png';
 
 const FitnessStudy = () => {
   return (
@@ -169,10 +170,13 @@ const FitnessStudy = () => {
             <ImagePopup
               modalImg={dotVotinghdpi}
               img={dotVoting}
+              imgWidth='80%'
               altImg='dot voting'
               altModalImg='dot voting large super large'
             />
+            <figcaption>ideas generation and dot voting</figcaption>
           </div>
+          <div style={{ display: 'block', margin: '42px 0' }} />
 
           <p>
             While creating all these ideas my colleagues kept asking questions
@@ -199,6 +203,16 @@ const FitnessStudy = () => {
               (rewarding the trainees)
             </li>
           </ol>
+        </div>
+      </Section>
+      <Section sectionColor='#fff' wrapperColor='#fff'>
+        <div style={{ display: 'block', margin: '27px 0' }} />
+
+        <div style={{ maxWidth: '100%', height: 'auto' }}>
+          <img src={Wireframe} alt='wireframe' />
+          <figcaption>
+            Quick wireframes of our ideas and putting them into a flow
+          </figcaption>
         </div>
       </Section>
     </div>
