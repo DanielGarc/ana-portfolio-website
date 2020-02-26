@@ -12,6 +12,8 @@ import whiteBoard from '../../assets/whiteboard.png';
 import dotVoting from '../../assets/dot_voting.png';
 import dotVotinghdpi from '../../assets/dot_voting_hdpi.png';
 import Wireframe from '../../assets/wireframe_fitstudy.png';
+import LowFiDesign from '../../assets/lowfidelity_fitsudy.png';
+import ScreenProfile from '../../assets/screen_profile.png';
 
 const FitnessStudy = () => {
   return (
@@ -75,7 +77,7 @@ const FitnessStudy = () => {
         </div>
         <div style={{ display: 'block', margin: '22px 0' }} />
       </Section>
-      <Section wrapperColor='#142B44' sectionColor='#142B44'>
+      <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
         <div style={{ display: 'block', margin: '20px 0' }} />
         <div className='trainers'>
           <img alt='' className='avatarStyle' src={avatarTop} />
@@ -213,6 +215,58 @@ const FitnessStudy = () => {
           <figcaption>
             Quick wireframes of our ideas and putting them into a flow
           </figcaption>
+        </div>
+        <div style={{ display: 'block', margin: '27px 0' }} />
+
+        <div style={{ maxWidth: '100%', height: 'auto' }}>
+          <img src={LowFiDesign} alt='Low fidelity design' />
+          <figcaption>Low fidelity designs</figcaption>
+        </div>
+
+        <div style={{ display: 'block', margin: '70px 0' }} />
+      </Section>
+      <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+        <div style={{ display: 'block', margin: '46px 0' }} />
+
+        <div className='stakeholder'>
+          <div className='stakeholder-left'>
+            <div style={{ display: 'block', margin: '23px 0' }} />
+
+            <h2>The Rightful stakeholder</h2>
+            <div style={{ display: 'block', margin: '1px 0' }} />
+
+            <h3>User testing...</h3>
+            <div style={{ display: 'block', margin: '6px 0' }} />
+
+            <p>
+              One funny thing is that happened during user testing is that users
+              really liked the feature about rewarding them after completing a
+              challenge or goal.
+              <br />
+              <br />
+              This idea was brought on the workshop as a form of engaging more
+              with users and their network, I went back to Discovery and Define
+              to verify if it was worthed to add.
+              <br />
+              <br />
+              How it works it’s that you gain a new charm with every challenge
+              or goal completed and the new charm will appear at the top of your
+              screen, the charms will be saved in your profile collection and
+              you can change them if you would like to.
+              <br />
+              <br />
+              And I said it’s funny because I thought I was the expert on the
+              topic and that little detail might be obvious for others but not
+              for me, it wasn’t obvious until real users interacted with it,
+              that’s why the user interviews are really important.
+              <br />
+            </p>
+          </div>
+          <div className='stakeholder-divider' />
+
+          <div className='stakeholder-right'>
+            <img src={ScreenProfile} alt='Profile screen' />
+          </div>
         </div>
       </Section>
     </div>

@@ -181,3 +181,29 @@ workshop-p2 > ol {
   font-style: italic;
   line-height: 19px;
 }
+
+.stakeholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-start;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.stakeholder-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.stakeholder-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.stakeholder-divider {
+  display: block;
+  margin: 0 81px;
+}
