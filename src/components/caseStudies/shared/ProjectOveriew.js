@@ -5,6 +5,7 @@ import Time from '../../../assets/time.svg';
 import Tools from '../../../assets/tools.svg';
 import ArrowRight from '../../../assets/arrow forward.svg';
 import Arrow from '../../../assets/arrow up.svg';
+import design_process from '../../../assets/design_process.png';
 
 import '../../../css/projectoverview.css';
 
@@ -74,7 +75,9 @@ const ProjectOverview = () => {
       <div className='po-dp-wrapper'>
         <div className='po-dp-container'>
           <div style={{ display: 'block', margin: '19px 0' }} />
-          <div className='po-dp-caption'>Design Process</div>
+<div>
+          <img alt='' src={design_process} /></div>
+         <div className='po-dp-caption'>Design Process</div>
           <div className='po-dp-arrow-top'>
             <img alt='' src={Arrow} />
           </div>

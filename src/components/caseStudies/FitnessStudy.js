@@ -14,6 +14,11 @@ import dotVotinghdpi from '../../assets/dot_voting_hdpi.png';
 import Wireframe from '../../assets/wireframe_fitstudy.png';
 import LowFiDesign from '../../assets/lowfidelity_fitsudy.png';
 import ScreenProfile from '../../assets/screen_profile.png';
+import User_flow from '../../assets/User_flow.png';
+import all_classes from '../../assets/all_classes.png';
+import sign_up from '../../assets/sign_up.png';
+import add_class from '../../assets/add_class.png';
+
 
 const FitnessStudy = () => {
   return (
@@ -205,7 +210,16 @@ const FitnessStudy = () => {
               (rewarding the trainees)
             </li>
           </ol>
+        </div> 
+        
+        <div style={{ display: 'block', margin: '27px 0' }} />
+        
+        <div style={{ maxWidth: 'auto', height: 'auto' }}>
+          <img src={User_flow} alt='user flow' />
+          <figcaption>User flow</figcaption>
         </div>
+        <div style={{ display: 'block', margin: '27px 0' }} />
+
       </Section>
       <Section sectionColor='#fff' wrapperColor='#fff'>
         <div style={{ display: 'block', margin: '27px 0' }} />
@@ -268,6 +282,67 @@ const FitnessStudy = () => {
             <img src={ScreenProfile} alt='Profile screen' />
           </div>
         </div>
+        <div style={{ display: 'block', margin: '70px 0' }} />
+      </Section>
+      
+      <Section>
+      <div style={{ display: 'block', margin: '46px 0' }} />
+      <div className='workshop-p1'>
+      <img src={sign_up} alt='sign up' />
+        <div className='workshop-p1-textbox'>
+            <h2>Feature freeze</h2>
+            <div style={{ display: 'block', margin: '1px 0' }} />
+
+            <h3>Is it ready to launch?.</h3>
+            <div style={{ display: 'block', margin: '12px 0' }} />
+
+            <p>
+            Once I got all the ideas and features set, I began iterating between 
+            wireframing and the user flow. After we stop making changes to the user flow 
+            I started to create the low fidelity design in whimsical to not enter into 
+            details of the pixel-perfect design. Having all the low fidelity designs 
+            I carefully worked to transform them into  High-fidelity designs in Sketch. 
+              <br />
+              
+            </p>
+        </div>
+      </div>
+
+          <div style={{ display: 'block', margin: '23px 0' }} />
+
+      
+
+          <div style={{ maxWidth: '100%', height: 'auto' }}>
+          <img src={all_classes} alt='all classes' />
+        </div>
+
+        <div >
+            <img src={add_class} alt='Add classes' />
+          </div>
+
+      </Section>
+      <Section sectionColor='#4568DC' wrapperColor='#4568DC'>
+        <div style={{ display: 'block', margin: '27px 0' }} />
+
+        <div className='trainers'>
+          <div className='trainerBox'>
+            <h2> Conclusion </h2>
+            <h3>Never assume you know all the perspectives</h3>
+            <div style={{ display: 'block', margin: '12px 0' }} />
+
+            <p>
+            Working in this project has made me more aware of the importance of looking at things with new eyes, and how
+            doing minimal things like; invite colleagues and stakeholders to take a look of your research of the things 
+            discovered and really HEAR THEM OUT, and verify those ideas with the market. It changes the way of seeing the 
+            information because when you heard a new idea is a new perspective, and sometimes we do not realize that it can 
+            be a better experience until you research and test that idea.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div style={{ display: 'block', margin: '70px 0' }} />
       </Section>
     </div>
   );
