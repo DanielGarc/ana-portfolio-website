@@ -1,43 +1,5 @@
-.fitStudyWrapper {
-  width: 100%;
-  text-align: center;
-  margin-top: 100px;
-  background-color: #000000;
-}
-
-.fitStudyContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1025x;
-  background-color: #A7DCFF;
-}
-
-.fitStudyContent img {
-  display: block;
-  width: 1025px;
-  max-width: 1025px;
-  height: auto;
-  margin: auto;
-}
-
-.fitStudyOverviewSectionContentWrapper {
-  width: 100%;
-  text-align: center;
-  background-color: #f0f9ff;
-}
-
-.fitStudyOverviewSectionContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #f0f9ff;
-  max-width: 1025px;
-
-  margin: auto;
-}
-
-.fitStudyOverviewSectionCaption {
+.project-overview {
+  text-align: left;
   margin: auto var(--margin-lg) auto var(--margin-lg);
 }
 
@@ -103,7 +65,6 @@ li {
   justify-content: flex-start;
   text-align: left;
   align-items: center;
-  color: white;
 
   margin: 0px var(--margin-lg) auto var(--margin-lg);
 }
@@ -115,39 +76,19 @@ li {
 
 .trainerBox {
   align-self: flex-start;
-  /* margin-top: 5%; */
   margin-left: 14px;
 }
 
 .trainerBox h2 {
   color: #fafdff;
-  font-family: Lato;
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 29px;
-
-  margin: 0;
 }
 
 .trainerBox p {
   color: #f0f9ff;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-
-  margin: 0;
 }
 
 .trainerBox h3 {
   color: #f0f9ff;
-  font-family: Lato;
-  font-style: italic;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-
-  margin: 0;
 }
 
 .workshop-p1 {
@@ -193,6 +134,11 @@ workshop-p2 > ol {
   line-height: 19px;
 }
 
+.user-flow-img-container {
+  max-width: 1025px;
+  margin: auto var(--margin-lg) auto var(--margin-lg);
+}
+
 .stakeholder {
   display: flex;
   flex-direction: row;
@@ -216,5 +162,33 @@ workshop-p2 > ol {
 
 .stakeholder-divider {
   display: block;
-  margin: 0 81px;
+  margin: 0 5rem;
+}
+
+.row {
+  display: flex;
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.col-2 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.sticky-features-text {
+  text-align: left;
+
+  padding-left: 2rem;
+
+  margin-top: 40px;
+}
+
+.sticky {
+  position: fixed;
+  top: calc(var(--navbar-height) + 40px);
 }

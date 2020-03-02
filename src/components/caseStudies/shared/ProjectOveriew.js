@@ -8,6 +8,7 @@ import Arrow from '../../../assets/arrow up.svg';
 import design_process from '../../../assets/design_process.png';
 
 import '../../../css/projectoverview.css';
+import Section from '../../shared/Section';
 
 const ProjectOverview = () => {
   return (
@@ -72,83 +73,18 @@ const ProjectOverview = () => {
           </div>
         </div>
       </div>
-      <div className='po-dp-wrapper'>
-        <div className='po-dp-container'>
-          <div style={{ display: 'block', margin: '19px 0' }} />
-<div>
-          <img alt='' src={design_process} /></div>
-         <div className='po-dp-caption'>Design Process</div>
-          <div className='po-dp-arrow-top'>
-            <img alt='' src={Arrow} />
-          </div>
-          <div className='po-dp-diagram-container'>
-            <div className='po-dp-diagram-item-container'>
-              <div
-                className='po-dp-diagram-header'
-                style={{ color: '#A23222' }}
-              >
-                DISCOVERY
-              </div>
-              <div className='po-dp-diagram-text'>
-                Research user
-                <br />
-                problems and
-                <br />
-                goals
-              </div>
-            </div>
-            <div className='po-dp-diagram-item-container arrow'>
-              <img alt='' src={ArrowRight} />
-            </div>
-            <div className='po-dp-diagram-item-container'>
-              <div
-                className='po-dp-diagram-header'
-                style={{ color: '#A16026' }}
-              >
-                DEFINE
-              </div>
-              <div className='po-dp-diagram-text'>
-                Narrow and
-                <br />
-                measure the
-                <br />
-                problems
-              </div>
-            </div>
-            <div className='po-dp-diagram-item-container arrow'>
-              <img alt='' src={ArrowRight} />
-            </div>
-            <div className='po-dp-diagram-item-container'>
-              <div
-                className='po-dp-diagram-header'
-                style={{ color: '#064268' }}
-              >
-                IDEATE
-              </div>
-              <div className='po-dp-diagram-text'>
-                Brainstorming
-                <br />
-                solutions
-              </div>
-            </div>
-            <div className='po-dp-diagram-item-container arrow'>
-              <img alt='' src={ArrowRight} />
-            </div>
-            <div className='po-dp-diagram-item-container'>
-              <div
-                className='po-dp-diagram-header'
-                style={{ color: '#0A723D' }}
-              >
-                PROTOTYPE
-              </div>
-              <div className='po-dp-diagram-text'>Test</div>
-            </div>
-          </div>
-          <div className='po-dp-arrow-bot'>
-            <img alt='' src={Arrow} />
-          </div>
+      <div style={{ display: 'block', margin: '50px 0' }} />
+
+      <Section wrapperColor='#fff' sectionColor='#fff'>
+        <div className='design-process'>
+          <img
+            style={{ height: '100%', width: '100%' }}
+            alt=''
+            src={design_process}
+          />
         </div>
-      </div>
+      </Section>
+      <div style={{ display: 'block', margin: '90px 0' }} />
     </div>
   );
 };

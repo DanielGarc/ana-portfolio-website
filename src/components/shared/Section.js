@@ -4,14 +4,15 @@ function Section({ wrapperColor, sectionColor, children }) {
   const divWrapper = {
     display: 'block',
     width: '100%',
-    backgroundColor: wrapperColor ? wrapperColor : 'red'
+    backgroundColor: wrapperColor ? wrapperColor : 'red',
+    height: 'auto'
   };
 
   const divContent = {
     backgroundColor: sectionColor ? sectionColor : 'blue',
     display: 'flex',
     flexDirection: 'column',
-    maxWidth: '1025px',
+    maxWidth: 'var(--max-width)',
     margin: 'auto'
   };
 
