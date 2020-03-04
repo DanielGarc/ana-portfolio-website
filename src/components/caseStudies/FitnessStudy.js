@@ -65,7 +65,7 @@ export default class FitnessStudy extends Component {
       this.setState({ sticky: false });
     }
 
-    if (element.offsetTop + element.offsetHeight - pos < 800) {
+    if (element.offsetTop + element.offsetHeight - pos <= 800) {
       const fixedTopOffset =
         800 - (element.offsetTop + element.offsetHeight - pos);
       const style = getComputedStyle(element.firstChild);
@@ -73,6 +73,8 @@ export default class FitnessStudy extends Component {
       // console.log(
       element.firstChild.style.top =
         parseInt(style.top) - fixedTopOffset + 'px';
+
+      element.firstChild.style.top = 140 - fixedTopOffset + 'px';
       // );
       console.log(fixedTopOffset);
     } else {
