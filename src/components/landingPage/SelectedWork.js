@@ -18,7 +18,7 @@ const SelectedWork = () => {
           cslImg={fitness}
           header='Anywhere Fitness'
           color='#6C44DE'
-          url='https://invis.io/CJUZC0ZUVEX#/380572085_Case_Studies'
+          url='https://invis.io/E8W9MZSH4AB#/407314749_Case_Studies'
           body={
             <div>
               Fitness instructors have a lot to work on, not just classes but,
@@ -47,9 +47,10 @@ const SelectedWork = () => {
               remain competitive while maximizing their profits.
               <br />
               <br />
-              This platform allows them to evaluate the price of their properties, find ways
-              to increase the value of their properties and know when and how much should they 
-              adjust their prices based on events, seasons, holidays, and/or location.
+              This platform allows them to evaluate the price of their
+              properties, find ways to increase the value of their properties
+              and know when and how much should they adjust their prices based
+              on events, seasons, holidays, and/or location.
               <br />
               <br />
               <br />
