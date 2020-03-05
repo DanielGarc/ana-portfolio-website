@@ -19,12 +19,16 @@ import all_classes from '../../assets/all_classes.png';
 import sign_up from '../../assets/sign_up.png';
 import add_class from '../../assets/add_class.png';
 
+const maxpos = 7300;
+
 export default class FitnessStudy extends Component {
+  prevPos = 0;
+  offset = 0;
+  timeout = 0;
+
   constructor(props) {
     super(props);
     this.state = {
-      ticking: false,
-      sticky: false,
       topOffset: parseInt(
         getComputedStyle(document.documentElement).getPropertyValue(
           '--navbar-height'
@@ -33,60 +37,53 @@ export default class FitnessStudy extends Component {
     };
 
     this.handleScroll = this.handleScroll.bind(this);
+    this.handleLoaded = this.handleLoaded.bind(this);
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll, false);
+    // window.addEventListener('DOMContentLoaded', this.handleLoaded);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
+  handleLoaded(timestamp) {
+    // console.log(timestamp);
+    this.handleScroll();
+    requestAnimationFrame(this.handleLoaded);
+  }
+
   handleScroll(event) {
     let pos = window.scrollY;
 
-    // if (!this.state.ticking) {
-    //wait for the animation frame to avoid overflowing with operations
-    // window.requestAnimationFrame(
-    // function() {
-    // console.log(pos);
-    let element = document.getElementById('sticky-block');
-    // console.log(element.offsetTop + element.offsetHeight);
-    this.setState({ ticking: false });
+    if (this.timeout) cancelAnimationFrame(this.timeout);
 
-    if (pos + this.state.topOffset + 40 > element.offsetTop) {
-      element.firstElementChild.classList.add('sticky');
-      element.firstChild.style.width = element.offsetWidth + 'px';
-      this.setState({ sticky: true });
-    } else {
-      element.firstElementChild.classList.remove('sticky');
+    this.timeout = requestAnimationFrame(
+      function() {
+        let element = document.getElementById('sticky-block');
 
-      this.setState({ sticky: false });
-    }
+        if (pos + this.state.topOffset + 40 > element.offsetTop) {
+          element.firstElementChild.classList.add('sticky');
+          element.firstChild.style.width = element.offsetWidth + 'px';
+        } else {
+          element.firstElementChild.classList.remove('sticky');
+        }
+        console.log(this.offset);
 
-    if (element.offsetTop + element.offsetHeight - pos <= 800) {
-      const fixedTopOffset =
-        800 - (element.offsetTop + element.offsetHeight - pos);
-      const style = getComputedStyle(element.firstChild);
+        if (pos >= maxpos) {
+          this.offset += pos - this.prevPos;
+        } else {
+          this.offset = 0;
+        }
 
-      // console.log(
-      element.firstChild.style.top =
-        parseInt(style.top) - fixedTopOffset + 'px';
+        element.firstChild.style.top =
+          this.state.topOffset + 40 - this.offset + 'px';
 
-      element.firstChild.style.top = 140 - fixedTopOffset + 'px';
-      // );
-      console.log(fixedTopOffset);
-    } else {
-      element.firstChild.style.top = 'calc(var(--navbar-height) + 40px)';
-    }
-
-    // console.log(pos - (element.offsetTop + element.offsetHeight));
-    // }.bind(this)
-    // );
-
-    this.setState({ ticking: true });
-    // }
+        this.prevPos = window.scrollY;
+      }.bind(this)
+    );
   }
 
   render() {
