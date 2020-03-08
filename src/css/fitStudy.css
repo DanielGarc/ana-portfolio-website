@@ -94,7 +94,7 @@ li {
 .workshop-p1 {
   display: flex;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   text-align: left;
   align-items: flex-end;
@@ -139,7 +139,7 @@ workshop-p2 > ol {
   margin: auto var(--margin-lg) auto var(--margin-lg);
 }
 
-.stakeholder {
+.image-text-container {
   display: flex;
   flex-direction: row;
   flex-wrap: no-wrap;
@@ -150,45 +150,54 @@ workshop-p2 > ol {
   margin: 0px var(--margin-lg) auto var(--margin-lg);
 }
 
-.stakeholder-left {
+.image-text-left {
   display: flex;
   flex-direction: column;
 }
 
-.stakeholder-right {
+.image-text-right {
   display: flex;
   flex-direction: column;
 }
 
-.stakeholder-divider {
+.image-text-divider {
   display: block;
-  margin: 0 5rem;
+  margin: 0 2vw;
+}
+@media only screen and (min-width: 800px) {
+  .sticky {
+    position: fixed;
+    top: calc(var(--navbar-height) + 40px);
+  }
 }
 
-.row {
-  display: flex;
-  margin: 0px var(--margin-lg) auto var(--margin-lg);
-  flex-wrap: wrap;
-}
+@media only screen and (max-width: 800px) {
+  .image-text-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.col-1 {
-  flex: 0 0 33.33333%;
-  max-width: 33.33333%;
-}
-.col-2 {
-  flex: 0 0 66.66667%;
-  max-width: 66.66667%;
-}
+  .wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
 
-.sticky-features-text {
-  text-align: left;
+  .image-text-left {
+    margin: 2vhz;
+  }
 
-  padding-left: 2rem;
+  .workshop-p1 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .workshop-p1-textbox {
+    margin: auto;
+    margin-bottom: 4vw;
+  }
 
-  margin-top: 40px;
-}
-
-.sticky {
-  position: fixed;
-  top: calc(var(--navbar-height) + 40px);
+  .trainer-icons {
+    justify-content: center;
+  }
+  .trainer-icons img {
+    margin-bottom: 4vw;
+  }
 }

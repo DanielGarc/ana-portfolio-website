@@ -12,13 +12,13 @@
 
   max-width: 1025px;
   margin: auto;
-  background: linear-gradient(to top, #fff 97px, #f0f9ff 0%);
 }
 
 .po-item-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 
 .po-item p {
@@ -98,4 +98,10 @@
 
 .design-process {
   margin: auto var(--margin-lg) auto var(--margin-lg);
+}
+
+@media only screen and (max-width: 800px) {
+  .po-item-container {
+    flex-wrap: wrap;
+  }
 }

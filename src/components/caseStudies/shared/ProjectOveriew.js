@@ -10,7 +10,14 @@ import design_process from '../../../assets/design_process.png';
 import '../../../css/projectoverview.css';
 import Section from '../../shared/Section';
 
-const ProjectOverview = () => {
+const ProjectOverview = ({
+  pbTeam,
+  pbTime,
+  pbTools,
+  oText,
+  oChallenge,
+  oSolution
+}) => {
   return (
     <div>
       <div className='po-wrapper'>
@@ -18,57 +25,29 @@ const ProjectOverview = () => {
           <div className='po-item-container'>
             <div className='po-item'>
               <img alt='' src={Team} />
-              <p>
-                1 UX designer &
-                <br />5 Software developers
-              </p>
+              <p>{pbTeam}</p>
             </div>
             <div className='po-item'>
               <img alt='' src={Time} />
-              <p>5 Weeks</p>
+              <p>{pbTime}</p>
             </div>
             <div className='po-item'>
               <img alt='' src={Tools} />
-              <p>
-                Sketch, Whimsical,
-                <br />
-                InVision, Paper and pencil
-              </p>
+              <p>{pbTools}</p>
             </div>
           </div>
           <div className='po-overview-text'>
             <div className='po-overview-text-header'>Overview</div>
-            <div className='po-overview-text-block'>
-              Fitness instructors have a lot to work on, not just classes but,
-              working with people, with their goals, not only changing their
-              body but their minds.
-              <br />
-              <br />
-              This is hard to do when you have to write everything on paper or
-              don’t have enough time to work with them personally, or remind
-              them all about their classes or their goals.
-              <br />
-              <br />
-              Trainers are looking for something that it can be with them all
-              the time, always up to date with what’s going on with their
-              clients, and removing that layer of awkwardness to go and ask for
-              the payments.
-            </div>
+            <div className='po-overview-text-block'>{oText}</div>
           </div>
           <div className='po-overview-card-container'>
             <div className='po-overview-card-left-content'>
               <div className='po-overview-card-content-header'>Challenge</div>
-              <div className='po-overview-card-content-text'>
-                How can we build an engaging app that lets trainers and trainees
-                manage their workouts and payments.
-              </div>
+              <div className='po-overview-card-content-text'>{oChallenge}</div>
             </div>
             <div className='po-overview-card-right-content'>
               <div className='po-overview-card-content-header'>Solution</div>
-              <div className='po-overview-card-content-text'>
-                An app that will be up to date with what’s going on with their
-                clients and send reminders to trainees about payments.
-              </div>
+              <div className='po-overview-card-content-text'>{oSolution}</div>
             </div>
           </div>
         </div>

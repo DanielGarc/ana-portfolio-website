@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import ProjectOverview from './shared/ProjectOveriew';
 import Section from '../shared/Section';
 import ImagePopup from '../shared/ImagePopup';
@@ -21,6 +21,15 @@ import add_class from '../../assets/add_class.png';
 
 const maxpos = 7300;
 
+// const GetScrollPos = () => {
+//   useEffect(() => {
+//     effect;
+//     return () => {
+//       cleanup;
+//     };
+//   }, [input]);
+// };
+
 export default class FitnessStudy extends Component {
   prevPos = 0;
   offset = 0;
@@ -42,15 +51,13 @@ export default class FitnessStudy extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, false);
-    // window.addEventListener('DOMContentLoaded', this.handleLoaded);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  handleLoaded(timestamp) {
-    // console.log(timestamp);
+  handleLoaded() {
     this.handleScroll();
     requestAnimationFrame(this.handleLoaded);
   }
@@ -63,23 +70,29 @@ export default class FitnessStudy extends Component {
     this.timeout = requestAnimationFrame(
       function() {
         let element = document.getElementById('sticky-block');
+        let width = element.offsetWidth;
+        let left = element.offsetLeft;
 
+        //add or remove class to make text sticky
         if (pos + this.state.topOffset + 40 > element.offsetTop) {
           element.firstElementChild.classList.add('sticky');
-          element.firstChild.style.width = element.offsetWidth + 'px';
+          if (width !== 0) {
+            element.firstChild.style.width = width + 'px';
+            element.firstChild.style.left = left + 'px'; //element.offsetLeft + 'px';
+          }
+
+          //calculate how much has been scrolled since last drawn
+          if (pos >= maxpos) {
+            this.offset += pos - this.prevPos;
+          } else {
+            this.offset = 0;
+          }
+
+          element.firstChild.style.top =
+            this.state.topOffset + 40 - this.offset + 'px';
         } else {
           element.firstElementChild.classList.remove('sticky');
         }
-        console.log(this.offset);
-
-        if (pos >= maxpos) {
-          this.offset += pos - this.prevPos;
-        } else {
-          this.offset = 0;
-        }
-
-        element.firstChild.style.top =
-          this.state.topOffset + 40 - this.offset + 'px';
 
         this.prevPos = window.scrollY;
       }.bind(this)
@@ -90,6 +103,7 @@ export default class FitnessStudy extends Component {
     return (
       <div>
         <div style={{ marginTop: 'var(--navbar-height)' }}></div>
+
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <img
             style={{ width: '100%', height: '100%' }}
@@ -105,7 +119,52 @@ export default class FitnessStudy extends Component {
           </div>
           <div style={{ display: 'block', margin: '25px 0' }} />
         </Section>
-        <ProjectOverview />
+        <ProjectOverview
+          pbTeam={
+            <>
+              1 UX designer &
+              <br />5 Software developers
+            </>
+          }
+          pbTime={<>5 Weeks</>}
+          pbTools={
+            <>
+              Sketch, Whimsical,
+              <br />
+              InVision, Paper and pencil
+            </>
+          }
+          oText={
+            <>
+              Fitness instructors have a lot to work on, not just classes but,
+              working with people, with their goals, not only changing their
+              body but their minds.
+              <br />
+              <br />
+              This is hard to do when you have to write everything on paper or
+              don’t have enough time to work with them personally, or remind
+              them all about their classes or their goals.
+              <br />
+              <br />
+              Trainers are looking for something that it can be with them all
+              the time, always up to date with what’s going on with their
+              clients, and removing that layer of awkwardness to go and ask for
+              the payments.
+            </>
+          }
+          oChallenge={
+            <>
+              How can we build an engaging app that lets trainers and trainees
+              manage their workouts and payments.
+            </>
+          }
+          oSolution={
+            <>
+              An app that will be up to date with what’s going on with their
+              clients and send reminders to trainees about payments.
+            </>
+          }
+        />
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <div className='data-section-header'>First, data.</div>
           <div className='data-section-sub-header'>
@@ -150,7 +209,7 @@ export default class FitnessStudy extends Component {
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
           <div style={{ display: 'block', margin: '20px 0' }} />
-          <div className='trainers'>
+          <div className='trainers trainer-icons'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
               <h2> Trainers </h2>
@@ -167,7 +226,7 @@ export default class FitnessStudy extends Component {
           </div>
           <div style={{ display: 'block', margin: '20px 0' }} />
 
-          <div className='trainers'>
+          <div className='trainers trainer-icons'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
             <div className='trainerBox'>
               <h2> Trainees </h2>
@@ -190,11 +249,13 @@ export default class FitnessStudy extends Component {
           <div style={{ display: 'block', margin: '25px 0' }} />
 
           <div className='workshop-p1'>
-            <div style={{ display: 'block', textAlign: 'center' }}>
-              <img src={whiteBoard} alt='' />
-              <figcaption style={{ marginTop: '-25px', color: '#fff' }}>
-                Reviewing the persona & her needs
-              </figcaption>
+            <div>
+              <div style={{ display: 'block', textAlign: 'center' }}>
+                <img src={whiteBoard} alt='' />
+                <figcaption style={{ marginTop: '-25px', color: '#fff' }}>
+                  Reviewing the persona & her needs
+                </figcaption>
+              </div>
             </div>
 
             <div className='workshop-p1-textbox'>
@@ -299,28 +360,36 @@ export default class FitnessStudy extends Component {
         <Section sectionColor='#fff' wrapperColor='#fff'>
           <div style={{ display: 'block', margin: '27px 0' }} />
 
-          <div style={{ maxWidth: '100%', height: 'auto' }}>
-            <img src={Wireframe} alt='wireframe' />
+          <div className='user-flow-img-container'>
+            <img
+              style={{ width: '100%', height: '100%' }}
+              src={Wireframe}
+              alt='wireframe'
+            />
             <figcaption>
               Quick wireframes of our ideas and putting them into a flow
             </figcaption>
           </div>
           <div style={{ display: 'block', margin: '27px 0' }} />
 
-          <div style={{ maxWidth: '100%', height: 'auto' }}>
-            <img src={LowFiDesign} alt='Low fidelity design' />
+          <div className='user-flow-img-container'>
+            <img
+              style={{ width: '100%', height: '100%' }}
+              src={LowFiDesign}
+              alt='Low fidelity design'
+            />
             <figcaption>Low fidelity designs</figcaption>
           </div>
 
           <div style={{ display: 'block', margin: '70px 0' }} />
         </Section>
-        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF' wrap>
           <div style={{ display: 'block', margin: '46px 0' }} />
-          <div className='stakeholder'>
-            <div className='stakeholder-left'>
+          <div className='image-text-container'>
+            <div className='image-text-left'>
               <div style={{ display: 'block', margin: '23px 0' }} />
 
-              <h2>The Rightful stakeholder</h2>
+              <h2>The Rightful Stakeholder</h2>
               <div style={{ display: 'block', margin: '1px 0' }} />
 
               <h3>User testing...</h3>
@@ -350,23 +419,27 @@ export default class FitnessStudy extends Component {
                 <br />
               </p>
             </div>
-            <div className='stakeholder-divider' />
+            <div className='image-text-divider' />
 
-            <div className='stakeholder-right'>
+            <div className='image-text-right'>
               <img src={ScreenProfile} alt='Profile screen' />
             </div>
           </div>
         </Section>
+
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <div style={{ display: 'block', margin: '38px 0' }} />
-          <div className='row'>
-            <div className='col-1'>
-              <img className='image-left' src={sign_up} alt='sign up' />
+
+          <div className='image-text-container wrap-reverse'>
+            <div className='image-text-left'>
+              <img src={sign_up} alt='sign up' />
               <img src={all_classes} alt='all classes' />
               <img src={add_class} alt='Add classes' />
             </div>
-            <div id='sticky-block' className='col-2'>
-              <div className='sticky-features-text'>
+            <div className='image-text-divider'></div>
+            <div id='sticky-block' className='image-text-right'>
+              <div>
+                <div style={{ display: 'block', margin: '40px 0' }} />
                 <h2>Feature freeze</h2>
                 <div style={{ display: 'block', margin: '1px 0' }} />
 
@@ -386,9 +459,8 @@ export default class FitnessStudy extends Component {
               </div>
             </div>
           </div>
-
-          <div style={{ display: 'block', margin: '23px 0' }} />
         </Section>
+
         <Section sectionColor='#4568DC' wrapperColor='#4568DC'>
           <div style={{ display: 'block', margin: '27px 0' }} />
 
