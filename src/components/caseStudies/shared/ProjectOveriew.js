@@ -21,7 +21,9 @@ const ProjectOverview = ({
   return (
     <div>
       <div className='po-wrapper'>
+
         <div className='po-container'>
+          <div className='section-spacer' />
           <div className='po-item-container'>
             <div className='po-item'>
               <img alt='' src={Team} />
@@ -36,10 +38,13 @@ const ProjectOverview = ({
               <p>{pbTools}</p>
             </div>
           </div>
+          <div className='section-spacer' />
           <div className='po-overview-text'>
             <div className='po-overview-text-header'>Overview</div>
             <div className='po-overview-text-block'>{oText}</div>
           </div>
+          <div className='section-spacer' />
+
           <div className='po-overview-card-container'>
             <div className='po-overview-card-left-content'>
               <div className='po-overview-card-content-header'>Challenge</div>
@@ -51,10 +56,15 @@ const ProjectOverview = ({
             </div>
           </div>
         </div>
+
+
       </div>
-      <div style={{ display: 'block', margin: '50px 0' }} />
+
 
       <Section wrapperColor='#fff' sectionColor='#fff'>
+        <div className='section-spacer' />
+        <div className='section-spacer' />
+
         <div className='design-process'>
           <img
             style={{ height: '100%', width: '100%' }}
@@ -62,8 +72,10 @@ const ProjectOverview = ({
             src={design_process}
           />
         </div>
+        <div className='section-spacer' />
+
       </Section>
-      <div style={{ display: 'block', margin: '90px 0' }} />
+
     </div>
   );
 };

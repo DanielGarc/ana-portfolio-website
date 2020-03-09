@@ -68,7 +68,7 @@ export default class FitnessStudy extends Component {
     if (this.timeout) cancelAnimationFrame(this.timeout);
 
     this.timeout = requestAnimationFrame(
-      function() {
+      function () {
         let element = document.getElementById('sticky-block');
         let width = element.offsetWidth;
         let left = element.offsetLeft;
@@ -104,21 +104,14 @@ export default class FitnessStudy extends Component {
       <div>
         <div style={{ marginTop: 'var(--navbar-height)' }}></div>
 
-        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+        <Section sectionColor='#a7dcff' wrapperColor='#a7dcff'>
           <img
             style={{ width: '100%', height: '100%' }}
             alt=''
             src={FitStudy}
           />
         </Section>
-        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
-          <div style={{ display: 'block', margin: '25px 0' }} />
 
-          <div className='project-overview'>
-            <h2>Project Background</h2>
-          </div>
-          <div style={{ display: 'block', margin: '25px 0' }} />
-        </Section>
         <ProjectOverview
           pbTeam={
             <>
@@ -166,6 +159,7 @@ export default class FitnessStudy extends Component {
           }
         />
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+          <div className='section-spacer' />
           <div className='data-section-header'>First, data.</div>
           <div className='data-section-sub-header'>
             Don’t assume you know the answer.
@@ -205,10 +199,10 @@ export default class FitnessStudy extends Component {
               </p>
             </ul>
           </div>
-          <div style={{ display: 'block', margin: '22px 0' }} />
+          <div className='section-spacer' />
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
-          <div style={{ display: 'block', margin: '20px 0' }} />
+          <div className='section-spacer' />
           <div className='trainers trainer-icons'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
@@ -224,7 +218,7 @@ export default class FitnessStudy extends Component {
               </p>
             </div>
           </div>
-          <div style={{ display: 'block', margin: '20px 0' }} />
+          <div className='section-spacer' />
 
           <div className='trainers trainer-icons'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
@@ -243,13 +237,12 @@ export default class FitnessStudy extends Component {
               </p>
             </div>
           </div>
-          <div style={{ display: 'block', margin: '20px 0' }} />
+          <div className='section-spacer' />
         </Section>
         <Section wrapperColor='#F0F9FF' sectionColor='#F0F9FF'>
-          <div style={{ display: 'block', margin: '25px 0' }} />
-
-          <div className='workshop-p1'>
-            <div>
+          <div className='section-spacer' />
+          <div className='image-text-container'>
+            <div className='image-text-left'>
               <div style={{ display: 'block', textAlign: 'center' }}>
                 <img src={whiteBoard} alt='' />
                 <figcaption style={{ marginTop: '-25px', color: '#fff' }}>
@@ -257,14 +250,12 @@ export default class FitnessStudy extends Component {
                 </figcaption>
               </div>
             </div>
-
-            <div className='workshop-p1-textbox'>
+            <div className='image-text-divider' />
+            <div className='image-text-right'>
               <h2>We’re ready to target!</h2>
               <div style={{ display: 'block', margin: '1px 0' }} />
-
               <h3>From a huge amount of data to target ideas.</h3>
               <div style={{ display: 'block', margin: '12px 0' }} />
-
               <p>
                 After analyzing the data gathered from surveys, interviews,
                 shadowings, I started building the personas and creating the
@@ -283,16 +274,14 @@ export default class FitnessStudy extends Component {
               </p>
             </div>
           </div>
-          <div style={{ display: 'block', margin: '25px 0' }} />
         </Section>
         <Section wrapperColor='#F0F9FF' sectionColor='#F0F9FF'>
+          <div className='section-spacer' />
           <div className='workshop-p2'>
             <h2>Workshop</h2>
             <div style={{ display: 'block', margin: '1px 0' }} />
-
             <h3>Who doesn’t love good ideas?</h3>
             <div style={{ display: 'block', margin: '12px 0' }} />
-
             <p>
               One of the things I like to do the most is generating ideas with a
               team, for this workshop, I asked a couple of colleagues to help me
@@ -304,8 +293,7 @@ export default class FitnessStudy extends Component {
               generating ideas, after a couple of minutes we stop and did dot
               voting.
             </p>
-            <div style={{ display: 'block', margin: '40px 0' }} />
-
+            <div className='section-spacer' style={{ display: 'flex' }} />
             <div className='workshop-p2-dotimg-container'>
               <ImagePopup
                 modalImg={dotVotinghdpi}
@@ -316,7 +304,7 @@ export default class FitnessStudy extends Component {
               />
               <figcaption>ideas generation and dot voting</figcaption>
             </div>
-            <div style={{ display: 'block', margin: '42px 0' }} />
+            <div className='section-spacer' style={{ display: 'flex' }} />
 
             <p>
               While creating all these ideas my colleagues kept asking questions
@@ -325,8 +313,7 @@ export default class FitnessStudy extends Component {
               them again, we compare them with the workshop ideas and modified
               the user flow.
             </p>
-            <div style={{ display: 'block', margin: '26px 0' }} />
-
+            <div className='section-spacer' />
             <ol className='workshop-p2-list'>
               <li className='workshop-p2-list-item'>“Does that make sense?“</li>
               <li className='workshop-p2-list-item'>
@@ -344,9 +331,7 @@ export default class FitnessStudy extends Component {
               </li>
             </ol>
           </div>
-
-          <div style={{ display: 'block', margin: '27px 0' }} />
-
+          <div className='section-spacer' />
           <div className='user-flow-img-container'>
             <img
               style={{ width: '100%', height: '100%' }}
@@ -355,11 +340,10 @@ export default class FitnessStudy extends Component {
             />
           </div>
           <figcaption>User flow</figcaption>
-          <div style={{ display: 'block', margin: '27px 0' }} />
+          <div className='section-spacer' />
         </Section>
         <Section sectionColor='#fff' wrapperColor='#fff'>
-          <div style={{ display: 'block', margin: '27px 0' }} />
-
+          <div className='section-spacer' />
           <div className='user-flow-img-container'>
             <img
               style={{ width: '100%', height: '100%' }}
@@ -370,31 +354,31 @@ export default class FitnessStudy extends Component {
               Quick wireframes of our ideas and putting them into a flow
             </figcaption>
           </div>
-          <div style={{ display: 'block', margin: '27px 0' }} />
-
+          <div className='section-spacer' />
           <div className='user-flow-img-container'>
+
+
             <img
               style={{ width: '100%', height: '100%' }}
               src={LowFiDesign}
               alt='Low fidelity design'
             />
             <figcaption>Low fidelity designs</figcaption>
+
           </div>
 
-          <div style={{ display: 'block', margin: '70px 0' }} />
+          <div className='section-spacer' />
+
         </Section>
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF' wrap>
-          <div style={{ display: 'block', margin: '46px 0' }} />
+          <div className='section-spacer' />
           <div className='image-text-container'>
             <div className='image-text-left'>
-              <div style={{ display: 'block', margin: '23px 0' }} />
-
+              <div className='section-spacer' />
               <h2>The Rightful Stakeholder</h2>
               <div style={{ display: 'block', margin: '1px 0' }} />
-
               <h3>User testing...</h3>
               <div style={{ display: 'block', margin: '6px 0' }} />
-
               <p>
                 One funny thing is that happened during user testing is that
                 users really liked the feature about rewarding them after
@@ -428,8 +412,7 @@ export default class FitnessStudy extends Component {
         </Section>
 
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
-          <div style={{ display: 'block', margin: '38px 0' }} />
-
+          <div className='section-spacer' />
           <div className='image-text-container wrap-reverse'>
             <div className='image-text-left'>
               <img src={sign_up} alt='sign up' />

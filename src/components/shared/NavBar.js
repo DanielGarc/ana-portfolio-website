@@ -27,7 +27,6 @@ export default class NavBar extends Component {
           this.props.location.state !== undefined
             ? this.props.location.state[0]
             : ''
-        // scroll: this.props.location.state.scroll
       });
     }
   }

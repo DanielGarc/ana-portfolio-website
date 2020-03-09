@@ -4,12 +4,6 @@
   --navbar-height: 100px;
 }
 
-@media only screen and (max-width: 800px) {
-  :root {
-    --margin-lg: 20px;
-  }
-}
-
 body {
   font-family: 'Lato', 'Helvetica', 'Ubuntu', sans-serif;
   /* font-weight: 100; */
@@ -67,4 +61,21 @@ figcaption {
   font-size: 12px;
   font-style: italic;
   line-height: 15px;
+}
+
+.section-spacer{
+  display: block;
+  margin: 25px 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  :root {
+    --margin-lg: 20px;
+    --navbar-height: 14vw;
+  }
+
+  .section-spacer{
+    margin: 4vw;
+  }
 }
