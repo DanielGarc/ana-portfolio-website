@@ -53,6 +53,7 @@ function FitnessStudyPage(props) {
     <div>
       <NavBar {...props} />
       <FitnessStudy />
+      <Footer />
     </div>
   );
 }

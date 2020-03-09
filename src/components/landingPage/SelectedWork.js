@@ -5,6 +5,8 @@ import airbnb from '../../assets/airbnb.png';
 import '../../css/selectedWork.css';
 import CaseStudyLink from '../shared/CaseStudyLink';
 
+import { Link } from 'react-router-dom'
+
 const SelectedWork = () => {
   return (
     <div className='selWork'>
@@ -18,7 +20,13 @@ const SelectedWork = () => {
           cslImg={fitness}
           header='Anywhere Fitness'
           color='#6C44DE'
-          url='https://invis.io/E8W9MZSH4AB#/407314749_Case_Studies'
+          url={
+            <Link
+              to={{ pathname: '/fitstudy' }}
+            >
+              <div className='cslTextLink'>READ CASE STUDY</div>
+            </Link>
+          }
           body={
             <div>
               Fitness instructors have a lot to work on, not just classes but,
@@ -38,7 +46,16 @@ const SelectedWork = () => {
         <div className='selWorkCaseStudyLinkSeparator'></div>
         <CaseStudyLink
           cslImg={airbnb}
-          url='https://invis.io/EAV3Y2IJ48K#/392903255_price_My_Airbnb_Case_Studies'
+          url={
+            <a
+              alt='Case Study'
+              href='https://invis.io/EAV3Y2IJ48K#/392903255_price_My_Airbnb_Case_Studies'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <div className='cslTextLink'>READ CASE STUDY</div>
+            </a>
+          }
           header='Price my Airbnb'
           color='#00A699'
           body={
@@ -47,10 +64,9 @@ const SelectedWork = () => {
               remain competitive while maximizing their profits.
               <br />
               <br />
-              This platform allows them to evaluate the price of their
-              properties, find ways to increase the value of their properties
-              and know when and how much should they adjust their prices based
-              on events, seasons, holidays, and/or location.
+              This platform allows them to evaluate the price of their properties, find ways
+              to increase the value of their properties and know when and how much should they
+              adjust their prices based on events, seasons, holidays, and/or location.
               <br />
               <br />
               <br />

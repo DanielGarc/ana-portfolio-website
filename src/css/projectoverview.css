@@ -1,0 +1,146 @@
+.po-wrapper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to top, #fff 97px, #f0f9ff 0%);
+}
+
+.po-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  max-width: 660px;
+  margin: auto;
+}
+
+.po-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.po-item p {
+  margin: 11px auto auto auto;
+  color: #6d7278;
+  font-weight: 500;
+}
+
+
+
+.po-overview-text-header {
+
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+
+  text-align: left;
+}
+
+.po-overview-text-block {
+  margin: 12px auto auto auto;
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 19px;
+  /* word-break: break-all; */
+
+  text-align: left;
+}
+
+.po-overview-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-color: white;
+  margin: auto;
+  padding: 17px 3px 34px 3px;
+
+  border-radius: 9px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 41px -33px rgba(48, 52, 54, 0.9);
+
+  width: 505px;
+
+  z-index: 1000;
+}
+
+.po-overview-card-left-content {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+}
+
+.po-overview-card-right-content {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+}
+
+.po-overview-card-content-header {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+
+}
+
+.po-overview-card-content-text {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  margin-top: 12px;
+}
+
+.design-process {
+  margin: auto var(--margin-lg) auto var(--margin-lg);
+}
+
+@media only screen and (max-width: 800px) {
+  .po-item-container {
+    display: block;
+    margin: auto;
+  }
+
+  .po-item{
+    margin: 4vw 0;
+  }
+
+  .po-overview-text-header{  
+    text-align: center;
+  }
+
+  .po-overview-text {
+    margin: auto var(--margin-lg) auto var(--margin-lg);
+  }
+
+  .project-overview h2{
+    text-align: center;
+  }
+
+  .po-overview-card-container {
+  width: auto;
+  }
+
+  .po-overview-card-container {
+    flex-wrap: wrap;
+  }
+
+  .po-overview-card-right-content {
+    margin-top: 4vw;
+  }
+
+  .po-overview-card-left-content {
+    margin-top: 4vw;
+  }
+
+  
+}

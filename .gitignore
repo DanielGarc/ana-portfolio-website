@@ -28,3 +28,6 @@ vsws.code-workspace
 
 # swap files
 *.swp
+
+#firebase
+firebase-debug.log
