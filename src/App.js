@@ -9,8 +9,9 @@ import SelectedWork from './components/landingPage/SelectedWork';
 import AboutCTA from './components/aboutPage/AboutCTA';
 import ContactForm from './components/shared/ContactForm';
 import Footer from './components/shared/Footer';
-import Projects from './components/projectsPage/Projects';
+// import Projects from './components/projectsPage/Projects';
 import FitnessStudy from './components/caseStudies/FitnessStudy';
+import AirbnbStudy from './components/caseStudies/AirbnbStudy.js';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route exact path='/' component={LandingPage} />
         <Route exact path='/about' component={AboutPage} />
         <Route exact path='/fitstudy' component={FitnessStudyPage} />
+        <Route exact path='/airbnb' component={AirbnbStudyPage} />
+
         {/* <Route exact path='/projects' component={Projects} /> */}
         <Route component={LandingPage} />
       </Switch>
@@ -55,6 +58,16 @@ function FitnessStudyPage(props) {
       <FitnessStudy />
       <Footer />
     </div>
+  );
+}
+
+function AirbnbStudyPage(props) {
+  return (
+    <>
+      <NavBar {...props} />
+      <AirbnbStudy />
+      <Footer />
+    </>
   );
 }
 
