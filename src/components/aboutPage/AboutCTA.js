@@ -70,8 +70,8 @@ const AboutCTA = () => {
             <div className='aboutHeader'>ABOUT</div>
             <div className='paragraphText'>
               I've always been worried about people and finding ways to be
-              useful, but that's how I am, I never thought that one day I would
-              work with something that would involve people.
+              useful, because that's who I am, I always dreamt about helping change the
+              world but never thought I will actually be part of it.
               <br />
               <br />
               After moving to the United States, I was working as a systems
@@ -86,13 +86,13 @@ const AboutCTA = () => {
               myself really immersed in those sketches and screens, sometimes
               spending all day on them without realizing it. I remember thinking
               at that time "This is how people should feel about their work;
-              excited about what they are doing, enjoying and having passion to
-              offer an unforgettable experience."
+              excited about what they are doing, feeling like somehow you're 
+              doing something to change the wrold for better".
               <br />
               <br />
               At this time I was quite new in design and after researching what
               careers involved working on prototypes, experiences, user behavior
-              and design, I found HCI and with that the UX professional career.
+              and design, I found HCI and with that my path to UX.
               I bought books, watched videos and did courses on HCI and UX
               design and found it; my passion.
             </div>
@@ -133,7 +133,9 @@ const AboutCTA = () => {
       <div className='otherSection'>
         <div className='otherWrapper'>
           <div className='otherSectionHeader'>
+        <div className='section-spacer' />
             Who am I besides a UX designer?
+            <div className='section-spacer' />
           </div>
 
           <div className='hobbies'>
@@ -155,6 +157,7 @@ const AboutCTA = () => {
             <div className='myHobby'>
               <img alt='' src={Runner} />
               <p> Runner </p>
+            <div className='section-spacer' />
             </div>
           </div>
         </div>
