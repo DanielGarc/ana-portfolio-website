@@ -10,7 +10,6 @@ import avatarTop from '../../assets/top_avatar.svg';
 import avatarBottom from '../../assets/bottom_avatar.svg';
 import whiteBoard from '../../assets/whiteboard.png';
 import dotVoting from '../../assets/dot_voting.png';
-import dotVotinghdpi from '../../assets/dot_voting_hdpi.png';
 import Wireframe from '../../assets/wireframe_fitstudy.png';
 import LowFiDesign from '../../assets/lowfidelity_fitsudy.png';
 import ScreenProfile from '../../assets/screen_profile.png';
@@ -296,7 +295,7 @@ export default class FitnessStudy extends Component {
             <div className='section-spacer' style={{ display: 'flex' }} />
             <div className='workshop-p2-dotimg-container'>
               <ImagePopup
-                modalImg={dotVotinghdpi}
+                modalImg={dotVoting}
                 img={dotVoting}
                 imgWidth='80%'
                 altImg='dot voting'
