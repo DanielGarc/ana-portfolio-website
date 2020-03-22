@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1845px" height="1294px" viewBox="0 0 1845 1294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-81.000000, -144.000000)" id="Group">
+            <g transform="translate(82.000000, 144.000000)">
+                <g id="Homepage-for-instructors" transform="translate(888.000000, 0.000000)">
+                    <g id="tiles/main-page" transform="translate(360.000000, 317.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="15.6198676" y="35.7464018">Transactions</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-6-copy-2" transform="translate(257.000000, 591.000000) scale(-1, 1) rotate(180.000000) translate(-257.000000, -591.000000) translate(149.000000, 446.000000)">
+                        <g id="arrow-6" transform="translate(0.363636, 0.676471)">
+                            <path d="M161,0.205882353 L9.99525822,0.205882353 C4.47502953,0.205882353 -1.42823093e-15,4.68255178 -1.24515335e-15,10.2028928 L7.54355256e-15,275.208872 C7.72665851e-15,280.730068 4.47800071,285.195179 10.0012175,285.181977 L209.181818,284.705882" id="Path-6" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="209.181818 288.205882 209.181818 281.205882 214.181818 284.705882"></polygon>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(360.000000, 236.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="28.013201" y="35.7464018">Schedule</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Clients-flow" transform="translate(191.000000, 405.000000)">
+                        <g id="tiles/main-page" transform="translate(175.000000, 0.000000)">
+                            <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                                <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                                <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="37.1370343" y="35.7464018">clients</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-4.1" transform="translate(235.000000, 176.500000) rotate(90.000000) translate(-235.000000, -176.500000) translate(117.500000, -12.500000)">
+                            <g id="arrow-4.1" transform="translate(0.000000, 5.727273)">
+                                <path d="M230.178862,4 L196.751333,4 L71.0096681,4 C65.4814811,4 61,8.4684391 61,13.999131 L61,352.546324 C61,358.068691 65.4815476,362.545455 70.9980823,362.545455 L230.178862,362.545455" id="Path-4" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <line x1="61.5185909" y1="184.204545" x2="0.995833406" y2="184.204545" id="Path-5" stroke="#17C0E0" stroke-width="1.5"></line>
+                                <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="4" cy="183.272727" r="3"></circle>
+                                <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="226.178862 366.545455 226.178862 358.545455 231.178862 362.545455"></polygon>
+                                <polygon id="Triangle-2-Copy-5" fill="#17C0E0" points="226.178862 8 226.178862 0 231.178862 4"></polygon>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-2" transform="translate(182.000000, 119.000000)">
+                            <g id="arrow-2">
+                                <path d="M0,0 L1.08149538e-14,183.565911 C1.11403149e-14,189.088375 4.4722361,193.565217 10.0015031,193.565217 L173,193.565217" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <polygon id="Triangle-2" fill="#17C0E0" points="170 197.565217 170 189.565217 175 193.565217"></polygon>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-2" transform="translate(281.000000, 119.000000)">
+                            <g id="arrow-2">
+                                <path d="M0,0 L4.62604962e-15,183.565911 C4.7652214e-15,189.088375 4.47616904,193.565217 9.99920117,193.565217 L74,193.565217" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <polygon id="Triangle-2" fill="#17C0E0" points="71 197.565217 71 189.565217 76 193.565217"></polygon>
+                            </g>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(363.000000, 177.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="4.992" y="32.0879517">OVERVIEW</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(127.000000, 177.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="16.05" y="32.0879517">DELETE</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(9.000000, 176.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="25.908" y="32.0879517">ADD</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(245.000000, 177.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="14.01" y="32.0879517">UPDATE</tspan>
+                            </text>
+                        </g>
+                        <g id="tiles/main-page" transform="translate(357.000000, 294.000000)">
+                            <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                                <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                                <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="14.6145342" y="35.7464018">Client profile</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="tiles/main-page" transform="translate(0.000000, 294.000000)">
+                            <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                                <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                                <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="5.77886752" y="35.7464018">Add client form</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Client-profile" transform="translate(477.000000, 273.000000)">
+                            <g id="notes/note">
+                                <g id="note">
+                                    <rect id="Rectangle-5" fill="#C4E1F7" x="8" y="0" width="116" height="111" rx="10"></rect>
+                                    <polygon id="Rectangle-6" fill="#C4E1F7" transform="translate(12.000000, 59.962963) rotate(-315.000000) translate(-12.000000, -59.962963) " points="4 51.1688889 20 51.1688889 20 68.757037 4 68.757037"></polygon>
+                                    <text id="Includes:---Features" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                        <tspan x="12.5137615" y="24.5660377">Includes:</tspan>
+                                        <tspan x="12.5137615" y="39.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Messurements</tspan>
+                                        <tspan x="12.5137615" y="54.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Punches</tspan>
+                                        <tspan x="12.5137615" y="69.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Goals</tspan>
+                                        <tspan x="12.5137615" y="84.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Tasks/challenges</tspan>
+                                        <tspan x="12.5137615" y="99.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Classe</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Client-profile-Copy" transform="translate(492.000000, 310.000000)">
+                        <g id="notes/note">
+                            <g id="note">
+                                <rect id="Rectangle-5" fill="#C4E1F7" x="8" y="0" width="165" height="72" rx="10"></rect>
+                                <polygon id="Rectangle-6" fill="#C4E1F7" transform="translate(12.000000, 20.962963) rotate(-315.000000) translate(-12.000000, -20.962963) " points="4 12.1688889 20 12.1688889 20 29.757037 4 29.757037"></polygon>
+                                <text id="Includes:---Features" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="17.4587156" y="20.1509434">Includes:</tspan>
+                                    <tspan x="17.4587156" y="35.1509434" font-family="Roboto-Regular, Roboto" font-weight="normal">-Clients who have paid</tspan>
+                                    <tspan x="17.4587156" y="50.1509434" font-family="Roboto-Regular, Roboto" font-weight="normal">-Almost time to renew</tspan>
+                                    <tspan x="17.4587156" y="65.1509434" font-family="Roboto-Regular, Roboto" font-weight="normal">-Haven't paid</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Class-flow" transform="translate(113.000000, 0.000000)">
+                        <g id="notes/note" transform="translate(731.000000, 28.000000)">
+                            <g id="note">
+                                <rect id="Rectangle-5" fill="#C4E1F7" x="8" y="0" width="102" height="128" rx="10"></rect>
+                                <polygon id="Rectangle-6" fill="#C4E1F7" transform="translate(12.000000, 76.962963) rotate(-315.000000) translate(-12.000000, -76.962963) " points="4 68.1688889 20 68.1688889 20 85.757037 4 85.757037"></polygon>
+                                <text id="Includes:---Features" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="11.1009174" y="26.490566">Includes:</tspan>
+                                    <tspan x="11.1009174" y="41.490566" font-family="Roboto-Regular, Roboto" font-weight="normal">-Name</tspan>
+                                    <tspan x="11.1009174" y="56.490566" font-family="Roboto-Regular, Roboto" font-weight="normal">-Workouts</tspan>
+                                    <tspan x="11.1009174" y="71.490566" font-family="Roboto-Regular, Roboto" font-weight="normal">-Category</tspan>
+                                    <tspan x="11.1009174" y="86.490566" font-family="Roboto-Regular, Roboto" font-weight="normal">-Times</tspan>
+                                    <tspan x="11.1009174" y="101.490566" font-family="Roboto-Regular, Roboto" font-weight="normal">-Punches</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-4.1" transform="translate(367.000000, 63.000000)">
+                            <g id="arrow-4.1" transform="translate(0.000000, 1.136364)">
+                                <path d="M235.097561,4 L200.698162,4 L70.9906844,4 C65.4729818,4 61,8.47450555 61,14.0071778 L61,58.7200949 C61,64.2469066 65.4785131,68.7272727 71.0014057,68.7272727 L235.097561,68.7272727" id="Path-4" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <line x1="61.5185909" y1="36.1477273" x2="0.995833406" y2="36.1477273" id="Path-5" stroke="#17C0E0" stroke-width="1.5"></line>
+                                <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="4" cy="36.3636364" r="3"></circle>
+                                <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="231.097561 72.7272727 231.097561 64.7272727 236.097561 68.7272727"></polygon>
+                                <polygon id="Triangle-2-Copy-5" fill="#17C0E0" points="231.097561 8 231.097561 0 236.097561 4"></polygon>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-3.1" transform="translate(406.500000, 145.000000) scale(-1, -1) translate(-406.500000, -145.000000) translate(367.000000, 127.000000)">
+                            <g id="arrow-3.1" transform="translate(1.926829, 0.000000)">
+                                <path d="M0,3 L28.2612267,3 C33.786101,3 38.2648966,7.47509512 38.2648966,12.9999892 L38.2648966,23.0000108 C38.2648966,28.5228523 42.7466023,33 48.2628294,33 L75.5731707,33" id="Path-3" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <circle id="Oval--Copy" stroke="#17C0E0" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                                <polygon id="Triangle-2-Copy" fill="#17C0E0" points="74.0731707 36 74.0731707 30 77.0731707 33"></polygon>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-3.1" transform="translate(406.500000, 161.000000) scale(-1, -1) translate(-406.500000, -161.000000) translate(367.000000, 128.000000)">
+                            <g id="arrow-3.1" transform="translate(1.926829, 0.000000)">
+                                <path d="M0,3 L28.2612267,3 C33.786101,3 38.2648966,7.48521396 38.2648966,13.0088711 L38.2648966,52.9911289 C38.2648966,58.5188758 42.7466023,63 48.2628294,63 L75.5731707,63" id="Path-3" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <circle id="Oval--Copy" stroke="#17C0E0" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                                <polygon id="Triangle-2-Copy" fill="#17C0E0" points="74.0731707 66 74.0731707 60 77.0731707 63"></polygon>
+                            </g>
+                        </g>
+                        <g id="line" transform="translate(421.000000, 91.000000)">
+                            <g id="arrow-1" transform="translate(7.000000, 0.000000)">
+                                <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 8 12.5966356 8 171 8"></polyline>
+                                <polygon id="Triangle" fill="#17C0E0" points="170 11.5 170 4.5 175 8"></polygon>
+                            </g>
+                        </g>
+                        <g id="arrows/arrow-6" transform="translate(482.000000, 48.000000) rotate(90.000000) translate(-482.000000, -48.000000) translate(441.000000, -150.000000)">
+                            <g id="arrow-6" transform="translate(3.727273, 17.470588)">
+                                <path d="M75.030303,0 L10.0022267,3.82960072e-14 C4.47814942,4.1549219e-14 -6.80678838e-16,4.46953684 -6.13818738e-16,9.99289327 L3.54904111e-15,353.88946 C3.61584754e-15,359.408382 4.48560404,363.882353 9.99328036,363.882353 L74.3850684,363.882353" id="Path-6" stroke="#17C0E0" stroke-width="1.5"></path>
+                                <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="72.030303 366.882353 72.030303 359.882353 77.030303 363.382353"></polygon>
+                            </g>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(446.000000, 49.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="27.5" rx="13.75"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="25.908" y="17.5879517">ADD</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(446.000000, 81.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="27.5" rx="13.75"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="14.01" y="17.5879517">UPDATE</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(446.000000, 113.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="27.5" rx="13.75"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="4.992" y="17.5879517">OVERVIEW</tspan>
+                            </text>
+                        </g>
+                        <g id="tiles/main-page" transform="translate(247.000000, 89.000000)">
+                            <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                                <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="61" rx="5"></rect>
+                                <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,56.0008045 C120.991736,58.7617839 118.754389,61 115.988262,61 L5.9952087,61 C3.23186678,61 0.991735537,58.760954 0.991735537,56.0008045 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="34.5500343" y="37.3367329">Classes</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(446.000000, 177.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="27.5" rx="13.75"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="16.05" y="17.5879517">DELETE</tspan>
+                            </text>
+                        </g>
+                        <g id="BLOCK-page" transform="translate(446.000000, 145.000000)">
+                            <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="27.5" rx="13.75"></rect>
+                            <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                                <tspan x="14.31" y="17.5879517">SEARCH</tspan>
+                            </text>
+                        </g>
+                        <g id="tiles/main-page" transform="translate(607.000000, 40.000000)">
+                            <g id="main-page" transform="translate(-1.033333, 0.000000)">
+                                <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="124.033333" height="101" rx="5"></rect>
+                                <path d="M0.991735537,14.9006623 L125.025069,14.9006623 L125.025069,95.9987832 C125.025069,98.7608789 122.793052,101 120.028515,101 L5.98828901,101 C3.22876873,101 0.991735537,98.7632871 0.991735537,95.9987832 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                                <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                    <tspan x="26.5825632" y="58.5411479">class form</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="labels/success" transform="translate(440.000000, 0.000000)">
+                            <g id="success">
+                                <rect id="Rectangle" fill="#4CBA38" x="0" y="0" width="78" height="20" rx="10"></rect>
+                                <text id="Success!" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                                    <tspan x="7.88273095" y="15">Succesfull</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="labels/success" transform="translate(0.000000, 524.000000)">
+                            <g id="success">
+                                <rect id="Rectangle" fill="#4CBA38" x="0" y="0" width="78" height="20" rx="10"></rect>
+                                <text id="Success!" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                                    <tspan x="7.88273095" y="15">Succesfull</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-4.1" transform="translate(0.000000, 120.000000)">
+                        <g id="arrow-4.1" transform="translate(0.000000, 4.590909)">
+                            <path d="M360.03252,4 L300.947608,4 L71.0047618,4 C65.4792844,4 61,8.47514821 61,14.0048305 L61,279.813351 C61,285.338867 65.4739198,289.818182 70.9920589,289.818182 L360.03252,289.818182" id="Path-4" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <line x1="61.5185909" y1="147.556818" x2="0.995833406" y2="147.556818" id="Path-5" stroke="#17C0E0" stroke-width="1.5"></line>
+                            <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="4" cy="146.909091" r="3"></circle>
+                            <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="356.03252 293.818182 356.03252 285.818182 361.03252 289.818182"></polygon>
+                            <polygon id="Triangle-2-Copy-5" fill="#17C0E0" points="356.03252 8 356.03252 0 361.03252 4"></polygon>
+                        </g>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(113.000000, 97.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="12.288" y="32.0879517">CLASSES</tspan>
+                        </text>
+                    </g>
+                    <g id="line" transform="translate(49.000000, 343.000000)">
+                        <g id="arrow-1" transform="translate(11.961538, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 21.7338713 3.5 295.038462 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="294.038462 7 294.038462 0 299.038462 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(48.000000, 269.000000)">
+                        <g id="arrow-1" transform="translate(11.961538, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 21.7338713 3.5 295.038462 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="294.038462 7 294.038462 0 299.038462 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(113.000000, 242.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="4.962" y="32.0879517">CALENDAR</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(113.000000, 170.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="13.098" y="32.0879517">PROFILE</tspan>
+                        </text>
+                    </g>
+                    <g id="line" transform="translate(60.000000, 192.000000)">
+                        <g id="arrow-1" transform="translate(2.000000, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 3.38856864 3.5 46 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="45 7 45 0 50 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(113.000000, 314.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="5.232" y="32.0879517">PAYMENTS</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(112.000000, 385.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="56.5" rx="21"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="11.994" y="32.0879517">MANAGE</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Trainees-flow" transform="translate(338.000000, 497.000000)">
+                    <g id="tiles/main-page" transform="translate(148.000000, 0.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="22.033201" y="35.7464018">Homepage</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-4.1" transform="translate(209.000000, 177.000000) rotate(90.000000) translate(-209.000000, -177.000000) translate(91.500000, 14.500000)">
+                        <g id="arrow-4.1" transform="translate(0.000000, 4.924242)">
+                            <path d="M230.178862,4 L196.751333,4 L71.0096681,4 C65.4814811,4 61,8.47529599 61,14.0014118 L61,301.150103 C61,306.673731 65.4815476,311.151515 70.9980823,311.151515 L230.178862,311.151515" id="Path-4" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <line x1="61.5185909" y1="158.306818" x2="0.995833406" y2="158.306818" id="Path-5" stroke="#17C0E0" stroke-width="1.5"></line>
+                            <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="4" cy="157.575758" r="3"></circle>
+                            <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="226.178862 315.151515 226.178862 307.151515 231.178862 311.151515"></polygon>
+                            <polygon id="Triangle-2-Copy-5" fill="#17C0E0" points="226.178862 8 226.178862 0 231.178862 4"></polygon>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(159.000000, 391.500000) rotate(89.000000) translate(-159.000000, -391.500000) translate(117.000000, 388.000000)">
+                        <g id="arrow-1" transform="translate(3.230769, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 5.65516974 3.5 76.7692308 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="75.7692308 7 75.7692308 8.8817842e-16 80.7692308 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(365.331596, 608.497106) rotate(89.000000) translate(-365.331596, -608.497106) translate(342.331596, 604.997106)">
+                        <g id="arrow-1" transform="translate(1.769231, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 2.96358094 3.5 40.2307692 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="39.2307692 7 39.2307692 8.8817842e-16 44.2307692 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(404.000000, 664.000000)">
+                        <g id="arrow-1" transform="translate(4.038462, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 7.14262671 3.5 96.9615385 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="95.9615385 7 95.9615385 8.8817842e-16 100.961538 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-2" transform="translate(156.500000, 246.000000) scale(1, -1) rotate(-90.000000) translate(-156.500000, -246.000000) translate(108.000000, 198.000000)">
+                        <g id="arrow-2">
+                            <path d="M0,0 L5.52556537e-15,75.037832 C5.93248125e-15,80.5637978 4.48633192,85.0434783 10.009483,85.0434783 L95,85.0434783" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2" fill="#17C0E0" points="92 89.0434783 92 81.0434783 97 85.0434783"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-2" transform="translate(240.000000, 246.000000) scale(1, -1) rotate(-90.000000) translate(-240.000000, -246.000000) translate(191.500000, 181.500000)">
+                        <g id="arrow-2">
+                            <path d="M0,0 L5.72096865e-15,105.653992 C6.01996628e-15,111.175835 4.48633192,115.652174 10.009483,115.652174 L95,115.652174" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2" fill="#17C0E0" points="92 119.652174 92 111.652174 97 115.652174"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-2" transform="translate(135.000000, 489.000000)">
+                        <g id="arrow-2">
+                            <path d="M0,0 L9.36230246e-15,54.6443546 C1.03079091e-14,60.1635165 4.47193269,64.6376812 10.0060501,64.6376812 L168,64.6376812" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2" fill="#17C0E0" points="165 68.6376812 165 60.6376812 170 64.6376812"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-2" transform="translate(552.000000, 698.000000)">
+                        <g id="arrow-2">
+                            <path d="M0,0 L4.01241534e-15,54.6443546 C4.41767531e-15,60.1635165 4.47671884,64.6376812 9.99237268,64.6376812 L72,64.6376812" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2" fill="#17C0E0" points="69 68.6376812 69 60.6376812 74 64.6376812"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-2" transform="translate(277.000000, 511.500000) scale(-1, 1) rotate(-90.000000) translate(-277.000000, -511.500000) translate(120.000000, 443.000000)">
+                        <g id="arrow-2">
+                            <path d="M0,0 L1.88968805e-14,113.079158 C1.98191966e-14,118.598308 4.47047283,123.072464 10.0055298,123.072464 L312,123.072464" id="Path-2" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2" fill="#17C0E0" points="309 127.072464 309 119.072464 314 123.072464"></polygon>
+                        </g>
+                    </g>
+                    <g id="arrows/arrow-6-copy-3" transform="translate(442.500000, 351.000000) rotate(180.000000) translate(-442.500000, -351.000000) translate(275.000000, 32.000000)">
+                        <g id="arrow-6" transform="translate(-0.000000, -0.000000)">
+                            <path d="M64.4825366,1.4087424e-13 L10.0046461,-1.51089847e-13 C4.47923262,-1.80702269e-13 -3.11776778e-15,4.47689491 -2.94795245e-15,9.99750823 L1.59525524e-14,624.443668 C1.61223941e-14,629.96514 4.4713219,634.441176 9.99806251,634.441176 L329.565509,634.441176" id="Path-6" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="329.424242 637.441176 329.424242 630.441176 334.424242 633.941176"></polygon>
+                        </g>
+                        <g id="arrow-6-copy" transform="translate(136.500000, 290.000000) scale(1, -1) translate(-136.500000, -290.000000) translate(82.000000, 105.000000)">
+                            <path d="M109,2.2759572e-14 L9.99834717,-4.73375073e-13 C4.47641251,-5.01047572e-13 2.98780835e-12,4.47501432 2.98788774e-12,10.006699 L2.992868e-12,356.993301 C2.99294732e-12,362.519848 4.47220524,367 10.0097111,367 L88.954023,367" id="Path-6" stroke="#17C0E0" stroke-width="1.5"></path>
+                            <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="89 370 89 363 94 366.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(93.279239, 391.497563) rotate(89.000000) translate(-93.279239, -391.497563) translate(51.279239, 387.997563)">
+                        <g id="arrow-1" transform="translate(3.230769, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 5.65516974 3.5 76.7692308 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="75.7692308 7 75.7692308 8.8817842e-16 80.7692308 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(320.000000, 177.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="30.5" rx="15.25"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="14.01" y="19.0879517">UPDATE</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(9.000000, 176.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="30.5" rx="15.25"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="4.992" y="19.0879517">OVERVIEW</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(74.000000, 373.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="30.5" rx="15.25"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="4.05" y="19.0879517">SUBSCRIBE</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(130.000000, 531.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="30.5" rx="15.25"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="27.834" y="19.0879517">USE</tspan>
+                        </text>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(270.000000, 295.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="37.1023677" y="35.7464018">Profile</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(135.000000, 294.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="28.981701" y="35.7464018">Calendar</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(0.000000, 294.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="6.96186752" y="35.7464018">Trainers profile</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(70.000000, 434.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="67" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,62.0044965 C120.991736,64.7634369 118.754389,67 115.988262,67 L5.9952087,67 C3.23186678,67 0.991735537,64.7613566 0.991735537,62.0044965 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="34.5500343" y="40.5173951">Classes </tspan>
+                                <tspan x="28.708701" y="56.5173951">schedule</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(308.000000, 523.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="67" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,62.0044965 C120.991736,64.7634369 118.754389,67 115.988262,67 L5.9952087,67 C3.23186678,67 0.991735537,64.7613566 0.991735537,62.0044965 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="20.1720343" y="40.5173951">Punch pass</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="tiles/main-page" transform="translate(629.000000, 729.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="67" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,62.0044965 C120.991736,64.7634369 118.754389,67 115.988262,67 L5.9952087,67 C3.23186678,67 0.991735537,64.7613566 0.991735537,62.0044965 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="2.63936752" y="40.5173951">New transaction</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="note-for-client" transform="translate(388.000000, 296.000000)">
+                        <g id="note">
+                            <rect id="Rectangle-5" fill="#C4E1F7" x="8" y="0" width="116" height="111" rx="10"></rect>
+                            <polygon id="Rectangle-6" fill="#C4E1F7" transform="translate(12.000000, 27.962963) rotate(-315.000000) translate(-12.000000, -27.962963) " points="4 19.1688889 20 19.1688889 20 36.757037 4 36.757037"></polygon>
+                            <text id="Includes:---Features" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="12.5137615" y="24.5660377">Includes:</tspan>
+                                <tspan x="12.5137615" y="39.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Messurements</tspan>
+                                <tspan x="12.5137615" y="54.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Punches</tspan>
+                                <tspan x="12.5137615" y="69.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Goals</tspan>
+                                <tspan x="12.5137615" y="84.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Tasks/challenges</tspan>
+                                <tspan x="12.5137615" y="99.5660377" font-family="Roboto-Regular, Roboto" font-weight="normal">-Classes</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="question-copy" transform="translate(323.000000, 624.000000)">
+                        <path d="M17.8989982,14.6720524 C16.8413461,14.5907218 15.9076116,14.9299347 15.2643809,15.5731653 C14.6211687,16.2163776 14.2819516,17.1500876 14.3632842,18.2077663 L17.8797045,63.9365402 C17.9675858,65.0793807 18.5188937,66.1444842 19.3238453,66.9494358 C20.1287739,67.7543645 21.1938519,68.305674 22.3367219,68.3935577 L68.0654958,71.9099779 C69.1231479,71.9913085 70.0568823,71.6520957 70.700113,71.008865 C71.3433252,70.3656528 71.6825424,69.4319427 71.6012097,68.374264 L68.0847895,22.6454901 C67.9969081,21.5026497 67.4456003,20.4375461 66.6406487,19.6325945 C65.83572,18.8276659 64.770642,18.2763563 63.627772,18.1884727 L17.8989982,14.6720524 Z" id="Rectangle-8" stroke="#1787E0" stroke-width="2" fill="#E4F3FF" transform="translate(42.982247, 43.291015) rotate(-45.000000) translate(-42.982247, -43.291015) "></path>
+                        <text id="Available" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" letter-spacing="0.1833334" fill="#1787E0">
+                            <tspan x="19.5277829" y="47">Available</tspan>
+                        </text>
+                    </g>
+                    <g id="question-copy-2" transform="translate(509.000000, 625.000000)">
+                        <path d="M17.8989982,14.6720524 C16.8413461,14.5907218 15.9076116,14.9299347 15.2643809,15.5731653 C14.6211687,16.2163776 14.2819516,17.1500876 14.3632842,18.2077663 L17.8797045,63.9365402 C17.9675858,65.0793807 18.5188937,66.1444842 19.3238453,66.9494358 C20.1287739,67.7543645 21.1938519,68.305674 22.3367219,68.3935577 L68.0654958,71.9099779 C69.1231479,71.9913085 70.0568823,71.6520957 70.700113,71.008865 C71.3433252,70.3656528 71.6825424,69.4319427 71.6012097,68.374264 L68.0847895,22.6454901 C67.9969081,21.5026497 67.4456003,20.4375461 66.6406487,19.6325945 C65.83572,18.8276659 64.770642,18.2763563 63.627772,18.1884727 L17.8989982,14.6720524 Z" id="Rectangle-8" stroke="#1787E0" stroke-width="2" fill="#E4F3FF" transform="translate(42.982247, 43.291015) rotate(-45.000000) translate(-42.982247, -43.291015) "></path>
+                        <text id="Buy-more?" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" letter-spacing="0.1833334" fill="#1787E0">
+                            <tspan x="15.9210934" y="47">Buy more?</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(0.000000, 342.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="75" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,70.0050392 C120.991736,72.7636799 118.754389,75 115.988262,75 L5.9952087,75 C3.23186678,75 0.991735537,72.7537216 0.991735537,70.0050392 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="31.6965343" y="44.7582781">Landing</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(236.000000, 226.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="75" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,70.0050392 C120.991736,72.7636799 118.754389,75 115.988262,75 L5.9952087,75 C3.23186678,75 0.991735537,72.7537216 0.991735537,70.0050392 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="38.8508677" y="44.7582781">Log in</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(236.000000, 574.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="75" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,70.0050392 C120.991736,72.7636799 118.754389,75 115.988262,75 L5.9952087,75 C3.23186678,75 0.991735537,72.7537216 0.991735537,70.0050392 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="38.939701" y="44.7582781">About</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(233.000000, 398.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="75" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,70.0050392 C120.991736,72.7636799 118.754389,75 115.988262,75 L5.9952087,75 C3.23186678,75 0.991735537,72.7537216 0.991735537,70.0050392 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="35.4340343" y="44.7582781">Pricing</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(236.000000, 117.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="75" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,70.0050392 C120.991736,72.7636799 118.754389,75 115.988262,75 L5.9952087,75 C3.23186678,75 0.991735537,72.7537216 0.991735537,70.0050392 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="33.1460343" y="44.7582781">Sign Up</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Flow-explanation" transform="translate(1415.000000, 916.000000)">
+                    <g id="tiles/main-page" transform="translate(36.000000, 97.000000)">
+                        <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                            <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                            <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                            <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="39.8410344" y="35.7464018">Name</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="labels/success" transform="translate(313.000000, 126.000000)">
+                        <g id="success">
+                            <rect id="Rectangle" fill="#4CBA38" x="0" y="0" width="78" height="20" rx="10"></rect>
+                            <text id="Success!" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                                <tspan x="12.0698566" y="15">Success!</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="labels/yes" transform="translate(338.000000, 207.000000)">
+                        <g id="yes">
+                            <circle id="Oval-3" fill="#4CBA38" cx="16" cy="16" r="16"></circle>
+                            <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                                <tspan x="5.18232417" y="21">Yes</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="labels/no" transform="translate(338.000000, 164.000000)">
+                        <g id="no">
+                            <circle id="Oval-3" fill="#FF6660" cx="16" cy="16" r="16"></circle>
+                            <text id="No" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                                <tspan x="7.44251299" y="21">No</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="question-copy-3" transform="translate(53.000000, 168.000000)">
+                        <path d="M17.8989982,14.6720524 C16.8413461,14.5907218 15.9076116,14.9299347 15.2643809,15.5731653 C14.6211687,16.2163776 14.2819516,17.1500876 14.3632842,18.2077663 L17.8797045,63.9365402 C17.9675858,65.0793807 18.5188937,66.1444842 19.3238453,66.9494358 C20.1287739,67.7543645 21.1938519,68.305674 22.3367219,68.3935577 L68.0654958,71.9099779 C69.1231479,71.9913085 70.0568823,71.6520957 70.700113,71.008865 C71.3433252,70.3656528 71.6825424,69.4319427 71.6012097,68.374264 L68.0847895,22.6454901 C67.9969081,21.5026497 67.4456003,20.4375461 66.6406487,19.6325945 C65.83572,18.8276659 64.770642,18.2763563 63.627772,18.1884727 L17.8989982,14.6720524 Z" id="Rectangle-8" stroke="#1787E0" stroke-width="2" fill="#E4F3FF" transform="translate(42.982247, 43.291015) rotate(-45.000000) translate(-42.982247, -43.291015) "></path>
+                        <text id="Question" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" letter-spacing="0.1833334" fill="#1787E0">
+                            <tspan x="20.0840492" y="47">Question</tspan>
+                        </text>
+                    </g>
+                    <g id="line" transform="translate(87.000000, 339.000000)">
+                        <g id="arrow-1" transform="translate(2.000000, 0.000000)">
+                            <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 3.38856864 3.5 46 3.5"></polyline>
+                            <polygon id="Triangle" fill="#17C0E0" points="45 7 45 0 50 3.5"></polygon>
+                        </g>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(47.000000, 269.000000)">
+                        <rect id="Rectangle" stroke="#1787E0" stroke-width="1.5" fill="#DEEFFE" fill-rule="evenodd" x="0.75" y="0.75" width="100.5" height="30.5" rx="15.25"></rect>
+                        <text id="landing-page" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="14" fill="#1787E0">
+                            <tspan x="11.544" y="19.0879517">OPTIONS</tspan>
+                        </text>
+                    </g>
+                    <text id="Page" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.300000109" fill="#1787E0">
+                        <tspan x="184" y="129">Page</tspan>
+                    </text>
+                    <text id="Decision" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.300000109" fill="#1787E0">
+                        <tspan x="184" y="214">Decision</tspan>
+                    </text>
+                    <text id="Actions" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.300000109" fill="#1787E0">
+                        <tspan x="184" y="291">Actions</tspan>
+                    </text>
+                    <text id="Flow" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.300000109" fill="#1787E0">
+                        <tspan x="184" y="345">Flow</tspan>
+                    </text>
+                    <text font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" letter-spacing="0.400000145" fill="#1787E0">
+                        <tspan x="133" y="54">Flow explanation</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#17C0E0" stroke-width="1.5" x="0.75" y="0.75" width="427.5" height="376.5"></rect>
+                </g>
+                <g id="arrows/arrow-1" transform="translate(356.000000, 257.000000)">
+                    <g id="arrow-1" transform="translate(3.622951, 1.714286)">
+                        <line x1="1" y1="4.28571429" x2="435.277612" y2="4.28571429" id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square"></line>
+                        <circle id="Oval" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="2.5" cy="4.28571429" r="2.5"></circle>
+                        <polygon id="Triangle" fill="#17C0E0" points="434.377049 6.78571429 434.377049 1.78571429 438.377049 4.28571429"></polygon>
+                    </g>
+                </g>
+                <g id="tiles/main-page" transform="translate(768.000000, 233.000000)">
+                    <g id="main-page" transform="translate(-1.000000, 0.000000)">
+                        <rect id="Rectangle-7" fill="#1787E0" x="0.991735537" y="0" width="120" height="58" rx="5"></rect>
+                        <path d="M0.991735537,14.9006623 L120.991736,14.9006623 L120.991736,52.9927488 C120.991736,55.7581773 118.754389,58 115.988262,58 L5.9952087,58 C3.23186678,58 0.991735537,55.7585342 0.991735537,52.9927488 L0.991735537,14.9006623 Z" id="Rectangle-7" fill="#E4F3FF"></path>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="8.42975207" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="15.3719008" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <ellipse id="Oval-4" fill="#55B4FF" cx="22.3140496" cy="7.45033113" rx="2.47933884" ry="2.48344371"></ellipse>
+                        <text id="Page-Title" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                            <tspan x="22.033201" y="35.7464018">Homepage</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="labels/success" transform="translate(523.000000, 906.000000)">
+                    <g id="success">
+                        <rect id="Rectangle" fill="#4CBA38" x="0" y="0" width="78" height="20" rx="10"></rect>
+                        <text id="Success!" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                            <tspan x="5.54361962" y="15">Subscribed</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="labels/yes" transform="translate(591.000000, 1151.000000)">
+                    <g id="yes">
+                        <circle id="Oval-3" fill="#4CBA38" cx="13" cy="13" r="13"></circle>
+                        <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                            <tspan x="2.18232417" y="17.90625">Yes</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="labels/yes" transform="translate(879.000000, 1222.000000)">
+                    <g id="yes">
+                        <circle id="Oval-3" fill="#4CBA38" cx="13" cy="13" r="13"></circle>
+                        <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                            <tspan x="2.18232417" y="17.90625">Yes</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="labels/no" transform="translate(772.000000, 1151.000000)">
+                    <g id="no">
+                        <circle id="Oval-3" fill="#FF6660" cx="13" cy="13" r="13"></circle>
+                        <text id="No" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                            <tspan x="4.44251299" y="17.90625">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="labels/no" transform="translate(934.000000, 1089.000000)">
+                    <g id="no">
+                        <circle id="Oval-3" fill="#FF6660" cx="13" cy="13" r="13"></circle>
+                        <text id="No" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="0.2166667" fill="#FFFFFF">
+                            <tspan x="4.44251299" y="17.90625">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="line" transform="translate(180.000000, 254.000000)">
+                    <g id="arrow-1" transform="translate(2.000000, 0.000000)">
+                        <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 3.38856864 3.5 46 3.5"></polyline>
+                        <polygon id="Triangle" fill="#17C0E0" points="45 7 45 0 50 3.5"></polygon>
+                    </g>
+                </g>
+                <g id="arrows/arrow-7.1" transform="translate(475.500000, 173.500000) scale(-1, 1) rotate(90.000000) translate(-475.500000, -173.500000) translate(440.000000, 54.000000)">
+                    <g id="arrow-7.1" transform="translate(2.184615, 3.734375)">
+                        <path d="M3,0 L3,222.266847 C3,227.78902 7.47035925,232.265625 12.9938528,232.265625 L67.2994054,232.265625" id="Path-6" stroke="#17C0E0" stroke-width="1.5"></path>
+                        <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                        <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="64.8153846 235.265625 64.8153846 229.265625 68.8153846 232.265625"></polygon>
+                    </g>
+                </g>
+                <g id="question" transform="translate(534.000000, 207.000000)">
+                    <path d="M21.272779,18.1838993 C20.1780155,18.1697867 19.1916246,18.5984964 18.483232,19.306889 C17.7747409,20.0153801 17.3460473,21.0018923 17.3601582,22.0965201 L18.2294085,89.5272862 C18.2437047,90.6362929 18.7078342,91.6447551 19.4433669,92.3802879 C20.1790017,93.1159227 21.1875862,93.5800382 22.2964549,93.5943326 L89.727221,94.4635829 C90.8219845,94.4776955 91.8083754,94.0489858 92.516768,93.3405932 C93.2252591,92.6321021 93.6539527,91.6455899 93.6398418,90.5509621 L92.7705915,23.120196 C92.7562953,22.0111893 92.2921658,21.0027271 91.5566331,20.2671943 C90.8209983,19.5315595 89.8124138,19.067444 88.7035451,19.0531496 L21.272779,18.1838993 Z" id="Rectangle-8" stroke="#1787E0" stroke-width="2" fill="#E4F3FF" transform="translate(55.500000, 56.323741) rotate(-45.000000) translate(-55.500000, -56.323741) "></path>
+                    <text id="Instructors-or-train" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" letter-spacing="0.1833334" fill="#1787E0">
+                        <tspan x="21.1876135" y="56">Instructors or </tspan>
+                        <tspan x="35.2217445" y="69">trainees</tspan>
+                    </text>
+                </g>
+                <g id="arrows/arrow-4.1" transform="translate(120.000000, 131.000000)">
+                    <g id="arrow-4.1" transform="translate(0.000000, 7.575758)">
+                        <path d="M110.162602,4 L100.448715,4 L71.0055732,4 C65.4796477,4 61,8.47227551 61,14.0008501 L61,470.847635 C61,476.370952 65.4713498,480.848485 71.0080436,480.848485 L110.162602,480.848485" id="Path-4" stroke="#17C0E0" stroke-width="1.5"></path>
+                        <line x1="61.5185909" y1="243.818182" x2="0.995833406" y2="243.818182" id="Path-5" stroke="#17C0E0" stroke-width="1.5"></line>
+                        <circle id="Oval--Copy-3" stroke="#17C0E0" stroke-width="1.5" fill="#FFFFFF" cx="4" cy="242.424242" r="3"></circle>
+                        <polygon id="Triangle-2-Copy-4" fill="#17C0E0" points="106.162602 484.848485 106.162602 476.848485 111.162602 480.848485"></polygon>
+                        <polygon id="Triangle-2-Copy-5" fill="#17C0E0" points="106.162602 8 106.162602 0 111.162602 4"></polygon>
+                    </g>
+                </g>
+                <g id="line" transform="translate(591.500000, 394.500000) rotate(90.000000) translate(-591.500000, -394.500000) translate(506.000000, 391.000000)">
+                    <g id="arrow-1" transform="translate(6.576923, 0.000000)">
+                        <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 11.8174915 3.5 160.423077 3.5"></polyline>
+                        <polygon id="Triangle" fill="#17C0E0" points="159.423077 7 159.423077 0 164.423077 3.5"></polygon>
+                    </g>
+                </g>
+                <g id="line" transform="translate(180.000000, 438.000000)">
+                    <g id="arrow-1" transform="translate(2.000000, 0.000000)">
+                        <polyline id="Line" stroke="#17C0E0" stroke-width="1.5" stroke-linecap="square" points="0 3.5 3.38856864 3.5 46 3.5"></polyline>
+                        <polygon id="Triangle" fill="#17C0E0" points="45 7 45 0 50 3.5"></polygon>
+                    </g>
+                </g>
+                <text id="Instructors" font-family="Montserrat-Regular, Montserrat" font-size="12" font-weight="normal" fill="#1787E0">
+                    <tspan x="680.396" y="257">Instructors</tspan>
+                </text>
+                <text id="Clients" font-family="Montserrat-Regular, Montserrat" font-size="12" font-weight="normal" fill="#1787E0">
+                    <tspan x="541.402" y="358">Clients</tspan>
+                </text>
+                <g id="NOTES-Copy-2" transform="translate(356.000000, 398.000000)">
+                    <g id="notes/note">
+                        <g id="note">
+                            <rect id="Rectangle-5" fill="#C4E1F7" x="8" y="0" width="116" height="76" rx="10"></rect>
+                            <polygon id="Rectangle-6" fill="#C4E1F7" transform="translate(12.000000, 24.962963) rotate(-315.000000) translate(-12.000000, -24.962963) " points="4 16.1688889 20 16.1688889 20 33.757037 4 33.757037"></polygon>
+                            <text id="Includes:---Features" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#1787E0">
+                                <tspan x="12.5137615" y="20.6037736">Includes:</tspan>
+                                <tspan x="12.5137615" y="35.6037736"></tspan>
+                                <tspan x="12.5137615" y="50.6037736" font-family="Roboto-Regular, Roboto" font-weight="normal">-Payments</tspan>
+                                <tspan x="12.5137615" y="65.6037736" font-family="Roboto-Regular, Roboto" font-weight="normal">-Plan</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
