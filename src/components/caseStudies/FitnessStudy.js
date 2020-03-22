@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component } from 'react';
 import ProjectOverview from './shared/ProjectOveriew';
 import Section from '../shared/Section';
 import ImagePopup from '../shared/ImagePopup';
@@ -18,6 +18,8 @@ import User_flow from '../../assets/User_flow.png';
 import all_classes from '../../assets/all_classes.png';
 import sign_up from '../../assets/sign_up.png';
 import add_class from '../../assets/add_class.png';
+
+import designProcess from '../../assets/design_process_fitstudy.png';
 
 const maxpos = 7300;
 
@@ -68,7 +70,7 @@ export default class FitnessStudy extends Component {
     if (this.timeout) cancelAnimationFrame(this.timeout);
 
     this.timeout = requestAnimationFrame(
-      function () {
+      function() {
         let element = document.getElementById('sticky-block');
         let width = element.offsetWidth;
         let left = element.offsetLeft;
@@ -157,6 +159,8 @@ export default class FitnessStudy extends Component {
               clients and send reminders to trainees about payments.
             </>
           }
+          designProcessImage={designProcess}
+          oBgColor={'#f0f9ff'}
         />
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <div className='section-spacer' />
@@ -356,19 +360,15 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
           <div className='user-flow-img-container'>
-
-
             <img
               style={{ width: '100%', height: '100%' }}
               src={LowFiDesign}
               alt='Low fidelity design'
             />
             <figcaption>Low fidelity designs</figcaption>
-
           </div>
 
           <div className='section-spacer' />
-
         </Section>
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF' wrap>
           <div className='section-spacer' />

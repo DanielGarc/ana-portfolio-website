@@ -1,8 +1,9 @@
 import React from 'react';
 import Section from '../shared/Section';
+import ProjectOverview from './shared/ProjectOveriew';
 
 import BannerImage from '../../assets/banner_airbnb.png';
-import ProjectOverview from './shared/ProjectOveriew';
+import DesignProcess from '../../assets/design_cycle_airbnb.png';
 
 const AirbnbStudy = () => {
   return (
@@ -54,6 +55,8 @@ const AirbnbStudy = () => {
             value based on algorithms.
           </>
         }
+        designProcessImage={DesignProcess}
+        oBgColor={'#fffafa'}
       />
     </>
   );

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Team from '../../../assets/team.svg';
 import Time from '../../../assets/time.svg';
@@ -14,11 +14,20 @@ const ProjectOverview = ({
   oText,
   oChallenge,
   oSolution,
-  designProcessImage
+  designProcessImage,
+  oBgColor
 }) => {
+  useEffect(() => {
+    let wrapper = document.getElementById('wrapper');
+    console.log(`here:----${oBgColor}---`);
+
+    wrapper.style.background = `linear-gradient(to top, #fff 97px, ${oBgColor} 0%)`;
+    return () => {};
+  }, [oBgColor]);
+
   return (
     <div>
-      <div className='po-wrapper'>
+      <div id='wrapper' className='po-wrapper'>
         <div className='po-container'>
           <div className='section-spacer' />
           <div className='po-item-container'>
@@ -57,6 +66,7 @@ const ProjectOverview = ({
 
       <Section wrapperColor='#fff' sectionColor='#fff'>
         <div className='section-spacer' />
+        <h1>Design Process</h1>
         <div className='section-spacer' />
 
         <div className='design-process'>
