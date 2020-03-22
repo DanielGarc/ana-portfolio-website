@@ -138,15 +138,15 @@ export default class FitnessStudy extends Component {
               them all about their classes or their goals.
               <br />
               <br />
-              Trainers are looking for something that it can be with them all
-              the time, always up to date with what’s going on with their
+              Trainers are looking for something that can be with them all the time, 
+              always up to date with what’s going on with their
               clients, and removing that layer of awkwardness to go and ask for
               the payments.
             </>
           }
           oChallenge={
             <>
-              How can we build an engaging app that lets trainers and trainees
+              How can we build an engaging solution to let trainers and trainees
               manage their workouts and payments.
             </>
           }
@@ -183,7 +183,7 @@ export default class FitnessStudy extends Component {
             <ul>
               <li>
                 <p>
-                  I analyze what types of question and what audience I’ll be
+                  I analyze what types of questions and what audience I’ll be
                   interviewing.
                 </p>
               </li>
@@ -379,14 +379,14 @@ export default class FitnessStudy extends Component {
               <h3>User testing...</h3>
               <div style={{ display: 'block', margin: '6px 0' }} />
               <p>
-                One funny thing is that happened during user testing is that
+              One funny thing that happened during user testing is that
                 users really liked the feature about rewarding them after
                 completing a challenge or goal.
                 <br />
                 <br />
                 This idea was brought on the workshop as a form of engaging more
                 with users and their network, I went back to Discovery and
-                Define to verify if it was worthed to add.
+                Define to verify was if it was worth adding.
                 <br />
                 <br />
                 How it works it’s that you gain a new charm with every challenge
