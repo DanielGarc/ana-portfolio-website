@@ -72,9 +72,15 @@ figcaption {
   line-height: 15px;
 }
 
+/* this spacers can become a custom component */
 .section-spacer {
   display: block;
   margin: 25px 0;
+}
+
+.section-half-space {
+  display: block;
+  margin: 12.5px 0;
 }
 
 @media only screen and (max-width: 800px) {
