@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Section({ wrapperColor, sectionColor, children, wrap }) {
+function Section({ wrapperColor, sectionColor, children, wrap, align }) {
   const divWrapper = {
     display: 'block',
     width: '100%',
@@ -14,7 +14,8 @@ function Section({ wrapperColor, sectionColor, children, wrap }) {
     flexDirection: 'column',
     maxWidth: 'var(--max-width)',
     margin: 'auto',
-    flexWrap: wrap ? 'wrap' : 'nowrap'
+    flexWrap: wrap ? 'wrap' : 'nowrap',
+    alignItems: align ? align : 'center'
   };
 
   return (

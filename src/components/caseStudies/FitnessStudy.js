@@ -411,7 +411,11 @@ export default class FitnessStudy extends Component {
           </div>
         </Section>
 
-        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+        <Section
+          sectionColor='#F0F9FF'
+          wrapperColor='#F0F9FF'
+          align={'flex-start'}
+        >
           <div className='section-spacer' />
           <div className='image-text-container wrap-reverse'>
             <div className='image-text-left'>
