@@ -79,16 +79,10 @@ li {
   margin-left: 14px;
 }
 
-.trainerBox h2 {
+.white h2,
+.white h3,
+.white p {
   color: #fafdff;
-}
-
-.trainerBox p {
-  color: #f0f9ff;
-}
-
-.trainerBox h3 {
-  color: #f0f9ff;
 }
 
 .workshop-p2 {

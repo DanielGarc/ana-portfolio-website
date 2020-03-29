@@ -3,6 +3,8 @@ import ProjectOverview from './shared/ProjectOveriew';
 import Section from '../shared/Section';
 import ImagePopup from '../shared/ImagePopup';
 
+import { Link } from 'react-router-dom';
+
 import '../../css/fitStudy.css';
 
 import FitStudy from '../../assets/banner.png';
@@ -18,8 +20,8 @@ import User_flow from '../../assets/User_flow.png';
 import all_classes from '../../assets/all_classes.png';
 import sign_up from '../../assets/sign_up.png';
 import add_class from '../../assets/add_class.png';
-
 import designProcess from '../../assets/design_process_fitstudy.png';
+import arrow from '../../assets/arrow-right.png';
 
 const maxpos = 7300;
 
@@ -441,26 +443,55 @@ export default class FitnessStudy extends Component {
           </div>
         </Section>
         <Section sectionColor='#4568DC' wrapperColor='#4568DC'>
-          <div style={{ display: 'block', margin: '27px 0' }} />
-
-          <div className='trainers'>
-            <div className='trainerBox'>
-              <h2> Conclusion </h2>
-              <h3>Never assume you know all the perspectives</h3>
-              <p>
-                Working in this project has made me more aware of the importance
-                of looking at things with new eyes, and how doing minimal things
-                like; invite colleagues and stakeholders to take a look of your
-                research of the things discovered and really HEAR THEM OUT, and
-                verify those ideas with the market. It changes the way of seeing
-                the information because when you heard a new idea is a new
-                perspective, and sometimes we do not realize that it can be a
-                better experience until you research and test that idea.
-              </p>
+          <div className='section-spacer'></div>
+          <div className='width-1 left sx-margin white'>
+            <h2> Conclusion </h2>
+            <h3>Never assume you know all the perspectives</h3>
+            <p>
+              Working in this project has made me more aware of the importance
+              of looking at things with new eyes, and how doing minimal things
+              like; invite colleagues and stakeholders to take a look of your
+              research of the things discovered and really HEAR THEM OUT, and
+              verify those ideas with the market. It changes the way of seeing
+              the information because when you heard a new idea is a new
+              perspective, and sometimes we do not realize that it can be a
+              better experience until you research and test that idea.
+            </p>
+          </div>
+          <div className='section-spacer'></div>
+        </Section>
+        <Section wrapperColor='#243342' sectionColor='#243342'>
+          <div className='section-spacer' />
+          <div
+            className='col-container project-selector sx-margin '
+            style={{ width: '100%' }}
+          >
+            <div>
+              <img
+                style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
+                src={arrow}
+                alt='Previous Case Study'
+              />
+              Solve Employment
+            </div>
+            <div
+              className='project-selector-b'
+              style={{ color: '#CCEBFF', textTransform: 'uppercase' }}
+            >
+              Browse other projects
+            </div>
+            <div>
+              <Link to={{ pathname: '/airbnb' }}>
+                Airbnb
+                <img
+                  style={{ marginLeft: '8px' }}
+                  src={arrow}
+                  alt='Previous Case Study'
+                />
+              </Link>
             </div>
           </div>
-
-          <div style={{ display: 'block', margin: '35px 0' }} />
+          <div className='section-spacer' />
         </Section>
       </div>
     );

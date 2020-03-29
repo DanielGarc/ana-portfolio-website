@@ -418,7 +418,10 @@ const AirbnbStudy = () => {
       </Section>
       <Section wrapperColor='#243342' sectionColor='#243342'>
         <div className='section-spacer' />
-        <div className='col-container project-selector width-3'>
+        <div
+          className='col-container project-selector sx-margin'
+          style={{ width: '100%' }}
+        >
           <div>
             <Link to={{ pathname: '/fitstudy' }}>
               <img
