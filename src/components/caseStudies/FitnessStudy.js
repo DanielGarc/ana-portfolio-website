@@ -164,54 +164,57 @@ export default class FitnessStudy extends Component {
         />
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <div className='section-spacer' />
-          <div className='data-section-header'>First, data.</div>
-          <div className='data-section-sub-header'>
-            Don’t assume you know the answer.
-          </div>
-          <div style={{ display: 'block', margin: '5px 0' }} />
-          <div className='data-section-paragraph'>
-            <p>
-              When I accepted this project <b>I thought I knew</b> what the
-              application would look like at the end, or what the product was
-              and its needs because I’m a fitness instructor,{' '}
-              <b>I was wrong.</b>
-            </p>
-          </div>
-          <div style={{ display: 'block', margin: '8px 0' }} />
-          <div className='data-section-paragraph'>
-            <p>
-              How did I gather information? Great question! I did the following
-            </p>
-          </div>
-          {/* <div style={{ display: 'block', margin: '2px 0' }} /> */}
-          <div className='data-section-paragraph'>
-            <ul>
-              <li>
-                <p>
-                  I analyze what types of question and what audience I’ll be
-                  interviewing.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Interview with coaches, fitness instructor and people who
-                  exercise regularly and not regularly.
-                </p>
-              </li>
+          <div className='width-3 sx-margin'>
+            <div className='data-section-header'>First, data.</div>
+            <div className='data-section-sub-header'>
+              Don’t assume you know the answer.
+            </div>
+            <div style={{ display: 'block', margin: '5px 0' }} />
+            <div className='data-section-paragraph'>
               <p>
-                <li>Shadow a couple of colleagues</li>
+                When I accepted this project <b>I thought I knew</b> what the
+                application would look like at the end, or what the product was
+                and its needs because I’m a fitness instructor,{' '}
+                <b>I was wrong.</b>
               </p>
-            </ul>
+            </div>
+            <div style={{ display: 'block', margin: '8px 0' }} />
+            <div className='data-section-paragraph'>
+              <p>
+                How did I gather information? Great question! I did the
+                following
+              </p>
+            </div>
+            {/* <div style={{ display: 'block', margin: '2px 0' }} /> */}
+            <div className='data-section-paragraph'>
+              <ul>
+                <li>
+                  <p>
+                    I analyze what types of question and what audience I’ll be
+                    interviewing.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Interview with coaches, fitness instructor and people who
+                    exercise regularly and not regularly.
+                  </p>
+                </li>
+                <p>
+                  <li>Shadow a couple of colleagues</li>
+                </p>
+              </ul>
+            </div>
           </div>
           <div className='section-spacer' />
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
           <div className='section-spacer' />
-          <div className='trainers trainer-icons'>
+          <div className='trainers trainer-icons width-2'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
               <h2> Trainers </h2>
-              <div style={{ display: 'block', margin: '11px 0' }} />
+              <h3></h3>
               <p>
                 “It’s hard to keep up with all the trainees progress.”
                 <br />
@@ -224,11 +227,11 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
 
-          <div className='trainers trainer-icons'>
+          <div className='trainers trainer-icons width-2'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
             <div className='trainerBox'>
               <h2> Trainees </h2>
-              <div style={{ display: 'block', margin: '11px 0' }} />
+              <h3></h3>
 
               <p>
                 “The apps that they have used are not engaging.”
@@ -257,9 +260,7 @@ export default class FitnessStudy extends Component {
             <div className='image-text-divider' />
             <div className='image-text-right'>
               <h2>We’re ready to target!</h2>
-              <div style={{ display: 'block', margin: '1px 0' }} />
               <h3>From a huge amount of data to target ideas.</h3>
-              <div style={{ display: 'block', margin: '12px 0' }} />
               <p>
                 After analyzing the data gathered from surveys, interviews,
                 shadowings, I started building the personas and creating the
@@ -283,9 +284,7 @@ export default class FitnessStudy extends Component {
           <div className='section-spacer' />
           <div className='workshop-p2'>
             <h2>Workshop</h2>
-            <div style={{ display: 'block', margin: '1px 0' }} />
             <h3>Who doesn’t love good ideas?</h3>
-            <div style={{ display: 'block', margin: '12px 0' }} />
             <p>
               One of the things I like to do the most is generating ideas with a
               team, for this workshop, I asked a couple of colleagues to help me
@@ -376,9 +375,7 @@ export default class FitnessStudy extends Component {
             <div className='image-text-left'>
               <div className='section-spacer' />
               <h2>The Rightful Stakeholder</h2>
-              <div style={{ display: 'block', margin: '1px 0' }} />
               <h3>User testing...</h3>
-              <div style={{ display: 'block', margin: '6px 0' }} />
               <p>
                 One funny thing is that happened during user testing is that
                 users really liked the feature about rewarding them after
@@ -428,11 +425,7 @@ export default class FitnessStudy extends Component {
               <div>
                 <div style={{ display: 'block', margin: '40px 0' }} />
                 <h2>Feature freeze</h2>
-                <div style={{ display: 'block', margin: '1px 0' }} />
-
                 <h3>Is it ready to launch?.</h3>
-                <div style={{ display: 'block', margin: '12px 0' }} />
-
                 <p>
                   Once I got all the ideas and features set, I began iterating
                   between wireframing and the user flow. After we stop making
@@ -447,7 +440,6 @@ export default class FitnessStudy extends Component {
             </div>
           </div>
         </Section>
-
         <Section sectionColor='#4568DC' wrapperColor='#4568DC'>
           <div style={{ display: 'block', margin: '27px 0' }} />
 
@@ -455,8 +447,6 @@ export default class FitnessStudy extends Component {
             <div className='trainerBox'>
               <h2> Conclusion </h2>
               <h3>Never assume you know all the perspectives</h3>
-              <div style={{ display: 'block', margin: '12px 0' }} />
-
               <p>
                 Working in this project has made me more aware of the importance
                 of looking at things with new eyes, and how doing minimal things
