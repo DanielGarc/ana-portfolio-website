@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   text-align: center;
-  background: linear-gradient(to top, #fff 97px, #f0f9ff 0%);
+  /* background: linear-gradient(to top, #fff 97px, #f0f9ff 0%); */
 }
 
 .po-container {
@@ -27,10 +27,7 @@
   font-weight: 500;
 }
 
-
-
 .po-overview-text-header {
-
   color: #3d3d3d;
   font-family: Lato;
   font-size: 24px;
@@ -87,7 +84,6 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 22px;
-
 }
 
 .po-overview-card-content-text {
@@ -110,11 +106,11 @@
     margin: auto;
   }
 
-  .po-item{
+  .po-item {
     margin: 4vw 0;
   }
 
-  .po-overview-text-header{  
+  .po-overview-text-header {
     text-align: center;
   }
 
@@ -122,12 +118,12 @@
     margin: auto var(--margin-lg) auto var(--margin-lg);
   }
 
-  .project-overview h2{
+  .project-overview h2 {
     text-align: center;
   }
 
   .po-overview-card-container {
-  width: auto;
+    width: auto;
   }
 
   .po-overview-card-container {
@@ -141,6 +137,4 @@
   .po-overview-card-left-content {
     margin-top: 4vw;
   }
-
-  
 }

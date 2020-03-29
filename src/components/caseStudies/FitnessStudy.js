@@ -1,7 +1,9 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component } from 'react';
 import ProjectOverview from './shared/ProjectOveriew';
 import Section from '../shared/Section';
 import ImagePopup from '../shared/ImagePopup';
+
+import { Link } from 'react-router-dom';
 
 import '../../css/fitStudy.css';
 
@@ -17,6 +19,8 @@ import User_flow from '../../assets/User_flow.png';
 import all_classes from '../../assets/all_classes.png';
 import sign_up from '../../assets/sign_up.png';
 import add_class from '../../assets/add_class.png';
+import designProcess from '../../assets/design_process_fitstudy.png';
+import arrow from '../../assets/arrow-right.png';
 
 const maxpos = 7300;
 
@@ -67,7 +71,7 @@ export default class FitnessStudy extends Component {
     if (this.timeout) cancelAnimationFrame(this.timeout);
 
     this.timeout = requestAnimationFrame(
-      function () {
+      function() {
         let element = document.getElementById('sticky-block');
         let width = element.offsetWidth;
         let left = element.offsetLeft;
@@ -156,9 +160,12 @@ export default class FitnessStudy extends Component {
               clients and send reminders to trainees about payments.
             </>
           }
+          designProcessImage={designProcess}
+          oBgColor={'#f0f9ff'}
         />
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
           <div className='section-spacer' />
+<<<<<<< HEAD
           <div className='data-section-header'>First, data.</div>
           <div className='data-section-sub-header'>
             Don’t assume you know the answer.
@@ -193,20 +200,59 @@ export default class FitnessStudy extends Component {
                   exercise regularly and not regularly.
                 </p>
               </li>
+=======
+          <div className='width-3 sx-margin'>
+            <div className='data-section-header'>First, data.</div>
+            <div className='data-section-sub-header'>
+              Don’t assume you know the answer.
+            </div>
+            <div style={{ display: 'block', margin: '5px 0' }} />
+            <div className='data-section-paragraph'>
               <p>
-                <li>Shadow a couple of colleagues</li>
+                When I accepted this project <b>I thought I knew</b> what the
+                application would look like at the end, or what the product was
+                and its needs because I’m a fitness instructor,{' '}
+                <b>I was wrong.</b>
               </p>
-            </ul>
+            </div>
+            <div style={{ display: 'block', margin: '8px 0' }} />
+            <div className='data-section-paragraph'>
+>>>>>>> airbnb-case-study
+              <p>
+                How did I gather information? Great question! I did the
+                following
+              </p>
+            </div>
+            {/* <div style={{ display: 'block', margin: '2px 0' }} /> */}
+            <div className='data-section-paragraph'>
+              <ul>
+                <li>
+                  <p>
+                    I analyze what types of question and what audience I’ll be
+                    interviewing.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Interview with coaches, fitness instructor and people who
+                    exercise regularly and not regularly.
+                  </p>
+                </li>
+                <p>
+                  <li>Shadow a couple of colleagues</li>
+                </p>
+              </ul>
+            </div>
           </div>
           <div className='section-spacer' />
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
           <div className='section-spacer' />
-          <div className='trainers trainer-icons'>
+          <div className='trainers trainer-icons width-2'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
               <h2> Trainers </h2>
-              <div style={{ display: 'block', margin: '11px 0' }} />
+              <h3></h3>
               <p>
                 “It’s hard to keep up with all the trainees progress.”
                 <br />
@@ -219,11 +265,11 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
 
-          <div className='trainers trainer-icons'>
+          <div className='trainers trainer-icons width-2'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
             <div className='trainerBox'>
               <h2> Trainees </h2>
-              <div style={{ display: 'block', margin: '11px 0' }} />
+              <h3></h3>
 
               <p>
                 “The apps that they have used are not engaging.”
@@ -252,9 +298,7 @@ export default class FitnessStudy extends Component {
             <div className='image-text-divider' />
             <div className='image-text-right'>
               <h2>We’re ready to target!</h2>
-              <div style={{ display: 'block', margin: '1px 0' }} />
               <h3>From a huge amount of data to target ideas.</h3>
-              <div style={{ display: 'block', margin: '12px 0' }} />
               <p>
                 After analyzing the data gathered from surveys, interviews,
                 shadowings, I started building the personas and creating the
@@ -278,9 +322,7 @@ export default class FitnessStudy extends Component {
           <div className='section-spacer' />
           <div className='workshop-p2'>
             <h2>Workshop</h2>
-            <div style={{ display: 'block', margin: '1px 0' }} />
             <h3>Who doesn’t love good ideas?</h3>
-            <div style={{ display: 'block', margin: '12px 0' }} />
             <p>
               One of the things I like to do the most is generating ideas with a
               team, for this workshop, I asked a couple of colleagues to help me
@@ -355,19 +397,15 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
           <div className='user-flow-img-container'>
-
-
             <img
               style={{ width: '100%', height: '100%' }}
               src={LowFiDesign}
               alt='Low fidelity design'
             />
             <figcaption>Low fidelity designs</figcaption>
-
           </div>
 
           <div className='section-spacer' />
-
         </Section>
         <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF' wrap>
           <div className='section-spacer' />
@@ -375,9 +413,7 @@ export default class FitnessStudy extends Component {
             <div className='image-text-left'>
               <div className='section-spacer' />
               <h2>The Rightful Stakeholder</h2>
-              <div style={{ display: 'block', margin: '1px 0' }} />
               <h3>User testing...</h3>
-              <div style={{ display: 'block', margin: '6px 0' }} />
               <p>
               One funny thing that happened during user testing is that
                 users really liked the feature about rewarding them after
@@ -410,7 +446,11 @@ export default class FitnessStudy extends Component {
           </div>
         </Section>
 
-        <Section sectionColor='#F0F9FF' wrapperColor='#F0F9FF'>
+        <Section
+          sectionColor='#F0F9FF'
+          wrapperColor='#F0F9FF'
+          align={'flex-start'}
+        >
           <div className='section-spacer' />
           <div className='image-text-container wrap-reverse'>
             <div className='image-text-left'>
@@ -423,11 +463,7 @@ export default class FitnessStudy extends Component {
               <div>
                 <div style={{ display: 'block', margin: '40px 0' }} />
                 <h2>Feature freeze</h2>
-                <div style={{ display: 'block', margin: '1px 0' }} />
-
                 <h3>Is it ready to launch?.</h3>
-                <div style={{ display: 'block', margin: '12px 0' }} />
-
                 <p>
                   Once I got all the ideas and features set, I began iterating
                   between wireframing and the user flow. After we stop making
@@ -442,30 +478,56 @@ export default class FitnessStudy extends Component {
             </div>
           </div>
         </Section>
-
         <Section sectionColor='#4568DC' wrapperColor='#4568DC'>
-          <div style={{ display: 'block', margin: '27px 0' }} />
-
-          <div className='trainers'>
-            <div className='trainerBox'>
-              <h2> Conclusion </h2>
-              <h3>Never assume you know all the perspectives</h3>
-              <div style={{ display: 'block', margin: '12px 0' }} />
-
-              <p>
-                Working in this project has made me more aware of the importance
-                of looking at things with new eyes, and how doing minimal things
-                like; invite colleagues and stakeholders to take a look of your
-                research of the things discovered and really HEAR THEM OUT, and
-                verify those ideas with the market. It changes the way of seeing
-                the information because when you heard a new idea is a new
-                perspective, and sometimes we do not realize that it can be a
-                better experience until you research and test that idea.
-              </p>
+          <div className='section-spacer'></div>
+          <div className='width-1 left sx-margin white'>
+            <h2> Conclusion </h2>
+            <h3>Never assume you know all the perspectives</h3>
+            <p>
+              Working in this project has made me more aware of the importance
+              of looking at things with new eyes, and how doing minimal things
+              like; invite colleagues and stakeholders to take a look of your
+              research of the things discovered and really HEAR THEM OUT, and
+              verify those ideas with the market. It changes the way of seeing
+              the information because when you heard a new idea is a new
+              perspective, and sometimes we do not realize that it can be a
+              better experience until you research and test that idea.
+            </p>
+          </div>
+          <div className='section-spacer'></div>
+        </Section>
+        <Section wrapperColor='#243342' sectionColor='#243342'>
+          <div className='section-spacer' />
+          <div
+            className='col-container project-selector sx-margin '
+            style={{ width: '100%' }}
+          >
+            <div>
+              <img
+                style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
+                src={arrow}
+                alt='Previous Case Study'
+              />
+              Solve Employment
+            </div>
+            <div
+              className='project-selector-b'
+              style={{ color: '#CCEBFF', textTransform: 'uppercase' }}
+            >
+              Browse other projects
+            </div>
+            <div>
+              <Link to={{ pathname: '/airbnb' }}>
+                Airbnb
+                <img
+                  style={{ marginLeft: '8px' }}
+                  src={arrow}
+                  alt='Previous Case Study'
+                />
+              </Link>
             </div>
           </div>
-
-          <div style={{ display: 'block', margin: '35px 0' }} />
+          <div className='section-spacer' />
         </Section>
       </div>
     );

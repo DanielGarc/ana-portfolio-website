@@ -18,14 +18,14 @@ class CaseStudyLink extends React.Component {
         onMouseLeave={() => this.setState({ hover: false })}
         className={`cslWrapper ${
           alignLeft ? 'cslWrapperLeft' : 'cslWrapperRight'
-          }`}
+        }`}
       >
         <img alt='Case Study' src={cslImg} />
         <div
           style={{ backgroundColor: color }}
           className={`cslTextWrapper ${
             alignLeft ? 'cslTextWrapperLeft' : 'cslTextWrapperRight'
-            }
+          }
          `}
         >
           <p className='cslTextHeader'>{header}</p>

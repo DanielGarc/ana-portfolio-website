@@ -1,11 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Team from '../../../assets/team.svg';
 import Time from '../../../assets/time.svg';
 import Tools from '../../../assets/tools.svg';
-import ArrowRight from '../../../assets/arrow forward.svg';
-import Arrow from '../../../assets/arrow up.svg';
-import design_process from '../../../assets/design_process.png';
 
 import '../../../css/projectoverview.css';
 import Section from '../../shared/Section';
@@ -16,12 +13,21 @@ const ProjectOverview = ({
   pbTools,
   oText,
   oChallenge,
-  oSolution
+  oSolution,
+  designProcessImage,
+  oBgColor
 }) => {
+  useEffect(() => {
+    let wrapper = document.getElementById('wrapper');
+    console.log(`here:----${oBgColor}---`);
+
+    wrapper.style.background = `linear-gradient(to top, #fff 97px, ${oBgColor} 0%)`;
+    return () => {};
+  }, [oBgColor]);
+
   return (
     <div>
-      <div className='po-wrapper'>
-
+      <div id='wrapper' className='po-wrapper'>
         <div className='po-container'>
           <div className='section-spacer' />
           <div className='po-item-container'>
@@ -56,26 +62,22 @@ const ProjectOverview = ({
             </div>
           </div>
         </div>
-
-
       </div>
-
 
       <Section wrapperColor='#fff' sectionColor='#fff'>
         <div className='section-spacer' />
+        <h1>Design Process</h1>
         <div className='section-spacer' />
 
         <div className='design-process'>
           <img
             style={{ height: '100%', width: '100%' }}
             alt=''
-            src={design_process}
+            src={designProcessImage}
           />
         </div>
         <div className='section-spacer' />
-
       </Section>
-
     </div>
   );
 };

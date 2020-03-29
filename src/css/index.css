@@ -14,6 +14,10 @@ body {
   text-align: center;
 }
 
+a {
+  cursor: pointer;
+}
+
 a:visited {
   text-decoration: none;
 }
@@ -21,6 +25,15 @@ a:visited {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 39px;
 }
 
 h2 {
@@ -42,6 +55,7 @@ h3 {
   font-weight: 500;
 
   margin: 0;
+  margin-bottom: 12px;
 }
 
 p {
@@ -63,11 +77,69 @@ figcaption {
   line-height: 15px;
 }
 
-.section-spacer{
+/* this spacers can become a custom component */
+.section-spacer {
   display: block;
   margin: 25px 0;
 }
 
+.section-half-space {
+  display: block;
+  margin: 12.5px 0;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.width-1 {
+  max-width: 660px;
+  min-width: 660px;
+}
+
+.width-2 {
+  max-width: 720px;
+  min-width: 720px;
+}
+
+.width-3 {
+  max-width: 780px;
+  min-width: 780px;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin: auto var(--margin-lg) auto var(--margin-lg);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-divider {
+  display: block;
+  margin: 0 1vw;
+}
+
+.col-divider-big {
+  display: block;
+  margin: 0 5vw;
+}
+
+.sx-margin {
+  margin: auto;
+}
 
 @media only screen and (max-width: 800px) {
   :root {
@@ -75,7 +147,40 @@ figcaption {
     --navbar-height: 14vw;
   }
 
-  .section-spacer{
+  .col-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto var(--margin-lg) auto var(--margin-lg);
+  }
+
+  .col {
+    margin: 15px auto 15px auto;
+  }
+
+  .sx-margin {
+    margin: auto 20px;
+  }
+
+  .section-spacer {
     margin: 4vw;
+  }
+
+  .width-1 {
+    max-width: 660px;
+    min-width: auto;
+  }
+
+  .width-2 {
+    max-width: 720px;
+    min-width: auto;
+  }
+
+  .width-3 {
+    max-width: 780px;
+    min-width: auto;
   }
 }
