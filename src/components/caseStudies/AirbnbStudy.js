@@ -319,7 +319,7 @@ const AirbnbStudy = () => {
           <div className='col left'>
             <h2>61% of users</h2>
             <h2>chose this UI</h2>
-            <h3 />
+            <h3> </h3>
             <p>
               “Less pictures all at once. There was too much to look at in the
               other design. Just a bit overwhelming.”
@@ -339,7 +339,7 @@ const AirbnbStudy = () => {
           <div className='col right'>
             <h2>39% of users</h2>
             <h2>chose this UI</h2>
-            <h3 />
+            <h3> </h3>
             <p>“I can see more images”</p>
           </div>
         </div>
@@ -439,12 +439,14 @@ const AirbnbStudy = () => {
             Browse other projects
           </div>
           <div>
-            Solve Employment
-            <img
-              style={{ marginLeft: '8px' }}
-              src={arrow}
-              alt='Previous Case Study'
-            />
+            <Link to={{ pathname: '/solve' }}>
+              Solve Employment
+              <img
+                style={{ marginLeft: '8px' }}
+                src={arrow}
+                alt='Previous Case Study'
+              />
+            </Link>
           </div>
         </div>
         <div className='section-spacer' />

@@ -2,6 +2,7 @@ import React from 'react';
 
 import fitness from '../../assets/fitnessApp.png';
 import airbnb from '../../assets/airbnb.png';
+import SolveEmployment from '../../assets/se-solveemployment.png';
 import '../../css/selectedWork.css';
 import CaseStudyLink from '../shared/CaseStudyLink';
 
@@ -17,6 +18,33 @@ const SelectedWork = () => {
         <div className='selWorkText'>Take a Look</div>
         <CaseStudyLink
           alignLeft
+          cslImg={airbnb}
+          url={
+            <Link to={{ pathname: '/airbnb' }}>
+              <div className='cslTextLink'>READ CASE STUDY</div>
+            </Link>
+          }
+          header='Price my Airbnb'
+          color='#00A699'
+          body={
+            <div>
+              Airbnb hosts don’t know how much should they list their unit to
+              remain competitive while maximizing their profits.
+              <br />
+              <br />
+              This platform allows them to evaluate the price of their
+              properties, find ways to increase the value of their properties
+              and know when and how much should they adjust their prices based
+              on events, seasons, holidays, and/or location.
+              <br />
+              <br />
+              <br />
+            </div>
+          }
+        />
+        <div className='selWorkCaseStudyLinkSeparator'></div>
+
+        <CaseStudyLink
           cslImg={fitness}
           header='Anywhere Fitness'
           color='#6C44DE'
@@ -42,25 +70,26 @@ const SelectedWork = () => {
           }
         />
         <div className='selWorkCaseStudyLinkSeparator'></div>
+
         <CaseStudyLink
-          cslImg={airbnb}
+          alignLeft
+          cslImg={SolveEmployment}
           url={
-            <Link to={{ pathname: '/airbnb' }}>
+            <Link to={{ pathname: '/solve' }}>
               <div className='cslTextLink'>READ CASE STUDY</div>
             </Link>
           }
-          header='Price my Airbnb'
-          color='#00A699'
+          header='Solve Employment'
+          color='#1678C5'
           body={
             <div>
-              Airbnb hosts don’t know how much should they list their unit to
-              remain competitive while maximizing their profits.
+              Solve Employment is a CRM platform that helps people in Southeast
+              Asia find internships, microtasks, job opportunities.
               <br />
               <br />
-              This platform allows them to evaluate the price of their
-              properties, find ways to increase the value of their properties
-              and know when and how much should they adjust their prices based
-              on events, seasons, holidays, and/or location.
+              The platform enables talents to upload the documents for those
+              opportunities online as well as receive payment for their
+              services.
               <br />
               <br />
               <br />

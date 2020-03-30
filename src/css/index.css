@@ -75,6 +75,7 @@ figcaption {
   font-size: 12px;
   font-style: italic;
   line-height: 15px;
+  text-align: center;
 }
 
 /* this spacers can become a custom component */
@@ -139,6 +140,28 @@ figcaption {
 
 .sx-margin {
   margin: auto;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.white h1,
+.white h2,
+.white h3,
+.white p {
+  color: #fff;
+}
+
+.no-margin h1,
+.no-margin h2,
+.no-margin h3,
+.no-margin p {
+  margin: 0;
 }
 
 @media only screen and (max-width: 800px) {

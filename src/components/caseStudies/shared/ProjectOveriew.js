@@ -19,7 +19,6 @@ const ProjectOverview = ({
 }) => {
   useEffect(() => {
     let wrapper = document.getElementById('wrapper');
-    console.log(`here:----${oBgColor}---`);
 
     wrapper.style.background = `linear-gradient(to top, #fff 97px, ${oBgColor} 0%)`;
     return () => {};

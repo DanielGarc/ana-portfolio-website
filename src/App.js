@@ -9,9 +9,9 @@ import SelectedWork from './components/landingPage/SelectedWork';
 import AboutCTA from './components/aboutPage/AboutCTA';
 import ContactForm from './components/shared/ContactForm';
 import Footer from './components/shared/Footer';
-// import Projects from './components/projectsPage/Projects';
 import FitnessStudy from './components/caseStudies/FitnessStudy';
 import AirbnbStudy from './components/caseStudies/AirbnbStudy.js';
+import SolveEmploymentStudy from './components/caseStudies/SolveEmploymentStudy';
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
         <Route exact path='/about' component={AboutPage} />
         <Route exact path='/fitstudy' component={FitnessStudyPage} />
         <Route exact path='/airbnb' component={AirbnbStudyPage} />
+        <Route exact path='/solve' component={SolveEmploymentStudyPage} />
 
-        {/* <Route exact path='/projects' component={Projects} /> */}
         <Route component={LandingPage} />
       </Switch>
     </div>
@@ -43,11 +43,11 @@ function LandingPage(props) {
 
 function AboutPage(props) {
   return (
-    <div>
+    <>
       <NavBar {...props} />
       <AboutCTA />
       <Footer />
-    </div>
+    </>
   );
 }
 
@@ -66,6 +66,16 @@ function AirbnbStudyPage(props) {
     <>
       <NavBar {...props} />
       <AirbnbStudy />
+      <Footer />
+    </>
+  );
+}
+
+function SolveEmploymentStudyPage(props) {
+  return (
+    <>
+      <NavBar {...props} />
+      <SolveEmploymentStudy />
       <Footer />
     </>
   );
