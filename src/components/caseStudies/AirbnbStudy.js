@@ -46,7 +46,7 @@ const AirbnbStudy = () => {
       <ProjectOverview
         pbTeam={
           <>
-            2 UX designer, 3 Data scientists
+            2 UX designers, 3 Data scientists
             <br /> & 4 Software developers
           </>
         }
@@ -63,7 +63,7 @@ const AirbnbStudy = () => {
             out how they should be pricing their house.
             <br />
             <br />
-            Airbnb hosts don’t know how much should they list their unit to
+            Airbnb hosts don’t know how much they should list their unit to
             remain competitive while maximizing their profits, this platform
             allows to evaluate the price of their properties, find ways to
             increase the value of their properties and know when/how to adjust
@@ -94,16 +94,14 @@ const AirbnbStudy = () => {
             <p>
               We got the project and in our first meeting, we were like, this
               project is going to be easy, the answer is in the problem, the
-              users just need to have the optimal price, and we all believe it
+              users just need to have the optimal price, and we all believed it
               until we created a survey and submitted to the target audience.
               <br />
               <br />
-              <strong>OH BOY… </strong>The results came back and we had to
-              consider more aspects that we didn’t think of them on the begging,
-              we didn’t just need to give the optimal price, the users wanted
-              something manageable, something that will tell them when are the
-              high seasons, What is the range of prices they could price their
-              Airbnb.
+              <strong>OH BOY… </strong>The results came back and we had to consider more aspects 
+              that we didn’t think of in the beginning. We didn’t just need to give the optimal price, 
+              the users wanted something manageable, something that will tell them when the high seasons are, 
+              and how they should price their Airbnb based on those amenities.
             </p>
           </div>
           <div className='col'>
@@ -147,22 +145,20 @@ const AirbnbStudy = () => {
             <img src={ScottComment} alt='Scott Comment' />
           </div>
           <div className='col unexp-data-text'>
-            <h2>Unexpected data</h2>
+            <h2>Unexpected Data</h2>
             <h3>
-              The hosts want to know what their guests want... does it sound
-              familiar?
+            The hosts want to know what their guests want...<i>sound familiar? </i>
+
             </h3>
             <p>
-              Yes! An unexpected path was detected, the hosts wanted to know
-              what the guests value the most, that they will be willing to pay
-              more.
+            Yes! An unexpected path was detected. The hosts wanted to know what the guests value the most, 
+            that they will be willing to pay more for.
               <br />
               <br />
-              We created another survey, now it was sent to all the people who
-              had used Airbnb before, the results were quite simple, depending
-              on the reason of visit will vary from what they will be willing to
-              pay more, on average, they all wanted a clean apartment with all
-              the amenities.
+              We created another survey and sent it to all the people who had used Airbnb before. 
+              The results were quite simple. While the reason for the visits varied from guest to guest, 
+              guests are willing to pay more, on average, for a clean apartment with all the amenities.
+
             </p>
           </div>
         </div>
@@ -190,9 +186,9 @@ const AirbnbStudy = () => {
             <h3>Teamwork at it’s fullest by involving everyone of the team.</h3>
             <p>
               Now the best and my favorite part, we got together (Web
-              Developers, Data Scientist, and UX designers) to talk about the
+              Developers, Data Scientists, and UX designers) to talk about the
               user’s problems, the feedback we got, and what was possible to
-              build under the timeline we had.
+              build within our timeframe.
             </p>
             <div className='section-spacer' />
 
@@ -203,16 +199,14 @@ const AirbnbStudy = () => {
               <img src={Braingstorming1} alt='Brainstorming' />
               <div className='section-spacer' />
               <p>
-                Like you see below we created a board with each problem and each
-                member of the group wrote a possible solution, everyone was
+                Like you see below, we created a board with each problem and each
+                member of the group wrote a possible solution. Everyone was
                 encouraged to write an idea, even if they thought was dumb or
                 silly.
                 <br />
                 <br />
-                After each one wrote their ideas we all voted on the top 3
-                post-it ideas on each problem, later we debated and discussed
-                which of the problems were possible to build under the timeline
-                we had based on the ideas written.
+                After each person wrote their ideas, we all voted on the top 3 post-it ideas for each problem. 
+                Later we debated and discussed which of the problems were possible to build within our timeframe.
               </p>
             </div>
           </div>
@@ -235,11 +229,11 @@ const AirbnbStudy = () => {
             section
           </h3>
           <p>
-            We started sketching while reviewing the ideas selected to create a
-            ‘perfect flow’ that felt more harmonious but everyone was so
-            enthusiastic about the solutions that we created different scenarios
-            in which users would take different routes. In the end, we selected
-            the best suitable solutions for the timeline.
+          While reviewing the ideas, we started sketching to create a ‘perfect flow’ that felt more harmonious. 
+          Everyone was so enthusiastic about the solutions that we created different scenarios 
+          in which users would take different routes. In the end, we selected the best suitable solutions 
+          for our timeframe.
+
           </p>
         </div>
         <div className='section-spacer' />
@@ -259,19 +253,18 @@ const AirbnbStudy = () => {
           <h2>A serious pivot…</h2>
           <h3>Not kidding almost at the end of our deadline</h3>
           <p>
-            We followed the steps, we did everything right, we created a low
-            fidelity flow and tested it with the users, they were excited and we
-            received such positive feedback but… PIVOT! Our Data Scientist
-            approached us and explained that they did not consider something in
-            their model and that our "optimal price" was not going to be an
-            option if we wanted to deliver on time.
+          We followed the steps. We did everything right and created a low fidelity flow and tested it 
+          with the users. They were excited and gave us such positive feedback but… PIVOT! 
+          Our Data Scientist approached us and explained that they did not consider something 
+          in their model and that our "optimal price" was not going to be an option if we wanted to deliver on time.
+
           </p>
         </div>
         <div className='section-spacer' />
         <div className='col-container width-2'>
           <div className='col'>
             <img src={LowFi1} alt='Low Fidelity Design' />
-            <figcaption>First low-fi tested with possitive feedback</figcaption>
+            <figcaption>First low-fi tested with positive feedback</figcaption>
           </div>
           <div className='col-divider'></div>
           <div className='col'>
@@ -290,7 +283,7 @@ const AirbnbStudy = () => {
             <strong> we created different user’s flow </strong>in the
             brainstorming? Well, I’m glad we did because we had to tweak a few
             things to change our main focus (optimal price) to calculate the
-            average prices and compare your listing to similar listings.
+            average prices and compare a listing to similar listings.
           </p>
         </div>
         <div className='section-spacer' />
@@ -306,9 +299,9 @@ const AirbnbStudy = () => {
           <h2>User Testing</h2>
           <h3>But was it good?</h3>
           <p>
-            We conducted a couple of A/B testing to have a better idea of what
+            We conducted a couple of A/B tests to have a better idea of what
             UI was better for our audience. In the beginning, it was pretty
-            close but then was a huge difference so we decided to go for a look
+            close but then there was a huge difference. We decided to go for a look
             more similar to Airbnb to have a better transition between
             platforms.
           </p>
@@ -342,7 +335,7 @@ const AirbnbStudy = () => {
             <h2>39% of users</h2>
             <h2>chose this UI</h2>
             <h3> </h3>
-            <p>“I can see more images”</p>
+            <p>“I can see more images.”</p>
           </div>
         </div>
       </div>
@@ -352,13 +345,12 @@ const AirbnbStudy = () => {
           <h2>Happy ending?</h2>
           <h3>The final result of the experience</h3>
           <p>
-            Overall the users were satisfied with our features and experience,
-            we tested the application and even though the users weren’t as
-            amazed as they were with the first feature prototype, we got
-            feedback on what else they would like to see in future releases
-            besides what they saw in this one, for example, they were happy with
-            the comparison but they would like to see a quick view of the
-            listing that is being compared to.
+          Overall the users were satisfied with our features and experience. 
+          We tested the application and even though the users weren’t as amazed as 
+          they were with the first feature prototype, we got feedback on what else 
+          they would like to see in future releases. For example, they were happy with the 
+          comparison but they would like to see a quick view of the listing that it is being compared to. 
+
           </p>
         </div>
       </Section>
@@ -407,7 +399,7 @@ const AirbnbStudy = () => {
       <Section sectionColor='#fffafa' wrapperColor='#fffafa'>
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
-          <h2>Take aways</h2>
+          <h2>Take-aways</h2>
           <h3 style={{ margin: '16px 0 0 0' }}>
             1. You have timeline. Respect it.
           </h3>
@@ -424,7 +416,7 @@ const AirbnbStudy = () => {
           className='col-container project-selector sx-margin'
           style={{ width: '100%' }}
         >
-          <div>
+          <div className='cs-selector'>
             <Link to={{ pathname: '/fitstudy' }}>
               <img
                 style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
@@ -440,7 +432,7 @@ const AirbnbStudy = () => {
           >
             Browse other projects
           </div>
-          <div>
+          <div className='cs-selector'>
             <Link to={{ pathname: '/solve' }}>
               Solve Employment
               <img

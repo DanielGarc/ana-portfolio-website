@@ -37,41 +37,36 @@ const SolveEmploymentStudy = () => {
         />
       </Section>
       <ProjectOverview
-        pbTeam={<>6 UX designers</>}
+        pbTeam={<>6 UX Designers</>}
         pbTime={<>2 Weeks</>}
         pbTools={
           <>
-            Figma, zoom,
+            Figma, Xoom,
             <br />
             User Testing
           </>
         }
         oText={
           <>
-            Solve Employment is a CRM platform that helps people in Southeast
-            Asia find internships, microtasks, job opportunities. The platform
-            enables talents to upload the documents for those opportunities
-            online as well as receive payment for their services.
+            Solve Employment is a CRM platform that helps people in Southeast Asia find internships, 
+            microtasks, and job opportunities. The platform enables talents to upload the documents for those opportunities online as well as receive payment for their services.
             <br />
             <br />
-            Collaborated with a team of 6 designers to conduct a usability test
-            and improve the user’s experience of Solve Employment. We work with
-            stakeholder interviews, competitive research, rapid ideation,
-            low-fidelity wireframes, high-fidelity design, user testing and
-            multiple design interactions in two weeks to figure out what the
-            problems were and try to solve them.
+            For this project, I collaborated with a team of 6 designers to conduct a usability test and improve the user’s experience of Solve Employment. 
+            We worked with stakeholder interviews, competitive research, rapid ideation, low-fidelity wireframes, high-fidelity design, user testing, and multiple design interactions in two weeks to figure out what the problems were and try to solve them.
           </>
         }
         oChallenge={
           <>
-            Collaborate with 6 designers to improve the user’s experience, this
-            platform had a serious signup problem.
+            Collaborate with 6 designers to improve the user’s experience. 
+            This platform had a serious sign-up problem.
+
           </>
         }
         oSolution={
           <>
-            Incorporate steps on the landing page for the onboarding, and give a
-            quick, simple way to sign up as hirer or talent.
+            Incorporate steps on the landing page for the onboarding and give a quick, 
+            simple way to sign up as hirer or talent.
           </>
         }
         designProcessImage={DesignProcess}
@@ -83,11 +78,11 @@ const SolveEmploymentStudy = () => {
           <h2>Stakeholders interview</h2>
           <h3>Getting to know the product, brand, and purpose.</h3>
           <p>
-            The project started with a kickoff meeting with the head of the user
-            experience, software development, and the CEO, to learn more about
-            their business, their goals, and purpose for the product, the main
-            issue they presented was users not completing their signup process
-            and understanding the job’s payment and process.
+          The project started with a kickoff meeting with the head of the user experience, 
+          software development, and the CEO to learn more about their business, their goals, 
+          and purpose for the product. They presented two main issues: users were not completing 
+          their signup process, and users did not understand the job’s payment process.
+
           </p>
           <div className='section-spacer flex' />
           <div>
@@ -104,13 +99,13 @@ const SolveEmploymentStudy = () => {
           <h2>Avoiding chaos</h2>
           <h3>6 designers working on a new project for the first time.</h3>
           <p>
-            We decided to use our first day to learn a bit about each other, how
-            do we work, give roles and divide to conquer this redesign. We voted
-            on the facilitator, created a Trello board with the process and
-            things to get done, a drive folder for resources and the Figma
-            environment. We divided into 2 main groups one for the hirer and the
-            other for talent and began with a heuristic analysis of the web
-            application to have a base line to compare with other competitors.
+          We decided to use our first day to learn a bit about each other and our work styles, 
+          assign roles, and divide to conquer this redesign. We nominated the facilitator, 
+          created a Trello board with the process and tasks, created a drive folder for resources, 
+          and set the Figma environment. We divided into two main groups: one for the hirer and the other 
+          for the talent. Then we started a heuristic analysis of the web application to have a baseline 
+          to compare with other competitors.
+
           </p>
           <div className='section-spacer flex' />
           <div>
@@ -124,15 +119,15 @@ const SolveEmploymentStudy = () => {
           <div className='section-spacer flex' />
           <h2>Create a test plan</h2>
           <h3>
-            If the stakeholders already knew the problems we needed to dig
+            If the stakeholders already knew the problems then we needed to dig
             deeper.
           </h3>
           <p>
-            We wrote down all the issues presented and started analyzing the web
-            application and started working on the proto-personas based on the
-            focus the stakeholders wanted and started analyzing the website to
-            prep for interviews. We started with 3 scheduled interviews to
-            confirmed the problems with questions lik you observe below.
+          We wrote down all the issues and started analyzing the web application. 
+          Then we started working on the proto-personas based on the focus that the stakeholders 
+          wanted and started analyzing the website to prepare for interviews. We started with three 
+          scheduled interviews to confirm the problems with questions like the ones below.
+
           </p>
         </div>
         <div className='section-spacer flex' />
@@ -376,7 +371,7 @@ const SolveEmploymentStudy = () => {
           className='col-container project-selector sx-margin'
           style={{ width: '100%' }}
         >
-          <div>
+          <div className='cs-selector'>
             <Link to={{ pathname: '/airbnb' }}>
               <img
                 style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
@@ -392,7 +387,7 @@ const SolveEmploymentStudy = () => {
           >
             Browse other projects
           </div>
-          <div>
+          <div className='cs-selector'>
             <Link to={{ pathname: '/fitstudy' }}>
               Anywhere Fitness
               <img

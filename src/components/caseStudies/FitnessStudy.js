@@ -465,7 +465,7 @@ export default class FitnessStudy extends Component {
             className='col-container project-selector sx-margin '
             style={{ width: '100%' }}
           >
-            <div>
+            <div className='cs-selector'>
               <Link to={{ pathname: '/solve' }}>
                 <img
                   style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
@@ -481,7 +481,7 @@ export default class FitnessStudy extends Component {
             >
               Browse other projects
             </div>
-            <div>
+            <div className='cs-selector'>
               <Link to={{ pathname: '/airbnb' }}>
                 Price my Airbnb
                 <img

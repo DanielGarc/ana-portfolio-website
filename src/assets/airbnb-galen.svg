@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="323px" height="137px" viewBox="0 0 323 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="323px" height="172px" viewBox="0 0 323 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>Galen</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="241" height="131"></rect>
-        <filter x="-1.2%" y="-2.3%" width="104.1%" height="109.2%" filterUnits="objectBoundingBox" id="filter-2">
+        <rect id="path-1" x="0" y="0" width="241" height="166"></rect>
+        <filter x="-1.2%" y="-1.8%" width="104.1%" height="107.2%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="2" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -36,10 +36,12 @@
                             <text id="Galen" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" fill="#2D2D2D">
                                 <tspan x="27" y="30">Galen</tspan>
                             </text>
-                            <text id="“No-tool-used,-compa" font-family="Helvetica" font-size="16" font-weight="normal" fill="#2D2D2D">
-                                <tspan x="27" y="71">“No tool used, compare to </tspan>
-                                <tspan x="27" y="90">nearby Airbnb, lower the </tspan>
-                                <tspan x="27" y="109">price when not booked.”</tspan>
+                            <text id="“Right-now,-I-just-c" font-family="Helvetica" font-size="16" font-weight="normal" fill="#2D2D2D">
+                                <tspan x="27" y="71">“Right now, I just compare </tspan>
+                                <tspan x="27" y="90">to other listings and lower </tspan>
+                                <tspan x="27" y="109">the price of my Airbnb </tspan>
+                                <tspan x="27" y="128">when it doesn’t get </tspan>
+                                <tspan x="27" y="147">booked.”</tspan>
                             </text>
                         </g>
                     </g>

@@ -28,8 +28,7 @@ const SelectedWork = () => {
           color='#00A699'
           body={
             <div>
-              Airbnb hosts don’t know how much should they list their unit to
-              remain competitive while maximizing their profits.
+              Airbnb hosts don’t know how much they should list their unit to remain competitive while maximizing their profits.
               <br />
               <br />
               This platform allows them to evaluate the price of their
@@ -55,15 +54,12 @@ const SelectedWork = () => {
           }
           body={
             <div>
-              Fitness instructors have a lot to work on, not just classes but,
-              working with people, with their goals, not only changing their
-              body but their minds.
+              Fitness instructors have a lot to work on. Not just leading classes but working with people and their personalized goals. Fitness instructors don’t just change their clients’ bodies, they change their minds. 
               <br />
               <br />
-              Trainers are looking for something that it can be with them all
-              the time, always up to date with what’s going on with their
-              clients, and removing that layer of awkwardness to go and ask for
-              the payments.
+              Trainers are looking for something that can be with them all the time, 
+              always up to date with what’s going on with their clients, 
+              and removing that layer of awkwardness to go and ask for the payments.
               <br />
               <br />
             </div>
@@ -83,13 +79,13 @@ const SelectedWork = () => {
           color='#1678C5'
           body={
             <div>
-              Solve Employment is a CRM platform that helps people in Southeast
-              Asia find internships, microtasks, job opportunities.
+              Solve Employment is a CRM platform that helps people in Southeast Asia find internships, 
+              microtasks, and job opportunities.
               <br />
               <br />
-              The platform enables talents to upload the documents for those
-              opportunities online as well as receive payment for their
-              services.
+              The platform enables talents to upload the documents for those opportunities online as 
+              well as receive payment for their services.
+
               <br />
               <br />
               <br />
