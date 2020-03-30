@@ -176,8 +176,8 @@ const SolveEmploymentStudy = () => {
             <div style={{ marginBottom: '10px' }}></div>
             <h3>where can you signup and apply for a job?</h3>
             <p>
-              I tried to sign up but it took me to a spam page to download a
-              game
+              "I tried to sign up but it took me to a spam page to download a
+              game"
             </p>
             <div style={{ marginBottom: '8px' }}></div>
 
@@ -217,7 +217,7 @@ const SolveEmploymentStudy = () => {
             alt='New screen mockup'
             style={{ width: '100%', height: '100%', marginTop: '-3px' }}
           />
-          <figcaption style={{ marginTop: '-25px' }}>
+          <figcaption style={{ marginTop: '0px' }}>
             Landing page before redesign
           </figcaption>
         </div>
@@ -308,6 +308,9 @@ const SolveEmploymentStudy = () => {
             alt='Progress History'
             style={{ width: '100%', height: '100%' }}
           />
+
+<div className='section-spacer' />
+<div className='section-spacer' />
           <h2>Progress of status after redesign</h2>
           <div className='section-half-space'></div>
 
@@ -342,8 +345,11 @@ const SolveEmploymentStudy = () => {
             alt='Payments page before'
             style={{ width: '100%', height: '100%' }}
           />
+<div className='section-spacer' />
+<div className='section-spacer' />
           <h2>Payments after redesign</h2>
           <div className='section-half-space'></div>
+          
 
           <img
             src={PaymentsAfter}
@@ -399,7 +405,7 @@ const SolveEmploymentStudy = () => {
           </div>
         </div>
         <div className='section-spacer' />
-      </Section>
+      </Section> 
     </>
   );
 };

@@ -13,7 +13,7 @@ const SelectedWork = () => {
     <div className='selWork'>
       <div className='selContent'>
         <div className='selWorkTextTop' id='SelectedWork'>
-          SELECTED WORK
+          Selected work
         </div>
         <div className='selWorkText'>Take a Look</div>
         <CaseStudyLink
