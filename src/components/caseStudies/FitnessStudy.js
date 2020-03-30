@@ -211,7 +211,7 @@ export default class FitnessStudy extends Component {
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
           <div className='section-spacer' />
-          <div className='trainers trainer-icons width-2'>
+          <div className='trainers trainer-icons width-2 white'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
               <h2> Trainers </h2>
@@ -228,7 +228,7 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
 
-          <div className='trainers trainer-icons width-2'>
+          <div className='trainers trainer-icons width-2 white'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
             <div className='trainerBox'>
               <h2> Trainees </h2>
