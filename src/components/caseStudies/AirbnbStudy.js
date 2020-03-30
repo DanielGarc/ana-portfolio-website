@@ -248,8 +248,8 @@ const AirbnbStudy = () => {
           <ImagePopup
             modalImg={Braingstorming4}
             img={Braingstorming4}
-            altImg='dot voting session'
-            altModalImg='dot voting session'
+            altImg='Sketches produced in the Brainstorming'
+            altModalImg='Sketches produced in the Brainstorming'
           />
           <figcaption>Sketches produced in the Brainstorming</figcaption>
         </div>
@@ -297,9 +297,12 @@ const AirbnbStudy = () => {
         <ImagePopup
           modalImg={HiFi}
           img={HiFi}
-          altImg='dot voting'
-          altModalImg='dot voting large super large'
+          altImg='Hi Fidelity design of the property'
+          altModalImg='Hi Fidelity design of the property'
         />
+        <figcaption>
+              Hi Fidelity design of the property
+            </figcaption>
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
           <h2>User Testing</h2>
@@ -319,7 +322,7 @@ const AirbnbStudy = () => {
           <div className='col left'>
             <h2>61% of users</h2>
             <h2>chose this UI</h2>
-            <h3 />
+            <h3> </h3>
             <p>
               “Less pictures all at once. There was too much to look at in the
               other design. Just a bit overwhelming.”
@@ -339,7 +342,7 @@ const AirbnbStudy = () => {
           <div className='col right'>
             <h2>39% of users</h2>
             <h2>chose this UI</h2>
-            <h3 />
+            <h3> </h3>
             <p>“I can see more images”</p>
           </div>
         </div>
@@ -407,11 +410,11 @@ const AirbnbStudy = () => {
         <div className='width-1 left sx-margin'>
           <h2>Take aways</h2>
           <h3 style={{ margin: '16px 0 0 0' }}>
-            1. You have timeline. Respect it
+            1. You have timeline. Respect it.
           </h3>
           <h3 style={{ margin: 0 }}> 2. Testing is never what you think. </h3>
           <h3 style={{ margin: 0 }}>
-            3. A good team relationship is important
+            3. A good team relationship is important.
           </h3>
         </div>
         <div className='section-spacer' />
@@ -439,12 +442,14 @@ const AirbnbStudy = () => {
             Browse other projects
           </div>
           <div>
-            Solve Employment
-            <img
-              style={{ marginLeft: '8px' }}
-              src={arrow}
-              alt='Previous Case Study'
-            />
+            <Link to={{ pathname: '/solve' }}>
+              Solve Employment
+              <img
+                style={{ marginLeft: '8px' }}
+                src={arrow}
+                alt='Previous Case Study'
+              />
+            </Link>
           </div>
         </div>
         <div className='section-spacer' />

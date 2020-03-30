@@ -211,11 +211,11 @@ export default class FitnessStudy extends Component {
         </Section>
         <Section wrapperColor='#4568DC' sectionColor='#4568DC'>
           <div className='section-spacer' />
-          <div className='trainers trainer-icons width-2'>
+          <div className='trainers trainer-icons width-2 white'>
             <img alt='' className='avatarStyle' src={avatarTop} />
             <div className='trainerBox'>
               <h2> Trainers </h2>
-              <h3></h3>
+              <h3> </h3>
               <p>
                 “It’s hard to keep up with all the trainees progress.”
                 <br />
@@ -228,11 +228,11 @@ export default class FitnessStudy extends Component {
           </div>
           <div className='section-spacer' />
 
-          <div className='trainers trainer-icons width-2'>
+          <div className='trainers trainer-icons width-2 white'>
             <img alt='' className='avatarStyle' src={avatarBottom} />
             <div className='trainerBox'>
               <h2> Trainees </h2>
-              <h3></h3>
+              <h3> </h3>
 
               <p>
                 “The apps that they have used are not engaging.”
@@ -466,12 +466,14 @@ export default class FitnessStudy extends Component {
             style={{ width: '100%' }}
           >
             <div>
-              <img
-                style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
-                src={arrow}
-                alt='Previous Case Study'
-              />
-              Solve Employment
+              <Link to={{ pathname: '/solve' }}>
+                <img
+                  style={{ transform: 'rotate(180deg)', marginRight: '8px' }}
+                  src={arrow}
+                  alt='Previous Case Study'
+                />
+                Solve Employment
+              </Link>
             </div>
             <div
               className='project-selector-b'
@@ -481,7 +483,7 @@ export default class FitnessStudy extends Component {
             </div>
             <div>
               <Link to={{ pathname: '/airbnb' }}>
-                Airbnb
+                Price my Airbnb
                 <img
                   style={{ marginLeft: '8px' }}
                   src={arrow}
