@@ -248,8 +248,8 @@ const AirbnbStudy = () => {
           <ImagePopup
             modalImg={Braingstorming4}
             img={Braingstorming4}
-            altImg='dot voting'
-            altModalImg='dot voting large super large'
+            altImg='dot voting session'
+            altModalImg='dot voting session'
           />
           <figcaption>Sketches produced in the Brainstorming</figcaption>
         </div>
