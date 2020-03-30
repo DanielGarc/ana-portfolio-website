@@ -174,7 +174,7 @@ const SolveEmploymentStudy = () => {
           <div className='col'>
             <h2>Talent</h2>
             <div style={{ marginBottom: '10px' }}></div>
-            <h3>where can you signup and apply for a job?</h3>
+            <h3>Where can you signup and apply for a job?</h3>
             <p>
               "I tried to sign up but it took me to a spam page to download a
               game"
@@ -309,8 +309,8 @@ const SolveEmploymentStudy = () => {
             style={{ width: '100%', height: '100%' }}
           />
 
-<div className='section-spacer' />
-<div className='section-spacer' />
+          <div className='section-spacer' />
+          <div className='section-spacer' />
           <h2>Progress of status after redesign</h2>
           <div className='section-half-space'></div>
 
@@ -345,11 +345,10 @@ const SolveEmploymentStudy = () => {
             alt='Payments page before'
             style={{ width: '100%', height: '100%' }}
           />
-<div className='section-spacer' />
-<div className='section-spacer' />
+          <div className='section-spacer' />
+          <div className='section-spacer' />
           <h2>Payments after redesign</h2>
           <div className='section-half-space'></div>
-          
 
           <img
             src={PaymentsAfter}
@@ -405,7 +404,7 @@ const SolveEmploymentStudy = () => {
           </div>
         </div>
         <div className='section-spacer' />
-      </Section> 
+      </Section>
     </>
   );
 };

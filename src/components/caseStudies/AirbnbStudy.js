@@ -300,9 +300,7 @@ const AirbnbStudy = () => {
           altImg='Hi Fidelity design of the property'
           altModalImg='Hi Fidelity design of the property'
         />
-        <figcaption>
-              Hi Fidelity design of the property
-            </figcaption>
+        <figcaption>Hi Fidelity design of the property</figcaption>
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
           <h2>User Testing</h2>
@@ -328,6 +326,7 @@ const AirbnbStudy = () => {
               other design. Just a bit overwhelming.”
             </p>
           </div>
+          <div className='col-divider' />
           <div className='col'>
             <img src={UI1} alt='Final UI 1' />
           </div>
