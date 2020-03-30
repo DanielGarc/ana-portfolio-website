@@ -132,26 +132,27 @@ export default class FitnessStudy extends Component {
           }
           oText={
             <>
-              Fitness instructors have a lot to work on, not just classes but,
-              working with people, with their goals, not only changing their
-              body but their minds.
+              Fitness instructors have a lot to work on. Not just leading classes but working with 
+              people and their personalized goals. Fitness instructors don’t just change their 
+              clients’ bodies, they change their minds. 
+
               <br />
               <br />
-              This is hard to do when you have to write everything on paper or
-              don’t have enough time to work with them personally, or remind
-              them all about their classes or their goals.
+              Helping clients reach their goals is hard for instructors to do 
+              when they have to write everything on paper, don’t have enough time 
+              to work with them personally, or don’t have enough time to remind them about their classes or goals.
               <br />
               <br />
-              Trainers are looking for something that can be with them all the
-              time, always up to date with what’s going on with their clients,
-              and removing that layer of awkwardness to go and ask for the
-              payments.
+              Trainers are looking for something that can be with them all the time, something that is 
+              always up to date with what’s going on with their clients, and something that removes that 
+              layer of awkwardness when asking for the payments.
+
             </>
           }
           oChallenge={
             <>
-              How can we build an engaging solution to let trainers and trainees
-              manage their workouts and payments.
+              How may we build an engaging solution to let trainers and trainees
+              manage their workouts and payments?
             </>
           }
           oSolution={
@@ -173,17 +174,16 @@ export default class FitnessStudy extends Component {
             <div style={{ display: 'block', margin: '5px 0' }} />
             <div className='data-section-paragraph'>
               <p>
-                When I accepted this project <b>I thought I knew</b> what the
-                application would look like at the end, or what the product was
-                and its needs because I’m a fitness instructor,{' '}
+                When I accepted this project <b>I thought I knew</b> what the application would look like in the end. 
+                Because I myself am a fitness instructor, I thought I knew what the product was and what it needed.{' '}
                 <b>I was wrong.</b>
               </p>
             </div>
             <div style={{ display: 'block', margin: '8px 0' }} />
             <div className='data-section-paragraph'>
               <p>
-                How did I gather information? Great question! I did the
-                following
+              How did I gather information? Great question! 
+              I did the following:
               </p>
             </div>
             {/* <div style={{ display: 'block', margin: '2px 0' }} /> */}
@@ -191,18 +191,18 @@ export default class FitnessStudy extends Component {
               <ul>
                 <li>
                   <p>
-                    I analyze what types of question and what audience I’ll be
-                    interviewing.
+                  “It’s hard to keep up with the progress of all of my trainees.”
+
                   </p>
                 </li>
                 <li>
                   <p>
-                    Interview with coaches, fitness instructor and people who
-                    exercise regularly and not regularly.
+                  “If someone hasn’t paid I don’t like to remind them in person.”
+
                   </p>
                 </li>
                 <p>
-                  <li>Shadow a couple of colleagues</li>
+                  <li>“People don’t know that I have more than one certification.”</li>
                 </p>
               </ul>
             </div>
@@ -217,11 +217,11 @@ export default class FitnessStudy extends Component {
               <h2> Trainers </h2>
               <h3> </h3>
               <p>
-                “It’s hard to keep up with all the trainees progress.”
+              “The apps that they have used are not engaging.”
                 <br />
-                “If someone hasn’t pay I don’t like to remind them personally.”
+                “It’s hard for me to finish the programs I start.”
                 <br />
-                “I have more than one certification and people don’t know them.”
+                “I don’t want to pay for something if it’s going to work.”
                 <br />
               </p>
             </div>

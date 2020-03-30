@@ -169,7 +169,7 @@ const SolveEmploymentStudy = () => {
           <div className='col'>
             <h2>Talent</h2>
             <div style={{ marginBottom: '10px' }}></div>
-            <h3>Where can you signup and apply for a job?</h3>
+            <h3>Where can you sign up and apply for a job?</h3>
             <p>
               "I tried to sign up but it took me to a spam page to download a
               game"
@@ -185,15 +185,13 @@ const SolveEmploymentStudy = () => {
       <Section sectionColor='#fff' wrapperColor='#fff'>
         <div className='section-spacer' />
         <div className='left width-1 sx-margin'>
-          <h2>Hands-on the sketches</h2>
-          <h3>Main problems discovered, how are we going to approach it?</h3>
+          <h2>Hands-on sketches</h2>
+          <h3>with the main problems discovered, how are we going to approach them?</h3>
           <p>
-            With the results of the interviews on our hands, we started to work
-            on a user journey map, did a competitive analysis of the business
-            shown below and the low fidelity designs with possible solutions for
-            the users based on the user interviews and key founds on the
-            competitive analysis. We created a couple of iterations on the main
-            ones and prepare for testing again.
+          With the results of the interviews in our hands, we started to work on a user journey map. 
+          We completed a competitive analysis of the business shown below and low fidelity designs 
+          with possible solutions for the users based on the user interviews.  
+          We created a couple of iterations of the main problems and prepared for testing again.
           </p>
         </div>
         <div className='section-spacer' />
@@ -210,7 +208,7 @@ const SolveEmploymentStudy = () => {
           <img
             src={OldLanding}
             alt='New screen mockup'
-            style={{ width: '100%', height: '100%', marginTop: '-3px' }}
+            style={{ width: '100%', height: '100%', marginTop: '0px' }}
           />
           <figcaption style={{ marginTop: '0px' }}>
             Landing page before redesign
@@ -218,16 +216,15 @@ const SolveEmploymentStudy = () => {
         </div>
         <div className='section-spacer flex' />
         <div className='width-1 left sx-margin'>
-          <h2>Key founds</h2>
+          <h2>Key findings</h2>
           <h3>Problems in the flow</h3>
           <p>
-            There was a serious problem with the way they explained how to log
-            in as a talent, stakeholders explained to us that’s how students
-            could verify they knew English. Once they got to a certain level in
-            the game, that meant they could communicate in English and find a
-            matching job, our challenge change to finding a way to explain
-            better the connection with the game and that the verification
-            through it.
+          There was a serious problem with the way they explained how to log in as a talent. 
+          Stakeholders explained to us that’s how students could verify that they knew English. 
+          Once the talent got to a certain level in the game, that meant they could communicate 
+          in English and then find a matching job. Our challenge changed to finding a way to better 
+          explain the connection with the game and the verification that came through it.
+
           </p>
         </div>
         <div className='section-spacer' />
@@ -265,16 +262,16 @@ const SolveEmploymentStudy = () => {
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
           <h2>User interviews don’t lie </h2>
-          <h3>Test, Iterate and deliver</h3>
+          <h3>Test, Iterate and Deliver</h3>
           <p>
             Once we had a working prototype we started with user interviews, we
             received feedback on the sidebar, modified and tested it again until
             the interviewers weren’t confused with the flow and the screens
             showed.
             <br />
+            <br />
             <strong style={{ marginTop: '4px' }}>
-              Here are some highlighted teststestimonies from our users after
-              the redesing:
+            Here are some highlighted testimonies from our users after the redesign:
             </strong>
           </p>
         </div>
@@ -288,9 +285,9 @@ const SolveEmploymentStudy = () => {
             <h2>Business owner</h2>
             <div style={{ marginBottom: '10px' }}></div>
             <h3>
-              “It’s more clear now that I can see, my active jobs and I can open
-              it and see where the project is, when was updated and what is left
-              to do on it”
+            “It’s more clear now that I can see my active jobs. I can open it and see where the project is, 
+            when it was updated, and what is left to do on it.”
+
             </h3>
           </div>
         </div>
@@ -325,9 +322,9 @@ const SolveEmploymentStudy = () => {
             <h2>Talent</h2>
             <div style={{ marginBottom: '10px' }}></div>
             <h3>
-              “I love the new payments look! I can see my balance, the total
-              gains and also my payment history, I could also see it on the
-              other design but this way is more clearer”
+            “I love the new payments look! I can see my balance, the total gains, and also my payment history. 
+            I could see it on the other design, but this way is more clear.”
+
             </h3>
           </div>
         </div>
@@ -354,13 +351,11 @@ const SolveEmploymentStudy = () => {
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
           <h2>Conclusion</h2>
-          <h3>Stakeholder has the data</h3>
+          <h3>Stakeholders have the data</h3>
           <p>
-            We presented our discoveries and our proposal on how to solve the
-            problems we encounter in our user research in time, the stakeholder
-            liked our idea and found insightful the data we shared. They
-            approved the design and told us they were going to move forward with
-            our design and start developing it.
+          We presented our discoveries and our proposal on how to solve the problems we encountered in our user 
+          research within the two-week timeframe. The stakeholders liked our idea and found our data to be insightful. 
+          They approved the design and told us they were going to move forward with our design and start developing it.
           </p>
         </div>
         <div className='section-spacer' />
