@@ -11,13 +11,11 @@ const CallToAction = () => {
         <div className='ctaLeftBox'>
           <h1> Hola, I'm Ana Rosa! </h1>
           <p className='ctaText'>
-            UX Designer, Technologist, and&nbsp; outdoors lover.
+          I am a UX designer who loves the outdoors.
             <br />
-            Trying to create a user-friendly environment.
+           I care deeply about <b>helping the community</b> and 
             <br />
-            <br />I care deeply about <b>helping the community</b> and I
-            <br />
-            love analyzing human behaviour.
+            love <b>analyzing human behavior</b>.
           </p>
 
           <div className='ctaButtonBox'>

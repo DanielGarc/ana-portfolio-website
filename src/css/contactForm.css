@@ -14,7 +14,7 @@
 
   margin: auto;
 
-  background-color: #f5faff;
+ 
   border-radius: 4px;
 }
 
@@ -77,8 +77,8 @@
   width: 319px;
   border: 0;
   outline: 0;
-  border-bottom: 2px solid #6e7579;
-  background-color: #f5faff;
+  border-bottom: 2px solid #142b44;
+  
 
   font-family: Lato;
   font-size: 16px;
@@ -94,8 +94,8 @@
   width: 319px;
   border: 0;
   outline: 0;
-  border-bottom: 2px solid #6e7579;
-  background-color: #f5faff;
+  border-bottom: 2px solid #142b44;
+  
 
   font-family: Lato;
   font-size: 16px;
@@ -116,8 +116,8 @@
 
   border: 0;
   outline: 0;
-  border-bottom: 2px solid #6e7579;
-  background-color: #f5faff;
+  border-bottom: 2px solid #142b44;
+  
 
   font-family: Lato;
   font-size: 16px;

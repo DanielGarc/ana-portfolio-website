@@ -12,12 +12,12 @@ const SelectedWork = () => {
   return (
     <div className='selWork'>
       <div className='selContent'>
-        <div className='selWorkTextTop' id='SelectedWork'>
-          Selected work
-        </div>
-        <div className='selWorkText'>Take a Look</div>
+      <div className='section-spacer' />
+      
+      <div className='section-spacer'id='SelectedWork' />
+        
         <CaseStudyLink
-          alignLeft
+          alignLeft 
           cslImg={airbnb}
           url={
             <Link to={{ pathname: '/airbnb' }}>

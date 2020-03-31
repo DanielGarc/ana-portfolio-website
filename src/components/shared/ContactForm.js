@@ -20,9 +20,7 @@ export default class ContactForm extends React.Component {
             <div className='cFormLeftContent'>
               <h2>DON'T BE A STRANGER</h2>
               <h1>
-                Let's
-                <br />
-                connect!
+                Let's connect!
               </h1>
             </div>
             <div className='cFormRightContent'>
@@ -60,7 +58,7 @@ export default class ContactForm extends React.Component {
                 {status === 'SUCCESS' ? (
                   <p>Thanks!</p>
                 ) : (
-                  <input type='submit' value='Submit mesage' />
+                  <input type='submit' value='Submit message' />
                 )}
                 {status === 'ERROR' && <p>Ooops! There was an error.</p>}
               </form>
