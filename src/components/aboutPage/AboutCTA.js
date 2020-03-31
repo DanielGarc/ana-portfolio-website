@@ -63,70 +63,75 @@ const AboutCTA = () => {
                   HARD WORKER
                 </AboutPill>
               </div>
+
+
+              <div className='goalSectionF'>
+              <div className='aboutHeader'>GOALS</div>
+              <div className='goals'>
+                <div className='goalCircleBullet' />
+                <div className='goalText'>Deliver good experience.</div>
+              </div>
+              <div className='goals'>
+                <div className='goalCircleBullet' />
+                <div className='goalText'>
+                  Help people reach their maximum potential.
+                </div>
+              </div>
+              <div className='goals'>
+                <div className='goalCircleBullet' />
+                <div className='goalText'>Always have a welcoming presence.</div>
+              </div>
+            </div>
+
+            
             </div>
           </div>
 
           <div className='aboutText'>
             <div className='aboutHeader'>ABOUT</div>
             <div className='paragraphText'>
-              I've always been worried about people and finding ways to be
-              useful, because that's who I am, I always dreamt about helping change the
-              world but never thought I will actually be part of it.
+            I've always been worried about people and finding ways to be useful because that's who I am. 
+            I've always dreamed about helping change the world but never thought I would actually have a chance of being a part of it.
               <br />
               <br />
-              After moving to the United States, I was working as a systems
-              technician, that's where I began to notice that I was more
-              interested in the user experience and that I was worried about how
-              they would react to certain changes in the system and
-              applications.
-              <br />
-              <br />
-              Later, a couple of friends asked me to design the workflow and
-              experience of their new application idea, in doing so I found
-              myself really immersed in those sketches and screens, sometimes
-              spending all day on them without realizing it. I remember thinking
-              at that time "This is how people should feel about their work;
-              excited about what they are doing, feeling like somehow you're 
-              doing something to change the wrold for better".
-              <br />
-              <br />
-              At this time I was quite new in design and after researching what
-              careers involved working on prototypes, experiences, user behavior
-              and design, I found HCI and with that my path to UX.
-              I bought books, watched videos and did courses on HCI and UX
-              design and found it; my passion.
-            </div>
+              After moving to the United States, I was working as a Systems' Technician, 
+              where I began to notice that I was far more interested in the user experience and that I was worried about how
+ the users I work with would react to changes in the system and applications.
 
-            <div className='goalSection'>
-              <div className='aboutHeader'>GOALS</div>
-              <div className='goals'>
-                <div className='goalCircleBullet' />
-                <div className='goalText'>Deliver good experience</div>
-              </div>
-              <div className='goals'>
-                <div className='goalCircleBullet' />
-                <div className='goalText'>
-                  Help people reach their maximum potential
-                </div>
-              </div>
-              <div className='goals'>
-                <div className='goalCircleBullet' />
-                <div className='goalText'>Always have a welcoming presence</div>
-              </div>
+              <br />
+              <br />
+              In the meanwhile, a couple of friends asked me to design the workflow and experience of their new application idea, and in doing so I found myself 
+              really immersed in those sketches and screens, sometimes spending all day on them without realizing it. I remember thinking at that time "This is how people should feel about 
+              their work: excited about what they are doing, feeling like somehow you're doing something to change the world for better".
+              <br />
+              <br />
+              At this time I was quite new in the design world and I started researching which careers were involved in the working of prototypes, 
+              experiences, user behavior, and design. That's when I found HCI and with 
+              that my path to UX. I bought books, watched videos and did courses on HCI and UX design and finally found it: my passion.
+              <br />
+              <br />
+              I am excited for what the future departs for me and for the next projects I will be able to work in. I consider myself an extraordinarily hard-working and passionate person 
+              and I am committed to continue getting experience in UX and do everything I can to contribute with my team to get the best result of whatever we are set to do.
             </div>
+            <div className='section-spacer' />
+            <div className='section-spacer' />
+        
+
+
             <div className='goalSection'>
               <div className='aboutHeader'>FRUSTATIONS</div>
               <div className='goals'>
                 <div className='goalCircleBullet' />
                 <div className='goalText'>
-                  Not being able to communicate correctly with people
+                  Not being able to communicate needs correctly.
                 </div>
               </div>
               <div className='goals'>
                 <div className='goalCircleBullet' />
-                <div className='goalText'>Human behavior</div>
+                <div className='goalText'>Human behavior.</div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

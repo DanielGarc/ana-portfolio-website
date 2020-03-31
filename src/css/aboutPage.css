@@ -47,7 +47,7 @@
 }
 
 .aboutPic {
-  margin: 0;
+  margin-top: 5px;
   margin-bottom: 39px;
 }
 
@@ -168,10 +168,18 @@
   font-weight: 500;
   line-height: 19px;
 
-  text-align: justify;
+  text-align: left;
 }
 
 .goalSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 200px;
+}
+
+.goalSectionF {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -201,6 +209,7 @@
   color: #181818;
   font-family: Lato;
   font-size: 16px;
+  text-align: left;
   font-weight: 500;
   line-height: 19px;
 }
