@@ -166,7 +166,7 @@ const AirbnbStudy = () => {
       </Section>
       <Section sectionColor='#FF5B5E' wrapperColor='#FF5B5E' align={'center'}>
         <div className='section-spacer' />
-        <div className='market width-1 left sx-margin'>
+        <div className='market width-2 left sx-margin'>
           <h2>A better idea of what we’re building</h2>
           <h3>What is the market doing?</h3>
           <p>
@@ -216,8 +216,8 @@ const AirbnbStudy = () => {
           <ImagePopup
             modalImg={Braingstorming3}
             img={Braingstorming3}
-            altImg='dot voting'
-            altModalImg='dot voting large super large'
+            altImg='Branstorming session final ideas'
+            altModalImg='Branstorming session final ideas'
           />
           <figcaption>ideas generation and dot voting</figcaption>
         </div>
@@ -263,12 +263,16 @@ const AirbnbStudy = () => {
         <div className='section-spacer' />
         <div className='col-container width-2'>
           <div className='col'>
-            <img src={LowFi1} alt='Low Fidelity Design' />
+            <img src={LowFi1} alt='Low Fidelity Design'
+            style={{ maxWidth: '100%' }}
+            />
             <figcaption>First low-fi tested with positive feedback</figcaption>
           </div>
           <div className='col-divider'></div>
           <div className='col'>
-            <img src={LowFi2} alt='Low Fidelity Design' />
+            <img src={LowFi2} alt='Low Fidelity Design' 
+            style={{ maxWidth: '100%' }}
+            />
             <figcaption>
               Second low-fi tested with the modifications for the pivot
             </figcaption>
@@ -321,15 +325,17 @@ const AirbnbStudy = () => {
           </div>
           <div className='col-divider' />
           <div className='col'>
-            <img src={UI1} alt='Final UI 1' />
+            <img src={UI1} alt='Final UI 1'
+            style={{ maxWidth: '100%' }} />
           </div>
         </div>
       </div>
       <div style={{ height: '4vw', backgroundColor: '#fffafa' }} />
       <div className='special-section'>
-        <div className='col-container  width-2 sx-margin'>
-          <div className='col'>
-            <img src={UI2} alt='Final UI 2' />
+        <div className='col-container width-2 '>
+          <div className='col left'>
+            <img src={UI2} alt='Final UI 2' 
+            style={{ maxWidth: '100%' }}/>
           </div>
           <div className='col right'>
             <h2>39% of users</h2>
@@ -340,6 +346,7 @@ const AirbnbStudy = () => {
         </div>
       </div>
       <div style={{ height: '4vw', backgroundColor: '#fffafa' }} />
+
       <Section sectionColor='#fffafa' wrapperColor='#fffafa'>
         <div className='width-1 left sx-margin'>
           <h2>Happy ending?</h2>
@@ -359,15 +366,23 @@ const AirbnbStudy = () => {
       <Section wrapperColor='#FFE5E5' sectionColor='#FFE5E5'>
         <div className='section-spacer' />
 
-        <div className='col-container width-2'>
-          <div className='col'>
-            <img src={Hifi1} alt='Hi Fi Landing Page' />
-            <div className='section-half-space' />
-            <img src={Hifi2} alt='Hi Fi Listing' />
+
+        <div className='col-container  width-2 section-half-space' >
+          <div className='col' >
+
+            <img src={Hifi1} alt='Hi Fi Landing Page' 
+            style={{ maxWidth: '100%' }}
+            src={Hifi1}/>
+            
+            <div className='section-half-space'  />
+            <img src={Hifi2} alt='Hi Fi Listing' 
+            style={{ maxWidth: '100%' }}
+            src={Hifi2}
+            />
           </div>
-          <div className='col-divider'></div>
+          <div className='col-divider '></div>
           <div className='col'>
-            <div>
+            <div  >
               <img
                 style={{ maxWidth: '100%' }}
                 src={Hifi3}

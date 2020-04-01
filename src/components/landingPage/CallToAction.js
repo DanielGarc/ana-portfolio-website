@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../../css/callToAction.css';
 
-import headshot from '../../assets/me.png';
+import headshot from '../../assets/me.svg';
 
 const CallToAction = () => {
   return (
