@@ -333,7 +333,7 @@ const AirbnbStudy = () => {
       <div style={{ height: '4vw', backgroundColor: '#fffafa' }} />
       <div className='special-section'>
         <div className='col-container width-2 '>
-          <div className='col left'>
+          <div className='col'>
             <img src={UI2} alt='Final UI 2' 
             style={{ maxWidth: '100%' }}/>
           </div>
