@@ -95,7 +95,7 @@ const AboutCTA = () => {
 
               <br />
               <br />
-              AWhen I moved to the United States, I started working for a local company as a Systems’ Technician. 
+              When I moved to the United States, I started working for a local company as a Systems’ Technician. 
               I began to notice that I was far more interested in the user experience and that I was worried 
               about how the users I work with would react to changes in the system and applications.
 

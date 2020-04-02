@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+import logo from '../../assets/logo-ARL.svg';
 import '../../css/navbar.css';
 
 //TODO: convert to functional component using useEffect, and useHistory
@@ -63,7 +64,11 @@ export default class NavBar extends Component {
                   this.setState({ scrollTo: 'up' });
                 }}
               >
-                ARL
+                <img
+          
+          alt=''
+          src={logo}
+        />
               </div>
             </Link>
           </div>
