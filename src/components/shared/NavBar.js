@@ -65,8 +65,6 @@ export default class NavBar extends Component {
                 }}
               >
                 <img
-          
-          alt=''
           src={logo}
         />
               </div>
