@@ -14,10 +14,16 @@ export default class ImagePopup extends React.Component {
   }
 
   render() {
+    let imgStyle = {
+      width:'100%',
+      height:'auto',
+      ...this.props.style
+    }
+    
     return (
       <div>
         <img
-          style={{ width: '100%', height: 'auto' }}
+          style={imgStyle}
           className='img'
           src={this.props.img}
           alt={this.props.altImg}

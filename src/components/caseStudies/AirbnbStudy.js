@@ -291,12 +291,15 @@ const AirbnbStudy = () => {
           </p>
         </div>
         <div className='section-spacer' />
+        {/* <div style={{display:"flex",maxHeight: '299px' }} > */}
         <ImagePopup
           modalImg={HiFi}
+          style={{width:'80%'}}
           img={HiFi}
           altImg='Hi Fidelity design of the property'
           altModalImg='Hi Fidelity design of the property'
         />
+        {/* </div> */}
         <figcaption>Hi Fidelity design of the property</figcaption>
         <div className='section-spacer' />
         <div className='width-1 left sx-margin'>
@@ -335,7 +338,7 @@ const AirbnbStudy = () => {
         <div className='col-container width-2 '>
           <div className='col'>
             <img src={UI2} alt='Final UI 2' 
-            style={{ maxWidth: '100%' }}/>
+            style={{ maxWidth: '100%',maxHeight: '272px' }}/>
           </div>
           <div className='col right'>
             <h2>39% of users</h2>
