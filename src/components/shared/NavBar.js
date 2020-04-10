@@ -66,7 +66,7 @@ export default class NavBar extends Component {
               >
                 <img
                 src={logo}
-                alt={logo}
+                alt="Hi Fi Landing Page"
         />
               </div>
             </Link>
