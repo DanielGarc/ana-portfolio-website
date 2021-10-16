@@ -1,3 +1,4 @@
+
 .aboutWrapper {
   background-color: #ffffff;
   width: 100%;
@@ -16,10 +17,20 @@
   background-color: #ffffff;
 }
 
+.topWrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .aboutName {
-  margin-left: 89px;
-  margin-top: 55px;
-  margin-bottom: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 65px;
+  /* margin-left: 89px; */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   text-align: left;
   height: 52px;
   color: #2c3e50;
@@ -155,12 +166,13 @@
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
+  
+  margin-bottom: 0.5em;
 
-  margin-bottom: 12px;
 }
 
 .paragraphText {
-  height: 456px;
+  /* height: 456px; */
   width: 456px;
   color: #181818;
   font-family: Lato;
@@ -169,6 +181,8 @@
   line-height: 19px;
 
   text-align: left;
+  margin-top: 0.5em;
+
 }
 
 .goalSection {
@@ -176,7 +190,7 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  margin-top: 200px;
+  margin-top: 1.5em;
 }
 
 .goalSectionF {
@@ -184,7 +198,7 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  margin-top: 18px;
+  margin-top: 1.5em;
 }
 
 .goals {
@@ -192,7 +206,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 1.5%;
 }
 
 .goalCircleBullet {
@@ -274,6 +288,20 @@
   height: 100px;
   background-color: #ccebff;
   text-align: left;
+}
+
+.cliftonStrenghts {
+
+ font-family: 'Lato';
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  
+  margin-bottom: 0.5em;
+  text-align: left;
+  align-self: flex-start;
+
+
 }
 
 @media only screen and (max-width: 800px) {

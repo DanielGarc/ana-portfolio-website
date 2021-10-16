@@ -11,8 +11,7 @@ const CallToAction = () => {
         <div className='ctaLeftBox'>
           <h1> Hola, I'm Ana Rosa! </h1>
           <p className='ctaText'>
-          I am a UX designer who loves the outdoors.
-            <br />
+          {/* I am a UX designer who loves the outdoors. */}
            I care deeply about <b>helping the community</b> and 
             <br />
             love <b>analyzing human behavior</b>.
